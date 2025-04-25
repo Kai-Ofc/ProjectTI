@@ -4316,6 +4316,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 185532436}
     - target: {fileID: 3310267007456917647, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
+      propertyPath: moveSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3310267007456917647, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
       propertyPath: playerController
       value: 
       objectReference: {fileID: 185532431}
@@ -4390,7 +4394,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.624
+      value: 1.6240005
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4402,15 +4406,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4441,10 +4445,6 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
-      propertyPath: sensitivity
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 330585543}
@@ -4466,8 +4466,8 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 267793235}
   - {fileID: 5236077262737113451}
-  - {fileID: 2142036365}
-  - {fileID: 62457105}
   - {fileID: 2393206953357473364}
+  - {fileID: 62457105}
+  - {fileID: 2142036365}
   - {fileID: 2034933740}
   - {fileID: 1861943780}
