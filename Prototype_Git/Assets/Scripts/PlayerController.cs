@@ -8,10 +8,12 @@ public class PlayerController : MonoBehaviour
 
     private bool foward, backward, left, right;
 
-    public float sensitivity; // Sensibilidade do mouse
+    private float sensitivity = 1000.0f; // Sensibilidade do mouse
     float mouseX;
 
     public bool camMovement;
+
+    public GameObject trigger;
 
     public InterfaceController interfaceController;
     public int life;
@@ -22,6 +24,8 @@ public class PlayerController : MonoBehaviour
     
         camMovement = false;
         life = 4;
+
+        trigger.transform.eulerAngles = new Vector3(0, 0, 0);
 
         Cursor.lockState = CursorLockMode.Locked;
 
@@ -90,6 +94,8 @@ public class PlayerController : MonoBehaviour
         mouseX -= Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
 
         transform.localEulerAngles = new Vector3(0, mouseX, 0); // Mudando o angulo local do player através do mouse
+
+        trigger.transform.position = new Vector3(this.transform.position.x, trigger.transform.position.y, this.transform.position.z);
 
     }
 
