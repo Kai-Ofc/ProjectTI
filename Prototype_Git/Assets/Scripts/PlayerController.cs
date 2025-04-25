@@ -3,13 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    private Rigidbody rb;
+    public float moveSpeed, maxSpeed, drag;
 
-    Rigidbody rb;
-    public float moveSpeed = 20.0f;
-    Vector3 movement;
-
-    public GameObject cameraTransform; // Referencia da camera
-    public float rotationSpeed = 10f;
+    private bool foward, backward, left, right;
 
     public bool camMovement;
 
@@ -19,8 +16,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+    
         camMovement = false;
         life = 3;
+
         interfaceController.LifeBar(life);
     }
 
@@ -28,33 +27,81 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Movement();
+        LimitVelocity();
+        HandleDrag();
     }
 
-    void Movement() 
+    private void FixedUpdate()
     {
-        float xAxis = Input.GetAxisRaw("Horizontal");
-        float zAxis = Input.GetAxisRaw("Vertical");
-        movement = new Vector3(xAxis, 0, zAxis) * moveSpeed * Time.deltaTime;
-        //rb.MovePosition(transform.position + movement);
-
-        movement = new Vector3(xAxis, 0, zAxis).normalized; // Vetor baseado no input e diagonais consistentes
-
-        if (movement.magnitude >= 0.1f) // Se houver movimento
+        if (foward)
         {
-
-            Vector3 moveDirection = cameraTransform.transform.forward * movement.z + cameraTransform.transform.right * movement.x; // Calcular direção do movimento
-
-            moveDirection.y = 0;
-
-            rb.MovePosition(transform.position + (moveDirection.normalized * moveSpeed * Time.deltaTime));  // Mover o jogador
-
-            Quaternion targetRotation = Quaternion.LookRotation(-cameraTransform.transform.forward); // Rotacionar o jogador para olhar na direção oposta a camera
-
-            targetRotation.x = 0; // Manter a rotação no eixo Y
-            targetRotation.z = 0;
-
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime); // Rotação suave
+            rb.AddForce(moveSpeed * Vector3.forward);
+            foward = false;
         }
+
+        if (backward)
+        {
+            rb.AddForce(moveSpeed * Vector3.back);
+            backward = false;
+        }
+
+        if (right)
+        {
+            rb.AddForce(moveSpeed * Vector3.right);
+            right = false;
+        }
+
+        if (left)
+        {
+            rb.AddForce(moveSpeed * Vector3.left);
+            left = false;
+        }
+    }
+
+    void Movement()
+    {
+
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            Debug.Log("W");
+            foward = true;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            Debug.Log("S");
+            backward = true;
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            Debug.Log("A");
+             left = true;            
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            Debug.Log("D");
+            right = true; 
+        }
+
+    }
+
+    void LimitVelocity()    
+    {
+        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z); // Acessar a velocidade em x e z do personagem
+
+        if (horizontalVelocity.magnitude > maxSpeed)  // Logica para limitar a velocidade e o personagem não acelerar quanto mais andar
+        {
+            Vector3 limitation = horizontalVelocity.normalized * maxSpeed; // Normalizando a velocidade e multiplicar pela velocidade maxima
+            rb.linearVelocity = new Vector3(limitation.x, rb.linearVelocity.y, limitation.z); // Integrar a limitação a velocidade
+        }
+    }
+
+    void HandleDrag() //Função para cocertar o deslizamento
+    {
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z) / (1 + drag / 100) + new Vector3(0, rb.linearVelocity.y, 0); // Lógica para concertar o "deslizamento" do presonagem
     }
 
     public void OnCollisionEnter(Collision collision)

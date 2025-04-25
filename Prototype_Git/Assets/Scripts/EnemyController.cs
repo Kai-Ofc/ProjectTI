@@ -22,7 +22,7 @@ public class EnemyController : MonoBehaviour
         if (land == true && playerController.camMovement != true) 
         {
             transform.LookAt(follow.position);
-            //transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+            transform.Rotate(new Vector3(0, -90, 0), Space.Self);
             transform.position = Vector3.MoveTowards(transform.position, follow.position, moveSpeed * Time.deltaTime);
             //rb.AddForce((follow.position - transform.position).normalized * moveSpeed);
         }
