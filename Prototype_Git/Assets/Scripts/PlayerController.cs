@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
 
     private bool foward, backward, left, right;
 
+    public float sensitivity; // Sensibilidade do mouse
+    float mouseX;
+
     public bool camMovement;
 
     public InterfaceController interfaceController;
@@ -18,7 +21,9 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     
         camMovement = false;
-        life = 3;
+        life = 4;
+
+        Cursor.lockState = CursorLockMode.Locked;
 
         interfaceController.LifeBar(life);
     }
@@ -85,6 +90,10 @@ public class PlayerController : MonoBehaviour
             Debug.Log("D");
             right = true; 
         }
+
+        mouseX -= Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+
+        transform.localEulerAngles = new Vector3(0, mouseX, 0);
 
     }
 
