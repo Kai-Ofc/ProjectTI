@@ -69,31 +69,27 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            Debug.Log("W");
             foward = true;
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            Debug.Log("S");
             backward = true;
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("A");
              left = true;            
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("D");
             right = true; 
         }
 
         mouseX -= Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
 
-        transform.localEulerAngles = new Vector3(0, mouseX, 0);
+        transform.localEulerAngles = new Vector3(0, mouseX, 0); // Mudando o angulo local do player através do mouse
 
     }
 
@@ -121,9 +117,9 @@ public class PlayerController : MonoBehaviour
             if (life <= 1) 
             {
                 camMovement = true;
-
                 Destroy(this.gameObject);
                 SceneManager.LoadScene(2);
+                Cursor.lockState = CursorLockMode.None;
             }
             else
             {
