@@ -25,8 +25,6 @@ public class PlayerController : MonoBehaviour
         camMovement = false;
         life = 4;
 
-        trigger.transform.eulerAngles = new Vector3(0, 0, 0);
-
         Cursor.lockState = CursorLockMode.Locked;
 
         interfaceController.LifeBar(life);
