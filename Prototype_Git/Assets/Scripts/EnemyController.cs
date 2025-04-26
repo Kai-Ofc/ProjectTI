@@ -25,6 +25,10 @@ public class EnemyController : MonoBehaviour
 
     public PlayerController playerController;
 
+    public GunController gun;
+    float timer;
+    public float time = 5f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,13 +39,20 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime; 
         EnemyMovement();
+
+        if (timer >= time) 
+        {
+            gun.Shoot();
+            timer = 0;
+        }
     }
 
     void EnemyMovement() 
     {
         transform.LookAt(follow.position);
-        transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+        //transform.Rotate(new Vector3(0, -90, 0), Space.Self);
 
         if (land == true && playerController.camMovement != true)
         {

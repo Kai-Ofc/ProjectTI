@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 5904134986707029310}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.96, y: -0.027, z: 1.512}
+  m_LocalPosition: {x: 1.03, y: -0.018, z: 1.512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 2083465935813769032}
   - component: {fileID: 3568099215628506253}
   - component: {fileID: 3310267007456917647}
+  - component: {fileID: 8528328670041380701}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -146,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6657364573433012139}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -0.29, y: 2.13, z: 13.92}
   m_LocalScale: {x: 1, y: 2.0361, z: 1}
   m_ConstrainProportionsScale: 0
@@ -154,7 +155,7 @@ Transform:
   - {fileID: 8708556973206382758}
   - {fileID: 2940899980766424242}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!33 &5748469011903555464
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -273,4 +274,24 @@ MonoBehaviour:
   angleSpeed: 1
   land: 0
   rotate: 0
+  minWaitTime: 1
+  maxWaitTime: 3
+  minMovementTime: 2
+  maxMovementTime: 15
   playerController: {fileID: 0}
+  gun: {fileID: 8528328670041380701}
+  time: 5
+--- !u!114 &8528328670041380701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6657364573433012139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750a92ec74cc800458f34148b081daf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shot: {fileID: 4086837891666709350, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
+  shotPosition: {fileID: 2940899980766424242}

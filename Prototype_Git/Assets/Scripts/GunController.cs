@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Transform shot;
+    public Transform shotPosition;
 
-    // Update is called once per frame
-    void Update()
+    public void Shoot() 
     {
-        
+        Transform shotObj = Instantiate(shot, shotPosition.position, shotPosition.rotation);
+        Destroy(shotObj.gameObject, 2f);
+
+        shotObj.GetComponent<ShotController>().SetDirection(shotPosition.forward);
     }
 }

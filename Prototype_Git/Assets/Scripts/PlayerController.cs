@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
 
     public GameObject trigger;
 
+    public GunController gun;
+
     public InterfaceController interfaceController;
     public int life;
 
@@ -36,6 +38,11 @@ public class PlayerController : MonoBehaviour
         Movement();
         LimitVelocity();
         HandleDrag();
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            gun.Shoot();
+        }
     }
 
     private void FixedUpdate()

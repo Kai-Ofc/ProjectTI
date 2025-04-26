@@ -238,6 +238,7 @@ GameObject:
   - component: {fileID: 4882884948554200088}
   - component: {fileID: 189032828332003816}
   - component: {fileID: 5758250642333572066}
+  - component: {fileID: 8340974651343555765}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -330,5 +331,20 @@ MonoBehaviour:
   drag: 10
   camMovement: 0
   trigger: {fileID: 0}
+  gun: {fileID: 8340974651343555765}
   interfaceController: {fileID: 0}
   life: 0
+--- !u!114 &8340974651343555765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565159664017299827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 750a92ec74cc800458f34148b081daf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shot: {fileID: 4086837891666709350, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
+  shotPosition: {fileID: 4047342198142373257}
