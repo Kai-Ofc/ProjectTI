@@ -27,7 +27,7 @@ public class LifeController : MonoBehaviour
         else
         {
             currentLife -= damage;
-            Debug.Log("Vida Player" + currentLife);
+            Debug.Log("Vida Player " + currentLife);
             interfaceController.LifeBar(currentLife, maxLife);
         }
     }

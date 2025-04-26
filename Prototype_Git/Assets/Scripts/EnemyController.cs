@@ -136,9 +136,8 @@ public class EnemyController : MonoBehaviour
                 SceneManager.LoadScene(1);
             }
             else { 
-                Debug.Log("Inimigo levou Tiro");
                 life -= 1;
-                Debug.Log("Vida Inimigo" + life);
+                Debug.Log("Vida Inimigo " + life);
             }
         }
         }

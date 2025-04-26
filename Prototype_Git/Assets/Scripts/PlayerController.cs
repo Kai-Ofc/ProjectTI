@@ -122,9 +122,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Shot")
         {
-            Debug.Log("Levo Tiro");
-            lifeController.Hit(enemy.damage, this.gameObject);
-            
+            lifeController.Hit(enemy.damage, this.gameObject); 
         }
     }
 }
