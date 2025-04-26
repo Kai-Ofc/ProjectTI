@@ -146,7 +146,6 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.tag == "Trigger")
         {
-            Debug.Log("Entrou no Trigger");
             rotate = true;
 
             distance = transform.position - follow.position; // Calcula a distância
@@ -162,7 +161,6 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.tag == "Trigger")
         {
-            Debug.Log("Saiu do Trigger");
             rotate = false;
         }
     }

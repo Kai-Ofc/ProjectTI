@@ -31,4 +31,10 @@ public class LifeController : MonoBehaviour
             interfaceController.LifeBar(currentLife, maxLife);
         }
     }
+
+    public void Heal(int healAmount)
+    {
+        currentLife = Mathf.Min(currentLife + healAmount, maxLife);
+        interfaceController.LifeBar(currentLife, maxLife);
+    }
 }

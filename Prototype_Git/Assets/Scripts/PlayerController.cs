@@ -125,4 +125,16 @@ public class PlayerController : MonoBehaviour
             lifeController.Hit(enemy.damage, this.gameObject); 
         }
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "PowerUp")
+        {
+            if (lifeController.currentLife < 4)
+            {
+                lifeController.Heal(1);
+                Debug.Log("Vida depois do powerUp: " + lifeController.currentLife);
+            }
+        }
+    }
 }

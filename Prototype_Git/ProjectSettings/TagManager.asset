@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Trigger
   - Shot
+  - PowerUp
   layers:
   - Default
   - TransparentFX
