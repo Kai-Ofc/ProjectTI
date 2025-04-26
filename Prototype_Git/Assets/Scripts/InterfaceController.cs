@@ -3,18 +3,11 @@ using UnityEngine.UI;
 
 public class InterfaceController : MonoBehaviour
 {
-    public GameObject lifeImg;
-    public GameObject lifePosition;
+    public Image lifeBar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void LifeBar(int life) 
+    public void LifeBar( int currentLife, int maxLife) 
     {
-        for (int i = 0; i < life; i++) 
-        {
-            var calcX = lifePosition.transform.position.x + (i * 110); // Calculo do espaçamento entre as vidas
-
-            GameObject lifes = Instantiate(lifeImg, new Vector3(calcX, lifePosition.transform.position.y, 0), Quaternion.identity, this.transform);
-          
-        }
+        lifeBar.fillAmount = (float)currentLife / maxLife;
     }
 }

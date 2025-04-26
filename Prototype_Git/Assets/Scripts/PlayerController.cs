@@ -5,10 +5,9 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
     public float moveSpeed, maxSpeed, drag;
-
     private bool foward, backward, left, right;
 
-    private float sensitivity = 1000.0f; // Sensibilidade do mouse
+    private float sensitivity = 1000f; // Sensibilidade do mouse
     float mouseX;
 
     public bool camMovement;
@@ -17,19 +16,18 @@ public class PlayerController : MonoBehaviour
 
     public GunController gun;
 
-    public InterfaceController interfaceController;
-    public int life;
+    public LifeController lifeController;
+    public int damage;
+
+    public EnemyController enemy;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
     
         camMovement = false;
-        life = 4;
 
         Cursor.lockState = CursorLockMode.Locked;
-
-        interfaceController.LifeBar(life);
     }
 
     // Update is called once per frame
@@ -122,23 +120,11 @@ public class PlayerController : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Shot")
         {
-     
-            if (life <= 1) 
-            {
-                camMovement = true;
-                Destroy(this.gameObject);
-                SceneManager.LoadScene(2);
-                Cursor.lockState = CursorLockMode.None;
-            }
-            else
-            {
-                Debug.Log("Deu Ruim");
-                life -= 1;
-                Debug.Log(life);
-            }
-
+            Debug.Log("Levo Tiro");
+            lifeController.Hit(enemy.damage, this.gameObject);
+            
         }
     }
 }

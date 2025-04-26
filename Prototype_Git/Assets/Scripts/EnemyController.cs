@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -14,10 +15,10 @@ public class EnemyController : MonoBehaviour
     public bool land = false;
     public bool rotate = false;
 
-    public float minWaitTime = 1.0f;
-    public float maxWaitTime = 3.0f;
-    public float minMovementTime = 2.0f;
-    public float maxMovementTime = 15.0f;
+    float minWaitTime = 1.0f;
+    float maxWaitTime = 3.0f;
+    float minMovementTime = 2.0f;
+    float maxMovementTime = 15.0f;
 
     private float currentTimer = 0f;
     private bool isMoving = true;
@@ -29,11 +30,15 @@ public class EnemyController : MonoBehaviour
     float timer;
     public float time = 5f;
 
+    public int life;
+    public int damage;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         land = false;
         rotate = false;
+        life = 3;
     }
 
     // Update is called once per frame
@@ -96,7 +101,7 @@ public class EnemyController : MonoBehaviour
                             isMoving = true;
                             currentTimer = 0f;
                            
-                            angleSpeed = Mathf.Sign(angleSpeed) * Random.Range(0.5f, 2f); // Mantém o sentido mas varia velocidade escolhe nova direção aleatória
+                            angleSpeed = Mathf.Sign(angleSpeed) * Random.Range(0.5f, 1f); // Mantém o sentido mas varia velocidade escolhe nova direção aleatória
 
                             if (Random.value > 0.7f) // // Chance de inverter direção
                             {
@@ -122,7 +127,21 @@ public class EnemyController : MonoBehaviour
         {
             land = true;
         }
-    }
+
+        if (collision.gameObject.tag == "Shot")
+        {
+            if (life < 1) 
+            {
+                Destroy(this.gameObject);
+                SceneManager.LoadScene(1);
+            }
+            else { 
+                Debug.Log("Inimigo levou Tiro");
+                life -= 1;
+                Debug.Log("Vida Inimigo" + life);
+            }
+        }
+        }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -146,8 +165,6 @@ public class EnemyController : MonoBehaviour
         {
             Debug.Log("Saiu do Trigger");
             rotate = false;
-
-
         }
     }
 }
