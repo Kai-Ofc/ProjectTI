@@ -133,7 +133,7 @@ public class EnemyController : MonoBehaviour
             if (life < 1) 
             {
                 Destroy(this.gameObject);
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             }
             else { 
                 life -= 1;
