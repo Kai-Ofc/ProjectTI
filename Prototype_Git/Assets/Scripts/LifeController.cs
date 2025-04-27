@@ -23,6 +23,7 @@ public class LifeController : MonoBehaviour
         {
             Destroy(death, 1f);
             SceneManager.LoadScene(3);
+            Cursor.lockState = CursorLockMode.None;
         }
         else
         {

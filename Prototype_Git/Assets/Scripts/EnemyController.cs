@@ -134,6 +134,7 @@ public class EnemyController : MonoBehaviour
             {
                 Destroy(this.gameObject);
                 SceneManager.LoadScene(2);
+                Cursor.lockState = CursorLockMode.None;
             }
             else { 
                 life -= 1;
