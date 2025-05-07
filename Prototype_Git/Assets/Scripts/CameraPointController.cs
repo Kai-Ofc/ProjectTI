@@ -4,6 +4,7 @@ public class CameraPointController : MonoBehaviour
 {
     public GameObject follow; // O que o ponto vai seguir
     public float smoothness; // A sensibilidade do movimento
+    public Vector3 distance;
 
     Vector3 offset; // A distancia do objeto
 
@@ -12,7 +13,7 @@ public class CameraPointController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        offset = transform.position - follow.transform.position; // Calculo da posição
+        offset = follow.transform.position + distance; // Calculo da posição
     }
 
     // Update is called once per frame
@@ -21,11 +22,11 @@ public class CameraPointController : MonoBehaviour
         CamPointMovement();
     }
 
-    void CamPointMovement() 
+    void CamPointMovement()
     {
-        if (playerController.camMovement != true) 
+        if (playerController.camMovement != true)
         {
-            transform.position = Vector3.Lerp((follow.transform.position + offset), follow.transform.position, smoothness * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, offset, smoothness);
         }
     }
 }
