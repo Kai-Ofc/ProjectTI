@@ -7,12 +7,10 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed, maxSpeed, drag;
     private bool foward, backward, left, right;
 
-    private float sensitivity = 1000f; // Sensibilidade do mouse
+    public float sensitivity = 1000f; // Sensibilidade do mouse
     float mouseX;
 
     public bool camMovement;
-
-    public GameObject trigger;
 
     public GunController gun;
 
@@ -73,7 +71,6 @@ public class PlayerController : MonoBehaviour
     void Movement()
     {
 
-
         if (Input.GetKey(KeyCode.W))
         {
             foward = true;
@@ -98,8 +95,6 @@ public class PlayerController : MonoBehaviour
 
         transform.localEulerAngles = new Vector3(0, mouseX, 0); // Mudando o angulo local do player através do mouse
 
-        trigger.transform.position = new Vector3(this.transform.position.x, trigger.transform.position.y, this.transform.position.z);
-
     }
 
     void LimitVelocity()    
@@ -115,7 +110,7 @@ public class PlayerController : MonoBehaviour
 
     void HandleDrag() //Função para cocertar o deslizamento
     {
-        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z) / (1 + drag / 100) + new Vector3(0, rb.linearVelocity.y, 0); // Lógica para concertar o "deslizamento" do presonagem
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z) / (1 + drag / 100) + new Vector3(0, rb.linearVelocity.y, 0); // Lógica para concertar o "deslizamento" do personagem
     }
 
     public void OnCollisionEnter(Collision collision)

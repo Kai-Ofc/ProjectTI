@@ -5,12 +5,14 @@ public class EnemyController : MonoBehaviour
 {
 
     public GameObject follow;
+    public GameObject enemy;
+    //public Vector3 distance;
     public float distance;
 
     public float moveSpeed = 10.0f;
-    public float angleSpeed = 1.0f;
 
     public bool land = false;
+    Vector3 offset;
 
     public PlayerController playerController;
 
@@ -26,7 +28,11 @@ public class EnemyController : MonoBehaviour
     {
         land = false;
         life = 3;
+
         follow = GameObject.FindGameObjectWithTag("Player");
+        enemy = GameObject.FindGameObjectWithTag("Enemy");
+
+        //offset = follow.transform.position + distance;
     }
 
     // Update is called once per frame
@@ -47,10 +53,11 @@ public class EnemyController : MonoBehaviour
         transform.LookAt(follow.transform.position);
         //transform.Rotate(new Vector3(0, -90, 0), Space.Self);
 
-        Vector3 enemyPosition = follow.transform.position + follow.transform.right * distance;
-
-        transform.position = Vector3.MoveTowards(transform.position, enemyPosition, moveSpeed * Time.deltaTime);// Antes de entrar no trigger  
-        
+        if (land == true && playerController.camMovement != true)
+        {
+            Vector3 enemyMove = follow.transform.position + follow.transform.right * distance;
+            enemy.transform.position = Vector3.MoveTowards(transform.position, enemyMove , moveSpeed * Time.deltaTime);           
+        }
 
     }
 
@@ -74,5 +81,5 @@ public class EnemyController : MonoBehaviour
                 Debug.Log("Vida Inimigo " + life);
             }
         }
-    }
+        }
 }
