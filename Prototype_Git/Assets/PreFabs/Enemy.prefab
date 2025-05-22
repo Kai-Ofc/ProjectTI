@@ -270,11 +270,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 0}
+  distance: 5
   moveSpeed: 5
-  angleSpeed: 1
   land: 0
-  rotate: 0
-  playerController: {fileID: 0}
   gun: {fileID: 8528328670041380701}
   time: 5
   life: 0
@@ -291,5 +289,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750a92ec74cc800458f34148b081daf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 4086837891666709350, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
+  shot: {fileID: 4086837891666709350, guid: 7d286890b1e16754db33b4c769291296, type: 3}
   shotPosition: {fileID: 2940899980766424242}

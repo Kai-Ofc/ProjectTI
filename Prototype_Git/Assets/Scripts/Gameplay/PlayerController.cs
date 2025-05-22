@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Shot")
+        if (collision.gameObject.tag == "EnemyShot")
         {
             lifeController.Hit(enemy.damage, this.gameObject); 
         }
