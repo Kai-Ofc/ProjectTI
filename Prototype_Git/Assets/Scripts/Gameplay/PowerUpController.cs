@@ -3,10 +3,18 @@ using UnityEngine;
 public class PowerUpController : MonoBehaviour
 {
     public LifeController life;
+    public MeshRenderer[] sprites;
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && life.currentLife < 4)
+        if (other.gameObject.tag == "Player" && sprites[0] && life.currentLife < 4)
+        {
+            life.Heal(1);
+            Debug.Log("Vida depois do powerUp: " + life.currentLife);
+            Destroy(this.gameObject);
+        }
+
+        if (other.gameObject.tag == "Player" && sprites[0] && life.currentLife < 4)
         {
             Destroy(this.gameObject);
         }

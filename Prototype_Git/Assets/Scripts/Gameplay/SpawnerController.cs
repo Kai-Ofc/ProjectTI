@@ -12,13 +12,16 @@ public class SpawnerController : MonoBehaviour
 
     public bool spawn;
     public int wave;
-    int instances;
+    public int instances;
 
     public void Start()
     {
         time = 10f;
         spawn = true;
         enemy = GetComponent<EnemyController>();
+
+        EnemyController.kills = 0;
+        instances = 0;
     }
 
     public void Update()
@@ -33,33 +36,28 @@ public class SpawnerController : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if (instances >= wave) 
+            if (instances < wave && timer >= time)
             {
-                Debug.Log(EnemyController.kills);
-                spawn = false;
+                GameObject newEnemy = Instantiate(enemyPrefab, this.transform.position, Quaternion.identity);
+                EnemyController enemyScript = newEnemy.GetComponent<EnemyController>();
+
+                enemyScript.PlayerReference(player);
+
+                timer = 0f;
+                instances++;
             }
 
             if (EnemyController.kills >= wave)
             {
-                Debug.Log("Entrou aqui");
+                Debug.Log("Vitória alcançada! Kills: " + EnemyController.kills);
                 SceneManager.LoadScene(2);
-                
+                return;
             }
-            else
+
+            if (instances >= wave)
             {
-                if (timer >= time)
-                {
-
-                    //var position = new Vector3(Random.Range(-19.56f, 19.56f), 0, 0);
-                    GameObject newEnemy = Instantiate(enemyPrefab, this.transform.position, Quaternion.identity);
-
-                    EnemyController enemyScript = newEnemy.GetComponent<EnemyController>();
-
-                    enemyScript.PlayerReference(player);
-
-                    timer = 0f;
-                    instances++;
-                }
+                Debug.Log("Todos inimigos spawnados. Hora das kills");
+                spawn = false;
             }
 
         }

@@ -12,19 +12,17 @@ public class PlayerController : MonoBehaviour
 
     public bool camMovement;
 
-    public GunController gun;
+    public GunController gun; // Arma
 
-    public LifeController lifeController;
-    public int damage;
+    public LifeController lifeController; // Vida
+    public int damage;// Dano Tomado
 
-    public EnemyController enemy;
+    public EnemyController enemy; // Inimigo
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-    
         camMovement = false;
-
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -38,6 +36,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             gun.Shoot();
+        }
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            //gun.SuperShoot();
         }
     }
 
@@ -117,19 +120,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "EnemyShot")
         {
-            lifeController.Hit(enemy.damage, this.gameObject); 
-        }
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "PowerUp")
-        {
-            if (lifeController.currentLife < 4)
-            {
-                lifeController.Heal(1);
-                Debug.Log("Vida depois do powerUp: " + lifeController.currentLife);
-            }
+            lifeController.Hit(enemy.damage, this.gameObject);
         }
     }
 }

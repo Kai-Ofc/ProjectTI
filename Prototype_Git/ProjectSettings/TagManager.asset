@@ -9,6 +9,8 @@ TagManager:
   - Trigger
   - Shot
   - PowerUp
+  - EnemyShot
+  - SuperShot
   layers:
   - Default
   - TransparentFX
