@@ -19,6 +19,7 @@ public class EnemyController : MonoBehaviour
 
     public int life;
     public int damage;
+    public static int kills;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -72,10 +73,11 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.tag == "Shot")
         {
             life -= 1;
-            Debug.Log("Vida Inimigo " + life);
 
             if (life <= 1) 
             {
+                kills++;
+                Debug.Log("Inimigos mortos:" + kills);
                 Destroy(this.gameObject);
             }
       
