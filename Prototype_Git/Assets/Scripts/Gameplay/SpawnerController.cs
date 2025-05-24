@@ -49,7 +49,7 @@ public class SpawnerController : MonoBehaviour
 
             if (EnemyController.kills >= wave)
             {
-                Debug.Log("Vitória alcançada! Kills: " + EnemyController.kills);
+                Debug.Log("Victoryyy Kills: " + EnemyController.kills);
                 SceneManager.LoadScene(2);
                 return;
             }

@@ -14,9 +14,9 @@ public class PowerUpController : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        if (other.gameObject.tag == "Player" && sprites[0] && life.currentLife < 4)
+        if (other.gameObject.tag == "Player" && sprites[1] && life.currentLife < 4)
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject, 5f);
         }
     }
 }
