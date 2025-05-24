@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 9f796a760e510a548b8357c47f5877d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 3787892219300751901}
   - component: {fileID: 1048571644640368411}
   m_Layer: 0
-  m_Name: Enemy2
+  m_Name: Enemy2(Abroba)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,14 +289,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 0}
-  distance: 0
+  distance: 8
   moveSpeed: 5
   land: 0
   playerController: {fileID: 0}
   gun: {fileID: 1048571644640368411}
   time: 5
-  life: 0
-  damage: 0
+  life: 1
+  damage: 1
 --- !u!114 &1048571644640368411
 MonoBehaviour:
   m_ObjectHideFlags: 0

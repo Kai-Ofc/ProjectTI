@@ -16,7 +16,6 @@ public class SpawnerController : MonoBehaviour
 
     public void Start()
     {
-        time = 10f;
         spawn = true;
         enemy = GetComponent<EnemyController>();
 
@@ -38,7 +37,10 @@ public class SpawnerController : MonoBehaviour
 
             if (instances < wave && timer >= time)
             {
-                GameObject newEnemy = Instantiate(enemyPrefab[0], this.transform.position, Quaternion.identity);
+                int randomIndex = Random.Range(0, enemyPrefab.Length);
+                GameObject randomEnemyPrefab = enemyPrefab[randomIndex];
+
+                GameObject newEnemy = Instantiate(randomEnemyPrefab, this.transform.position, Quaternion.identity);
                 EnemyController enemyScript = newEnemy.GetComponent<EnemyController>();
 
                 enemyScript.PlayerReference(player);

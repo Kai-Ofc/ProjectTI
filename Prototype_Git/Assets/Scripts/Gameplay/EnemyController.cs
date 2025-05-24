@@ -25,7 +25,6 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         land = false;
-        life = 3;
 
         follow = GameObject.FindGameObjectWithTag("Player");
         gun = GetComponent<GunController>();

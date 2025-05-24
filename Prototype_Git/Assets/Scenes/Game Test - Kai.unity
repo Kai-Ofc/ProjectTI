@@ -1241,6 +1241,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
   m_PrefabInstance: {fileID: 431204996}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &463233782
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3787892219300751901, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: playerController
+      value: 
+      objectReference: {fileID: 185532431}
+    - target: {fileID: 4022987918764525978, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_Name
+      value: Enemy3(Aranha)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4022987918764525978, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4569212637875688002, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
 --- !u!1 &557941588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,13 +1589,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67836363a03198b49aa6ba4f085e0eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0
+  time: 5
   enemyPrefab:
   - {fileID: 6657364573433012139, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
+  - {fileID: 4022987918764525978, guid: e6f5bc77e616fcc489cf6074e78b165f, type: 3}
+  - {fileID: 4022987918764525978, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
   player: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
   enemy: {fileID: 0}
   spawn: 0
-  wave: 3
+  wave: 10
   instances: 0
 --- !u!4 &829817984
 Transform:
@@ -3739,10 +3806,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3787892219300751901, guid: e6f5bc77e616fcc489cf6074e78b165f, type: 3}
-      propertyPath: distance
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 3787892219300751901, guid: e6f5bc77e616fcc489cf6074e78b165f, type: 3}
       propertyPath: playerController
       value: 
       objectReference: {fileID: 185532431}
@@ -4787,3 +4850,4 @@ SceneRoots:
   - {fileID: 1062909948}
   - {fileID: 829817984}
   - {fileID: 1739115812}
+  - {fileID: 463233782}

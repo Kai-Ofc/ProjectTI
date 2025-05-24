@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 3310267007456917647}
   - component: {fileID: 8528328670041380701}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy(Caveira)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ MonoBehaviour:
   playerController: {fileID: 0}
   gun: {fileID: 8528328670041380701}
   time: 5
-  life: 0
+  life: 3
   damage: 1
 --- !u!114 &8528328670041380701
 MonoBehaviour:
