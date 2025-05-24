@@ -14,6 +14,8 @@ public class SpawnerController : MonoBehaviour
     public int wave;
     public int instances;
 
+    public float spawX;
+
     public void Start()
     {
         spawn = true;
@@ -40,13 +42,17 @@ public class SpawnerController : MonoBehaviour
                 int randomIndex = Random.Range(0, enemyPrefab.Length);
                 GameObject randomEnemyPrefab = enemyPrefab[randomIndex];
 
-                GameObject newEnemy = Instantiate(randomEnemyPrefab, this.transform.position, Quaternion.identity);
+                float randomX = Random.Range(-spawX, spawX);
+                Vector3 spawnPosition = transform.position + new Vector3(randomX, 0, 0);
+
+                GameObject newEnemy = Instantiate(randomEnemyPrefab, spawnPosition, Quaternion.identity);
                 EnemyController enemyScript = newEnemy.GetComponent<EnemyController>();
 
                 enemyScript.PlayerReference(player);
 
                 timer = 0f;
                 instances++;
+                Debug.Log("Vida Inimigo" + enemyScript.life);
             }
 
             if (EnemyController.kills >= wave)

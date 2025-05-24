@@ -12,7 +12,6 @@ public class LifeController : MonoBehaviour
     void Start()
     {
         currentLife = maxLife;
-        Debug.Log(currentLife);
         interfaceController.LifeBar(currentLife, maxLife);
     }
 

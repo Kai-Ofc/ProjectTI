@@ -24,11 +24,16 @@ public class ShotController : MonoBehaviour
         vel = direction * speed;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Player")
+        if (this.gameObject.tag == "Shot" && other.gameObject.tag == "Enemy")
         {
-            Destroy(this.gameObject); ;
+            Destroy(this.gameObject);
+        }
+
+        if (this.gameObject.tag == "EnemyShot" && other.gameObject.tag == "Player") 
+        {
+            Destroy(this.gameObject);
         }
     }
 }

@@ -275,7 +275,7 @@ MonoBehaviour:
   land: 0
   playerController: {fileID: 0}
   gun: {fileID: 8528328670041380701}
-  time: 5
+  time: 1
   life: 3
   damage: 1
 --- !u!114 &8528328670041380701

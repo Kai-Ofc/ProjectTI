@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1))
         {
-            //gun.SuperShoot();
+            gun.SuperShot();
         }
     }
 
@@ -116,9 +116,9 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z) / (1 + drag / 100) + new Vector3(0, rb.linearVelocity.y, 0); // Lógica para concertar o "deslizamento" do personagem
     }
 
-    public void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "EnemyShot")
+        if (other.gameObject.tag == "EnemyShot")
         {
             lifeController.Hit(enemy.damage, this.gameObject);
         }

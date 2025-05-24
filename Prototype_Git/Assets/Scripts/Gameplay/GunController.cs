@@ -4,9 +4,10 @@ using UnityEngine;
 public class GunController : MonoBehaviour
 {
     public Transform shot;
-    //public Transform shotPosition;
+    public Transform superShot;
     public Transform[] shotPositions;
     Transform shotObj;
+    Transform superShotObj;
 
     public void Shoot() 
     {
@@ -18,5 +19,17 @@ public class GunController : MonoBehaviour
             shotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
         }
             
+    }
+
+    public void SuperShot()
+    {
+        foreach (Transform shotPos in shotPositions)
+        {
+            superShotObj = Instantiate(superShot, shotPos.position, shotPos.rotation);
+            Destroy(superShotObj.gameObject, 5f);
+
+            superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
+        }
+
     }
 }

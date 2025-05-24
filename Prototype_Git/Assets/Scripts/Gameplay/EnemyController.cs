@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
 
     public GunController gun;
     float timer;
-    public float time = 5f;
+    public float time;
 
     public int life;
     public int damage;
@@ -69,19 +69,36 @@ public class EnemyController : MonoBehaviour
         {
             land = true;
         }
+    }
 
-        if (collision.gameObject.tag == "Shot")
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Shot")
         {
             life -= 1;
             Debug.Log("Vida inimigo:" + life);
 
-            if (life <= 1) 
+            if (life <= 1)
             {
                 kills++;
                 Debug.Log("Inimigos mortos:" + kills);
                 Destroy(this.gameObject);
             }
-      
+
+        }
+
+        if (other.gameObject.tag == "SuperShot")
+        {
+            life -= life;
+            Debug.Log("Vida inimigo depois do super shot:" + life);
+
+            if (life <= 1)
+            {
+                kills++;
+                Debug.Log("Inimigos mortos:" + kills);
+                Destroy(this.gameObject);
+            }
+
         }
     }
 }
