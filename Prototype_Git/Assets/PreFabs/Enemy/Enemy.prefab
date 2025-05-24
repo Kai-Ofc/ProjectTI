@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 0}
-  distance: 5
+  distance: 15
   moveSpeed: 5
   land: 0
   gun: {fileID: 8528328670041380701}

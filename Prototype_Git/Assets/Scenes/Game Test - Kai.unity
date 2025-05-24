@@ -182,7 +182,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (7)
@@ -400,7 +400,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (4)
@@ -478,7 +478,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio
@@ -609,7 +609,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (9)
@@ -949,7 +949,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (6)
@@ -992,8 +992,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 1, g: 0.7727928, b: 0.24056602, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1055,13 +1055,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.14893135, y: 0, z: 0, w: 0.98884755}
+  m_LocalPosition: {x: 0, y: 22.08, z: 2.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 17.13, y: 0, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1148,7 +1148,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: m_Name
       value: gradeEsquerda
@@ -1226,7 +1226,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: m_Name
       value: gradeDireita
@@ -1445,7 +1445,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: m_Name
       value: gradeEsquerda (1)
@@ -1846,7 +1846,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (11)
@@ -2032,7 +2032,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (10)
@@ -2326,7 +2326,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (1)
@@ -2404,7 +2404,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (2)
@@ -2482,7 +2482,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (6)
@@ -2505,6 +2505,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3991189999358518833, guid: 81360ee22bca757429ad67f2cef1ee94, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 8867215130027530347, guid: 81360ee22bca757429ad67f2cef1ee94, type: 3}
       propertyPath: m_Name
       value: PowerUp
@@ -2729,7 +2733,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: m_Name
       value: gradeEsquerda
@@ -2807,7 +2811,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: m_Name
       value: gradeDireita (1)
@@ -3030,7 +3034,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (5)
@@ -3108,7 +3112,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: m_Name
       value: gradeDireita
@@ -3186,7 +3190,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (8)
@@ -3264,7 +3268,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (1)
@@ -3414,7 +3418,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (2)
@@ -3600,7 +3604,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (2)
@@ -3710,7 +3714,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 4524d828c3e5ac946a2178814911d324, type: 3}
       propertyPath: m_Name
       value: gradeDireita
@@ -3788,7 +3792,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (1)
@@ -4013,7 +4017,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (3)
@@ -4203,7 +4207,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 1e922dceead2a434f8d769d33efb561d, type: 3}
       propertyPath: m_Name
       value: gradeMeio (3)
@@ -4398,7 +4402,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ed343ed48ef09e54d9aaad5bcca22cf9, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 9ca6b77676558474483d923d89eb9542, type: 3}
       propertyPath: m_Name
       value: gradeEsquerda
@@ -4464,7 +4468,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 38f22ebf0dea73a4d91ae6c3e51dc454, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 2db3daff0cc14c541a3f00d76e8945d5, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 38f22ebf0dea73a4d91ae6c3e51dc454, type: 3}
       propertyPath: m_Name
       value: portaoGrade
@@ -4651,6 +4655,30 @@ PrefabInstance:
     - target: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310926001215480603, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_Type
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310926001215480603, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_Range
+      value: 0.81358635
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310926001215480603, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_Intensity
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310926001215480603, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_SpotAngle
+      value: 90.00205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310926001215480603, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_AreaSize.x
+      value: 3.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310926001215480603, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2768609192545611051, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: interfaceController

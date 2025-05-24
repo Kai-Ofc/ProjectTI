@@ -52,6 +52,8 @@ public class EnemyController : MonoBehaviour
         if (land == true && playerController.camMovement != true)
         {
             Vector3 enemyMove = follow.transform.position + follow.transform.right * distance;
+            enemyMove.y = transform.position.y;
+
             transform.position = Vector3.MoveTowards(transform.position, enemyMove , moveSpeed * Time.deltaTime);           
         }
 

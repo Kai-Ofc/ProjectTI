@@ -76,9 +76,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5965ff188b04ce4e8c4a8a8190ea328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
   life: {fileID: 0}
   sprites:
   - {fileID: 3991189999358518833}
+  - {fileID: -7511558181221131132, guid: 92805099792c6a24b8d5cc557c9f6365, type: 3}
 --- !u!1001 &2351472233558948533
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -146,10 +148,14 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 35df68463a18ae546b0471462cf4dd92, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9f796a760e510a548b8357c47f5877d5, type: 2}
+      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
     - target: {fileID: 919132149155446097, guid: 35df68463a18ae546b0471462cf4dd92, type: 3}
       propertyPath: m_Name
       value: balaPowerUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35df68463a18ae546b0471462cf4dd92, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

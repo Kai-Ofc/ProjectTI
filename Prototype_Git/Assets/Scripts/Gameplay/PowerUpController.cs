@@ -2,8 +2,15 @@ using UnityEngine;
 
 public class PowerUpController : MonoBehaviour
 {
+    public GameObject player;
     public LifeController life;
     public MeshRenderer[] sprites;
+
+    public void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        life = player.GetComponent<LifeController>();
+    }
 
     void OnTriggerEnter(Collider other)
     {
