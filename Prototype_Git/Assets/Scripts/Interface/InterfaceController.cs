@@ -10,6 +10,5 @@ public class InterfaceController : MonoBehaviour
     public void LifeBar( int currentLife, int maxLife) 
     {
         lifeBar.fillAmount = (float)currentLife / maxLife;
-        Debug.Log(lifeBar.fillAmount);
     }
 }

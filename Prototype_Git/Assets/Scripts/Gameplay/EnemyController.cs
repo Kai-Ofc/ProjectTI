@@ -11,7 +11,7 @@ public class EnemyController : MonoBehaviour
 
     public bool land = false;
 
-    PlayerController playerController;
+    public PlayerController playerController;
 
     public GunController gun;
     float timer;
@@ -47,7 +47,6 @@ public class EnemyController : MonoBehaviour
     void EnemyMovement() 
     {
         transform.LookAt(follow.transform.position);
-        //transform.Rotate(new Vector3(0, -90, 0), Space.Self);
 
         if (land == true && playerController.camMovement != true)
         {
@@ -75,6 +74,7 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.tag == "Shot")
         {
             life -= 1;
+            Debug.Log("Vida inimigo:" + life);
 
             if (life <= 1) 
             {

@@ -559,7 +559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 4086837891666709350, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
-  shotPosition: {fileID: 4047342198142373257}
+  shotPositions:
+  - {fileID: 4047342198142373257}
 --- !u!114 &2768609192545611051
 MonoBehaviour:
   m_ObjectHideFlags: 0

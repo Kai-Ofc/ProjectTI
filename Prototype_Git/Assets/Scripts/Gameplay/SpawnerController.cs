@@ -5,7 +5,7 @@ public class SpawnerController : MonoBehaviour
 {
     public float time;
     private float timer;
-    public GameObject enemyPrefab;
+    public GameObject[] enemyPrefab;
 
     public PlayerController player;
     public EnemyController enemy;
@@ -38,7 +38,7 @@ public class SpawnerController : MonoBehaviour
 
             if (instances < wave && timer >= time)
             {
-                GameObject newEnemy = Instantiate(enemyPrefab, this.transform.position, Quaternion.identity);
+                GameObject newEnemy = Instantiate(enemyPrefab[0], this.transform.position, Quaternion.identity);
                 EnemyController enemyScript = newEnemy.GetComponent<EnemyController>();
 
                 enemyScript.PlayerReference(player);
