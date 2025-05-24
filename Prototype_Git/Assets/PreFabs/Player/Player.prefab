@@ -540,6 +540,8 @@ MonoBehaviour:
   moveSpeed: 200
   maxSpeed: 10
   drag: 10
+  shotTime: 1
+  superShotTime: 10
   sensitivity: 600
   camMovement: 0
   gun: {fileID: 8340974651343555765}

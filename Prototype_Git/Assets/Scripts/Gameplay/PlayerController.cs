@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     public float moveSpeed, maxSpeed, drag;
     private bool foward, backward, left, right;
+    public int shotTime, superShotTime;
+    float timer, superTimer;
 
     public float sensitivity = 1000f; // Sensibilidade do mouse
     float mouseX;
@@ -33,14 +35,19 @@ public class PlayerController : MonoBehaviour
         LimitVelocity();
         HandleDrag();
 
-        if (Input.GetMouseButtonDown(0))
+        timer += Time.deltaTime;
+        superTimer += Time.deltaTime;
+
+        if (Input.GetMouseButtonDown(0) && timer >= shotTime)
         {
             gun.Shoot();
+            timer = 0;
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
         {
             gun.SuperShot();
+            superTimer = 0;
         }
     }
 
