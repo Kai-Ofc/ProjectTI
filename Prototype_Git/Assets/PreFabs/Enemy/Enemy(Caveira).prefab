@@ -149,8 +149,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 2.03, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.5, y: 3.045, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8708556973206382758}
   - {fileID: 2940899980766424242}
@@ -291,5 +291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 4086837891666709350, guid: 7d286890b1e16754db33b4c769291296, type: 3}
+  superShot: {fileID: 0}
   shotPositions:
   - {fileID: 2940899980766424242}
