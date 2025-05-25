@@ -89,10 +89,10 @@ public class EnemyController : MonoBehaviour
 
         if (other.gameObject.tag == "SuperShot")
         {
-            life -= life;
+            life -= 5;
             Debug.Log("Vida inimigo depois do super shot:" + life);
 
-            if (life <= 1)
+            if (life <= 0)
             {
                 kills++;
                 Debug.Log("Inimigos mortos:" + kills);
