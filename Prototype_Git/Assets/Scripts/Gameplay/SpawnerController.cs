@@ -55,12 +55,12 @@ public class SpawnerController : MonoBehaviour
                 Debug.Log("Vida Inimigo" + enemyScript.life);
             }
 
-            if (EnemyController.kills >= wave)
-            {
-                Debug.Log("Victoryyy Kills: " + EnemyController.kills);
-                SceneManager.LoadScene(2);
-                return;
-            }
+            //if (EnemyController.kills >= wave)
+            //{
+            //    Debug.Log("Victoryyy Kills: " + EnemyController.kills);
+            //    SceneManager.LoadScene(2);
+            //    return;
+            //}
 
             if (instances >= wave)
             {

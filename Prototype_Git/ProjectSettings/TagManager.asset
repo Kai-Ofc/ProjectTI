@@ -11,6 +11,7 @@ TagManager:
   - PowerUp
   - EnemyShot
   - SuperShot
+  - Block
   layers:
   - Default
   - TransparentFX

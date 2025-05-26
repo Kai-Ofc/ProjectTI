@@ -11,6 +11,7 @@ public class LifeController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //interfaceController = GetComponent<InterfaceController>();
         currentLife = maxLife;
         interfaceController.LifeBar(currentLife, maxLife);
     }
