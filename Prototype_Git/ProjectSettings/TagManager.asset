@@ -12,6 +12,7 @@ TagManager:
   - EnemyShot
   - SuperShot
   - Block
+  - Shield
   layers:
   - Default
   - TransparentFX
