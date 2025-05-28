@@ -41,7 +41,7 @@ public class ShotController : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        if (this.gameObject.tag == "EnemyShot" && other.gameObject.tag == "PowerUp")
+        if (this.gameObject.tag == "EnemyShot" && other.gameObject.tag == "Shield")
         {
             Destroy(this.gameObject);
         }
