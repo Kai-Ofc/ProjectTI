@@ -8286,7 +8286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1849318157686923539, guid: 246e7ff9fbea7dd4c9d4c7c2b8b32728, type: 3}
       propertyPath: spawZ
-      value: 18
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3004682888613579292, guid: 246e7ff9fbea7dd4c9d4c7c2b8b32728, type: 3}
       propertyPath: m_Name

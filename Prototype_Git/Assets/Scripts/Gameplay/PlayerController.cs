@@ -21,11 +21,16 @@ public class PlayerController : MonoBehaviour
 
     public EnemyController enemy; // Inimigo
 
+    public GameObject shieldPositionsVector;
+    public Transform[] shieldsPos;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         camMovement = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        shieldPositionsVector.SetActive(false);
     }
 
     // Update is called once per frame

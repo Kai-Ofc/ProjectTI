@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 9206677814197219648}
   - component: {fileID: 7698981788746058709}
   - component: {fileID: 68250060082815934}
-  - component: {fileID: 6928778369698530624}
+  - component: {fileID: 3501783148923914887}
   m_Layer: 0
   m_Name: DonutPowerUp
   m_TagString: PowerUp
@@ -151,7 +151,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.49, y: 1.49, z: 1.49}
   m_Center: {x: 0, y: 0.7, z: -0.24}
---- !u!114 &6928778369698530624
+--- !u!114 &3501783148923914887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,11 +160,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 8867215130027530347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5965ff188b04ce4e8c4a8a8190ea328, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d6b195740bd3a141b07b0dd6af22677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shield: {fileID: 1662769004543421691, guid: 323ed54309423444c9ac4b8cc9b350fe, type: 3}
   player: {fileID: 0}
-  life: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!1001 &6461632373172058776
 PrefabInstance:
   m_ObjectHideFlags: 0
