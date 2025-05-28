@@ -21,8 +21,8 @@ public class PlayerController : MonoBehaviour
 
     public EnemyController enemy; // Inimigo
 
-    public GameObject shieldPositionsVector;
-    public Transform[] shieldsPos;
+    public GameObject shields;
+    public PowerUpController powerUp;
 
     void Start()
     {
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
         camMovement = false;
         Cursor.lockState = CursorLockMode.Locked;
 
-        shieldPositionsVector.SetActive(false);
+        shields.SetActive(false);
     }
 
     // Update is called once per frame
@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "EnemyShot")
+        if (other.gameObject.tag == "EnemyShot"&& powerUp.protecion != true)
         {
             lifeController.Hit(enemy.damage, this.gameObject);
         }

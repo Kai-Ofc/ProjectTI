@@ -50,6 +50,7 @@ MonoBehaviour:
   - {fileID: 8867215130027530347, guid: 81360ee22bca757429ad67f2cef1ee94, type: 3}
   - {fileID: 8867215130027530347, guid: c2f1500684ac03e408297a7fdfe8afc8, type: 3}
   - {fileID: 8867215130027530347, guid: 193a09e1afeed3f45910d3cac699b783, type: 3}
+  - {fileID: 8867215130027530347, guid: 6390ddb2b1c04e842b5571263e5b48ed, type: 3}
   spawn: 0
   spawX: 15
   spawZ: 15

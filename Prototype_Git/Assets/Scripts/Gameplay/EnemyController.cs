@@ -76,7 +76,6 @@ public class EnemyController : MonoBehaviour
         if (other.gameObject.tag == "Shot")
         {
             life -= 1;
-            Debug.Log("Vida inimigo:" + life);
 
             if (life <= 1)
             {
