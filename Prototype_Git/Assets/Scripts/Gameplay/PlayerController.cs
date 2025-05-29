@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         camMovement = false;
         Cursor.lockState = CursorLockMode.Locked;
-
+        superTimer = 10f;
         shields.SetActive(false);
     }
 

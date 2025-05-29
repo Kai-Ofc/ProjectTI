@@ -770,6 +770,7 @@ MonoBehaviour:
   enemy: {fileID: 0}
   shields: {fileID: 3087199885197469390}
   powerUp: {fileID: 7920280558207314281}
+  doubleShotPoint: {fileID: 0}
 --- !u!114 &8340974651343555765
 MonoBehaviour:
   m_ObjectHideFlags: 0

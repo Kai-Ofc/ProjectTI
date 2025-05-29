@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 9206677814197219648}
   - component: {fileID: 7698981788746058709}
   - component: {fileID: 68250060082815934}
-  - component: {fileID: 9170377776816644589}
+  - component: {fileID: 4540940884075798540}
   m_Layer: 0
   m_Name: LolipopPowerUp
   m_TagString: PowerUp
@@ -151,7 +151,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.49, y: 1.49, z: 1.49}
   m_Center: {x: 0, y: 0.7, z: -0.24}
---- !u!114 &9170377776816644589
+--- !u!114 &4540940884075798540
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,11 +160,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8867215130027530347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 435b2f1efe1de8c4cbe61281290cd9c2, type: 3}
+  m_Script: {fileID: 11500000, guid: 36630b60397b9684cba46f12310474b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotPrefab: {fileID: 2127535332157868996, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
-  sizeIncrease: 0.2
+  player: {fileID: 0}
+  powerUpController: {fileID: 0}
 --- !u!1001 &7144597720493756829
 PrefabInstance:
   m_ObjectHideFlags: 0

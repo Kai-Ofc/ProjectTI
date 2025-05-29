@@ -3,7 +3,7 @@ using UnityEngine;
 public class PowerUpController : MonoBehaviour
 {
     PlayerController playerController;
-    float shieldTimer, projectilTimer;
+    float shieldTimer, projectilTimer, doubleShotTimer;
     public int duration;
 
     //Escudo
@@ -14,6 +14,9 @@ public class PowerUpController : MonoBehaviour
     Vector3 originalScale;
     public float sizeIncrease = 0.2f;
     bool bigShot;
+
+    //Tiro Duplo
+    bool doubleShot;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,9 +29,11 @@ public class PowerUpController : MonoBehaviour
     void Update()
     {
         shieldTimer += Time.deltaTime;
-        projectilTimer+=Time.deltaTime;
+        projectilTimer +=Time.deltaTime;
+        doubleShotTimer += Time.deltaTime;
         StopShield();
         ResetShotSize();
+        StopDoubleShot();
     }
 
     public void StartShield() 
@@ -65,6 +70,23 @@ public class PowerUpController : MonoBehaviour
             shotPrefab.transform.localScale = originalScale;
             Debug.Log("Shot desativado");
             
+        }
+    }
+
+    public void StartDoubleShot() 
+    {
+        doubleShotTimer = 0;
+        doubleShot = true;
+    }
+
+    public void StopDoubleShot()
+    {
+        if (doubleShot == true && doubleShotTimer >= duration)
+        {
+            doubleShot = false;
+           
+            Debug.Log("DoubleShot desativado");
+
         }
     }
 }
