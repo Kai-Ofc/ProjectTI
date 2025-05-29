@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "EnemyShot"&& powerUp.protecion != true)
+        if (other.gameObject.tag == "EnemyShot" && powerUp.protecion != true)
         {
             lifeController.Hit(enemy.damage, this.gameObject);
         }
