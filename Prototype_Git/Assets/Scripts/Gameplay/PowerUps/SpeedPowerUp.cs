@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DoubleShotPowerUp : MonoBehaviour
+public class SpeedPowerUp : MonoBehaviour
 {
     public GameObject player;
     public PowerUpController powerUpController;
@@ -16,7 +16,7 @@ public class DoubleShotPowerUp : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && powerUpController.protecion != true)
         {
-            powerUpController.StartDoubleShot();
+            powerUpController.StartSpeedBoost();
             Destroy(this.gameObject);
         }
     }

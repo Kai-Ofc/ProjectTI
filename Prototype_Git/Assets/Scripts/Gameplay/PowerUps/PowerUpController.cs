@@ -3,7 +3,7 @@ using UnityEngine;
 public class PowerUpController : MonoBehaviour
 {
     PlayerController playerController;
-    float shieldTimer, projectilTimer, doubleShotTimer;
+    float shieldTimer, projectilTimer, speedTimer;
     public int duration;
 
     //Escudo
@@ -14,15 +14,19 @@ public class PowerUpController : MonoBehaviour
     Vector3 originalScale;
     public float sizeIncrease = 0.2f;
     bool bigShot;
+    int originalDamage;
 
-    //Tiro Duplo
-    bool doubleShot;
+    //SpeedBoost
+    bool speedBoost;
+    float originalMoveSpeed;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerController = GetComponent<PlayerController>();
         originalScale = shotPrefab.transform.localScale;
+        originalMoveSpeed = playerController.moveSpeed;
+        originalDamage = playerController.damage;
     }
 
     // Update is called once per frame
@@ -30,10 +34,10 @@ public class PowerUpController : MonoBehaviour
     {
         shieldTimer += Time.deltaTime;
         projectilTimer +=Time.deltaTime;
-        doubleShotTimer += Time.deltaTime;
+        speedTimer += Time.deltaTime;
         StopShield();
         ResetShotSize();
-        StopDoubleShot();
+        StopspeedBoost();
     }
 
     public void StartShield() 
@@ -58,7 +62,8 @@ public class PowerUpController : MonoBehaviour
     public void SetSizeShot() 
     {
         shotPrefab.transform.localScale = originalScale + new Vector3(sizeIncrease, sizeIncrease, sizeIncrease);
-       bigShot = true;
+        playerController.damage += 1;
+        bigShot = true;
         projectilTimer = 0;
     }
 
@@ -68,24 +73,30 @@ public class PowerUpController : MonoBehaviour
         { 
             bigShot = false;
             shotPrefab.transform.localScale = originalScale;
+            playerController.damage = originalDamage;
             Debug.Log("Shot desativado");
             
         }
     }
 
-    public void StartDoubleShot() 
+    public void StartSpeedBoost() 
     {
-        doubleShotTimer = 0;
-        doubleShot = true;
+        if (speedBoost != true) 
+        {
+            speedTimer = 0;
+            speedBoost = true;
+            playerController.moveSpeed *= 2.2f;
+        }
+
     }
 
-    public void StopDoubleShot()
+    public void StopspeedBoost()
     {
-        if (doubleShot == true && doubleShotTimer >= duration)
+        if (speedBoost == true && speedTimer >= duration)
         {
-            doubleShot = false;
-           
-            Debug.Log("DoubleShot desativado");
+            speedBoost = false;
+            playerController.moveSpeed = originalMoveSpeed;
+            Debug.Log("SpeedBoost desativado");
 
         }
     }

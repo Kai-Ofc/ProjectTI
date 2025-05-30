@@ -4829,6 +4829,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780102850}
   m_CullTransparentMesh: 1
+--- !u!114 &787007662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+  m_PrefabInstance: {fileID: 5631386870971550878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67836363a03198b49aa6ba4f085e0eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &829415891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1701730807851512554, guid: 209b7c1068f56274395c9847821239a7, type: 3}
+  m_PrefabInstance: {fileID: 294504244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &831382100
 GameObject:
   m_ObjectHideFlags: 0
@@ -9996,14 +10012,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d6eadfede4be242a4578f5df2ff989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  configurationPanel: {fileID: 0}
-  musicToggle: {fileID: 0}
-  effectToggle: {fileID: 0}
-  tutorialToggle: {fileID: 0}
-  exitButton: {fileID: 0}
-  volumeSlider: {fileID: 0}
-  effectSlider: {fileID: 0}
-  fontSlider: {fileID: 0}
+  configurationPanel: {fileID: 1117225425}
+  musicToggle: {fileID: 169506214}
+  effectToggle: {fileID: 1365929473}
+  tutorialToggle: {fileID: 137540946}
+  exitButton: {fileID: 11828193}
+  volumeSlider: {fileID: 1178964053}
+  effectSlider: {fileID: 1067335666}
+  fontSlider: {fileID: 962613011}
 --- !u!4 &1809183405 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
@@ -12220,6 +12236,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3497422544231148511, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 829415891}
+    - target: {fileID: 3497422544231148511, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 787007662}
     - target: {fileID: 3591057701091395613, guid: 17f60fe3307ea394e867723eba332750, type: 3}
       propertyPath: m_Name
       value: Spawner

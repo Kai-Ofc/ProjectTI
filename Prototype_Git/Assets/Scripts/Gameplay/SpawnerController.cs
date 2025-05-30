@@ -20,8 +20,6 @@ public class SpawnerController : MonoBehaviour
     {
         spawn = true;
         enemy = GetComponent<EnemyController>();
-
-        EnemyController.kills = 0;
         instances = 0;
     }
 
@@ -54,13 +52,6 @@ public class SpawnerController : MonoBehaviour
                 instances++;
                 Debug.Log("Vida Inimigo" + enemyScript.life);
             }
-
-            //if (EnemyController.kills >= wave)
-            //{
-            //    Debug.Log("Victoryyy Kills: " + EnemyController.kills);
-            //    SceneManager.LoadScene(2);
-            //    return;
-            //}
 
             if (instances >= wave)
             {

@@ -19,13 +19,12 @@ public class EnemyController : MonoBehaviour
 
     public int life;
     public int damage;
-    public static int kills;
+    public int kills;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         land = false;
-
         follow = GameObject.FindGameObjectWithTag("Player");
         gun = GetComponent<GunController>();
     }
@@ -63,6 +62,12 @@ public class EnemyController : MonoBehaviour
         Debug.Log("Referencia Recebida");
     }
 
+    public void Death() 
+    {
+        kills++;
+        Destroy(this.gameObject);
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Floor") 
@@ -75,27 +80,22 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.tag == "Shot")
         {
-            life -= 1;
+            life -= playerController.damage;
 
-            if (life <= 1)
+            if (life <= 0)
             {
-                kills++;
-                Debug.Log("Inimigos mortos:" + kills);
-                Destroy(this.gameObject);
+                Death();
             }
 
         }
 
         if (other.gameObject.tag == "SuperShot")
         {
-            life -= 5;
-            Debug.Log("Vida inimigo depois do super shot:" + life);
+            life -= playerController.damage * 2;
 
             if (life <= 0)
             {
-                kills++;
-                Debug.Log("Inimigos mortos:" + kills);
-                Destroy(this.gameObject);
+                Death();
             }
 
         }

@@ -44,7 +44,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82496378630203348}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 8fdf003942ef2264eb43fec6b7ec732d, type: 2}
   m_CullingMode: 0
@@ -760,17 +760,15 @@ MonoBehaviour:
   moveSpeed: 200
   maxSpeed: 10
   drag: 10
-  shotTime: 1
   superShotTime: 10
   sensitivity: 600
   camMovement: 0
   gun: {fileID: 8340974651343555765}
   lifeController: {fileID: 2768609192545611051}
-  damage: 0
+  damage: 1
   enemy: {fileID: 0}
   shields: {fileID: 3087199885197469390}
   powerUp: {fileID: 7920280558207314281}
-  doubleShotPoint: {fileID: 0}
 --- !u!114 &8340974651343555765
 MonoBehaviour:
   m_ObjectHideFlags: 0

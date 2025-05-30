@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     public float moveSpeed, maxSpeed, drag;
     private bool foward, backward, left, right;
-    public int shotTime, superShotTime;
+    public int superShotTime;
     float superTimer;
 
     public float sensitivity = 1000f; // Sensibilidade do mouse
