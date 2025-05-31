@@ -1693,6 +1693,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Finish
       objectReference: {fileID: 0}
+    - target: {fileID: 2563059490352466727, guid: 209b7c1068f56274395c9847821239a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352193936108859896, guid: 209b7c1068f56274395c9847821239a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

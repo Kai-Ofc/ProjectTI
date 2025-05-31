@@ -132,5 +132,10 @@ public class PlayerController : MonoBehaviour
         {
             lifeController.Hit(enemy.damage, this.gameObject);
         }
+
+        if (this.gameObject.tag == "Player" && other.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }
