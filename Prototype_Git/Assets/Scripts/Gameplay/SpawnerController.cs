@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,7 +9,8 @@ public class SpawnerController : MonoBehaviour
     public GameObject[] enemyPrefab;
 
     public PlayerController player;
-    public EnemyController enemy;
+    public EnemyController enemyScript;
+    public int kills;
 
     public bool spawn;
     public int wave;
@@ -19,7 +21,7 @@ public class SpawnerController : MonoBehaviour
     public void Start()
     {
         spawn = true;
-        enemy = GetComponent<EnemyController>();
+        enemyScript = GetComponent<EnemyController>();
         instances = 0;
     }
 
@@ -44,18 +46,23 @@ public class SpawnerController : MonoBehaviour
                 Vector3 spawnPosition = transform.position + new Vector3(randomX, 0, 0);
 
                 GameObject newEnemy = Instantiate(randomEnemyPrefab, spawnPosition, Quaternion.identity);
-                EnemyController enemyScript = newEnemy.GetComponent<EnemyController>();
+                enemyScript = newEnemy.GetComponent<EnemyController>();
 
                 enemyScript.PlayerReference(player);
 
                 timer = 0f;
                 instances++;
-                Debug.Log("Vida Inimigo" + enemyScript.life);
+
             }
+
+            //if (enemyScript.IsDestroyed() == true)
+            //{
+            //    Debug.Log("Morte dos inimigos: " + kills);
+            //    kills++;
+            //}
 
             if (instances >= wave)
             {
-                Debug.Log("Todos inimigos spawnados. Hora das kills");
                 spawn = false;
             }
 

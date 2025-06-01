@@ -51,7 +51,8 @@ MonoBehaviour:
   - {fileID: 4022987918764525978, guid: e6f5bc77e616fcc489cf6074e78b165f, type: 3}
   - {fileID: 4022987918764525978, guid: 9001efa7ebeb07242aa0fe8334b0fada, type: 3}
   player: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
-  enemy: {fileID: 0}
+  enemyScript: {fileID: 0}
+  kills: 0
   spawn: 0
   wave: 5
   instances: 0
@@ -69,6 +70,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 0}
-  spawner: {fileID: 0}
+  spawner: {fileID: 3999134226848668342}
   portal: {fileID: 1701730807851512554, guid: 209b7c1068f56274395c9847821239a7, type: 3}
   enemyPreFab: {fileID: 6657364573433012139, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}

@@ -106,24 +106,24 @@ public class PlayerController : MonoBehaviour
 
         mouseX -= Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
 
-        transform.localEulerAngles = new Vector3(0, mouseX, 0); // Mudando o angulo local do player através do mouse
+        transform.localEulerAngles = new Vector3(0, mouseX, 0);
 
     }
 
     void LimitVelocity()    
     {
-        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z); // Acessar a velocidade em x e z do personagem
+        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z); 
 
-        if (horizontalVelocity.magnitude > maxSpeed)  // Logica para limitar a velocidade e o personagem não acelerar quanto mais andar
+        if (horizontalVelocity.magnitude > maxSpeed)
         {
-            Vector3 limitation = horizontalVelocity.normalized * maxSpeed; // Normalizando a velocidade e multiplicar pela velocidade maxima
-            rb.linearVelocity = new Vector3(limitation.x, rb.linearVelocity.y, limitation.z); // Integrar a limitação a velocidade
+            Vector3 limitation = horizontalVelocity.normalized * maxSpeed;
+            rb.linearVelocity = new Vector3(limitation.x, rb.linearVelocity.y, limitation.z);
         }
     }
 
-    void HandleDrag() //Função para cocertar o deslizamento
+    void HandleDrag()
     {
-        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z) / (1 + drag / 100) + new Vector3(0, rb.linearVelocity.y, 0); // Lógica para concertar o "deslizamento" do personagem
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z) / (1 + drag / 100) + new Vector3(0, rb.linearVelocity.y, 0);
     }
 
     public void OnTriggerEnter(Collider other)

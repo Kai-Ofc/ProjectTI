@@ -19,7 +19,6 @@ public class EnemyController : MonoBehaviour
 
     public int life;
     public int damage;
-    public int kills;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -59,12 +58,10 @@ public class EnemyController : MonoBehaviour
     public void PlayerReference( PlayerController playerRef) 
     {
         playerController = playerRef;
-        Debug.Log("Referencia Recebida");
     }
 
     public void Death() 
     {
-        kills++;
         Destroy(this.gameObject);
     }
 

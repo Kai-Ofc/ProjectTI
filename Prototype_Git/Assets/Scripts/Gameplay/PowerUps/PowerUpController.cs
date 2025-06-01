@@ -52,7 +52,6 @@ public class PowerUpController : MonoBehaviour
     {
         if (protecion == true && shieldTimer >= duration)
         {
-            Debug.Log("Shield desativado");
             playerController.shields.SetActive(false);
             protecion = false;
             
@@ -74,7 +73,6 @@ public class PowerUpController : MonoBehaviour
             bigShot = false;
             shotPrefab.transform.localScale = originalScale;
             playerController.damage = originalDamage;
-            Debug.Log("Shot desativado");
             
         }
     }
@@ -96,7 +94,6 @@ public class PowerUpController : MonoBehaviour
         {
             speedBoost = false;
             playerController.moveSpeed = originalMoveSpeed;
-            Debug.Log("SpeedBoost desativado");
 
         }
     }
