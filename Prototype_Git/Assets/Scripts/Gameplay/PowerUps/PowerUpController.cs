@@ -27,6 +27,9 @@ public class PowerUpController : MonoBehaviour
         originalScale = shotPrefab.transform.localScale;
         originalMoveSpeed = playerController.moveSpeed;
         originalDamage = playerController.damage;
+        shieldTimer = 0;
+        projectilTimer = 0;
+        speedTimer = 0;
     }
 
     // Update is called once per frame

@@ -17,9 +17,6 @@ public class MenuController : MonoBehaviour
         { 
             Pause();
         }
-        
-       
-        
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -57,7 +54,11 @@ public class MenuController : MonoBehaviour
       
     }
 
-    // Update is called once per frame
+    public void Leave() 
+    {
+        SceneManager.LoadScene(0);
+    }
+
     public void Exit()
     {
         Debug.Log("Fechou");
