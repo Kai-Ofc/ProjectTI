@@ -1,4 +1,3 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PortalManagerController : MonoBehaviour
@@ -18,8 +17,6 @@ public class PortalManagerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Inimigos mortos:" + enemy.kills);
-        //Debug.Log("Wave: " + spawner.wave);
 
         if (spawner.instances >= spawner.wave) 
         {

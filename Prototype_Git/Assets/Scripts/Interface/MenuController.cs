@@ -8,7 +8,6 @@ public class MenuController : MonoBehaviour
 
     public void Start()
     {
-        Cursor.lockState = CursorLockMode.None;
         configurationPanel.SetActive(false);
     }
 
@@ -24,10 +23,12 @@ public class MenuController : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Configuration() 
     {
+        Cursor.lockState = CursorLockMode.None;
         configurationPanel.SetActive(true);
     }
 

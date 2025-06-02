@@ -10,7 +10,7 @@ public class PortalController : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Entrou no Trigger");
+            Cursor.lockState = CursorLockMode.None;
             SceneManager.LoadScene(index);
         }
     }
