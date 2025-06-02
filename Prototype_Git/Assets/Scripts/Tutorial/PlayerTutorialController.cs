@@ -4,6 +4,7 @@ public class PlayerTutorialController : MonoBehaviour
 {
     public bool spawn;
     public bool movementInterface;
+    float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +14,8 @@ public class PlayerTutorialController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D)) 
+        timer += Time.deltaTime;
+        if (timer >= 5f) 
         {
             spawn = true;
             movementInterface = false;

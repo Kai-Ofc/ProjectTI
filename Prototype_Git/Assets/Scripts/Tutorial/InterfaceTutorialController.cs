@@ -2,21 +2,23 @@ using UnityEngine;
 
 public class InterfaceTutorialController : MonoBehaviour
 {
-    PlayerTutorialController playerTutorial;
+    public PlayerTutorialController playerTutorial;
     public GameObject movimentTutorial;
+    public GameObject shotTutorial;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerTutorial = GetComponent<PlayerTutorialController>();
         movimentTutorial.SetActive(true);
+        shotTutorial.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (playerTutorial.movementInterface == true) 
+        if (playerTutorial.movementInterface == false) 
         {
             movimentTutorial.SetActive(false);
+            shotTutorial.SetActive(true);
         }
     }
 }
