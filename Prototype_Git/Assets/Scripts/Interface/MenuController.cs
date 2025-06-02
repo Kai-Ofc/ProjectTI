@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
 
     public void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
         configurationPanel.SetActive(false);
     }
 
