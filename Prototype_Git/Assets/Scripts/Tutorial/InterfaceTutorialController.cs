@@ -5,6 +5,8 @@ public class InterfaceTutorialController : MonoBehaviour
     public PlayerTutorialController playerTutorial;
     public GameObject movimentTutorial;
     public GameObject shotTutorial;
+    public GameObject powerUpTutorial;
+    public GameObject enemiesTutorial;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,6 +21,16 @@ public class InterfaceTutorialController : MonoBehaviour
         {
             movimentTutorial.SetActive(false);
             shotTutorial.SetActive(true);
+        }
+
+        if (playerTutorial.enemies == true && playerTutorial.scenary == true) 
+        {
+            enemiesTutorial.SetActive(true);
+        }
+
+        if (playerTutorial.powerUp == true) 
+        { 
+            powerUpTutorial.SetActive(true);
         }
     }
 }
