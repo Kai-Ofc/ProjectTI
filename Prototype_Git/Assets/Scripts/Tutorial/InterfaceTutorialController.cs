@@ -3,6 +3,8 @@ using UnityEngine;
 public class InterfaceTutorialController : MonoBehaviour
 {
     public PlayerTutorialController playerTutorial;
+    public GameObject dialog;
+    public GameObject cat;
     public GameObject movimentTutorial;
     public GameObject shotTutorial;
     public GameObject powerUpTutorial;
@@ -10,6 +12,7 @@ public class InterfaceTutorialController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        dialog.SetActive(true);
         movimentTutorial.SetActive(true);
         shotTutorial.SetActive(false);
     }
@@ -21,6 +24,7 @@ public class InterfaceTutorialController : MonoBehaviour
         {
             movimentTutorial.SetActive(false);
             shotTutorial.SetActive(true);
+            cat.transform.Rotate(-10f, 0f, 0f, Space.Self);
         }
 
         if (playerTutorial.enemies == true && playerTutorial.scenary == true) 

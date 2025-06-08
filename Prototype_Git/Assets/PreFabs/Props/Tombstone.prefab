@@ -67,7 +67,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 100664f0760dce84ab65cb75762ddd22, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 100664f0760dce84ab65cb75762ddd22, type: 3}
       propertyPath: m_Name
       value: Tombstone

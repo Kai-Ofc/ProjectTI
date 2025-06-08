@@ -355,7 +355,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (6)
@@ -432,7 +432,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (1)
@@ -948,7 +948,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar (2)
@@ -1156,7 +1156,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar (1)
@@ -1267,7 +1267,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (8)
@@ -1569,7 +1569,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (3)
@@ -1764,7 +1764,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar
@@ -2109,7 +2109,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (2)
@@ -2157,7 +2157,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.008052402, g: 0.005295478, b: 0.066037714, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -2340,7 +2340,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 85fcac6368ec90e4c99e2f0d700ae914, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 85fcac6368ec90e4c99e2f0d700ae914, type: 3}
       propertyPath: m_Name
       value: Shovel (3)
@@ -2661,7 +2661,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (5)
@@ -2881,7 +2881,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.4654924, g: 0.36391956, b: 0.8867924, a: 1}
+  m_Color: {r: 0.2924528, g: 0.073817685, b: 0.06759523, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -2944,13 +2944,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14893135, y: 0, z: 0, w: 0.98884755}
+  m_LocalRotation: {x: 0.9795526, y: -0, z: -0, w: 0.20118837}
   m_LocalPosition: {x: 0, y: 22.08, z: 2.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 17.13, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 156.787, y: 0, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3171,7 +3171,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (3)
@@ -3248,7 +3248,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (4)
@@ -3837,7 +3837,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (4)
@@ -3914,7 +3914,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 85fcac6368ec90e4c99e2f0d700ae914, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 85fcac6368ec90e4c99e2f0d700ae914, type: 3}
       propertyPath: m_Name
       value: Shovel
@@ -3991,7 +3991,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (2)
@@ -4073,7 +4073,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (5)
@@ -4150,7 +4150,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: m_Name
       value: pilhaOssinhos (1)
@@ -4694,7 +4694,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 9f8139a4952c96247910bca69019a567, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 9f8139a4952c96247910bca69019a567, type: 3}
       propertyPath: m_Name
       value: BigGate
@@ -5073,7 +5073,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (1)
@@ -5150,7 +5150,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (4)
@@ -5557,7 +5557,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (9)
@@ -6868,7 +6868,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (5)
@@ -6945,7 +6945,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (4)
@@ -7022,7 +7022,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (1)
@@ -7179,7 +7179,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: m_Name
       value: pilhaOssinhos
@@ -7943,7 +7943,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (8)
@@ -8166,7 +8166,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (9)
@@ -8355,7 +8355,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (2)
@@ -8432,7 +8432,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (1)
@@ -8794,7 +8794,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (9)
@@ -9534,7 +9534,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (3)
@@ -9611,7 +9611,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (3)
@@ -10101,7 +10101,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence
@@ -10417,7 +10417,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (8)
@@ -10494,7 +10494,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence
@@ -10668,7 +10668,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar (3)
@@ -10779,7 +10779,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (2)
@@ -11010,7 +11010,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 85fcac6368ec90e4c99e2f0d700ae914, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 85fcac6368ec90e4c99e2f0d700ae914, type: 3}
       propertyPath: m_Name
       value: Shovel (1)
@@ -11087,7 +11087,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (5)
@@ -11465,7 +11465,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 215ba34f71335b2418a2081aa3059465, type: 2}
+      objectReference: {fileID: 2100000, guid: 8d46f643e871482428dac44a2a4ebdbe, type: 2}
     - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: m_Name
       value: pilhaOssinhos (2)
@@ -12293,6 +12293,14 @@ PrefabInstance:
     - target: {fileID: 3932945865691302674, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
       propertyPath: m_Name
       value: Portal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932945865691302674, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057082946325096161, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7920726657005022531, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
       propertyPath: index

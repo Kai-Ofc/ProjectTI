@@ -2920,7 +2920,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3591,7 +3591,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 1, g: 0.4678748, b: 0, a: 1}
+  m_Color: {r: 0.066037714, g: 0, b: 0.005742409, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -3654,13 +3654,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.01212283, y: -0, z: -0, w: 0.9999265}
-  m_LocalPosition: {x: 0, y: 22.08, z: 2.42}
+  m_LocalRotation: {x: -0.6488866, y: -0, z: -0, w: -0.7608851}
+  m_LocalPosition: {x: 0, y: 21.94, z: 2.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 1.389, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -279.085, y: 0, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13094,7 +13094,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.9485, y: 16.64623, z: -23.523}
-  m_LocalScale: {x: 106.695244, y: 0.22342595, z: 81.2054}
+  m_LocalScale: {x: 132.09938, y: 0.22342595, z: 104.60068}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 557941589}
