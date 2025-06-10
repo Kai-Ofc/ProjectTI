@@ -15,10 +15,6 @@ public class EnemyTutorialController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerTutorial.enemies == true)
-        {
-            enemies.SetActive (true);
-            objects.SetActive (true);
-        }
+       
     }
 }
