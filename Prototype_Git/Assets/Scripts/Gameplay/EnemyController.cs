@@ -17,6 +17,7 @@ public class EnemyController : MonoBehaviour
     float timer;
     public float time;
 
+    public GameObject hitParticle;
     public int life;
     public int damage;
 
@@ -65,6 +66,12 @@ public class EnemyController : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    public void HitInstance()
+    {
+        GameObject hit = Instantiate(hitParticle, this.transform.position, Quaternion.identity);
+        Destroy(hit, 1f);
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Floor") 
@@ -78,6 +85,7 @@ public class EnemyController : MonoBehaviour
         if (other.gameObject.tag == "Shot")
         {
             life -= playerController.damage;
+            HitInstance();
 
             if (life <= 0)
             {
