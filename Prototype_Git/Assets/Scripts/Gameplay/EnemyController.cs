@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     public bool land = false;
 
     public PlayerController playerController;
+    public SpawnerController spawner;
 
     public GunController gun;
     float timer;
@@ -26,6 +27,7 @@ public class EnemyController : MonoBehaviour
     {
         land = false;
         follow = GameObject.FindGameObjectWithTag("Player");
+        spawner = FindAnyObjectByType<SpawnerController>();
         gun = GetComponent<GunController>();
     }
 
@@ -63,6 +65,7 @@ public class EnemyController : MonoBehaviour
 
     public void Death() 
     {
+        spawner.Kills();
         Destroy(this.gameObject);
     }
 

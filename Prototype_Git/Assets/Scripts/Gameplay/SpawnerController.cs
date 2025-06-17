@@ -55,12 +55,6 @@ public class SpawnerController : MonoBehaviour
 
             }
 
-            //if (enemyScript.IsDestroyed() == true)
-            //{
-            //    Debug.Log("Morte dos inimigos: " + kills);
-            //    kills++;
-            //}
-
             if (instances >= wave)
             {
                 spawn = false;
@@ -68,5 +62,10 @@ public class SpawnerController : MonoBehaviour
 
         }
         
+    }
+
+    public void Kills() 
+    {
+        kills++;
     }
 }

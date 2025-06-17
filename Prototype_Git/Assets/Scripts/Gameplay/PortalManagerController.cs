@@ -17,8 +17,7 @@ public class PortalManagerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (spawner.instances >= spawner.wave) 
+        if (spawner.kills >= spawner.wave) 
         {
             portal.SetActive(true);
         }
