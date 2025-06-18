@@ -12104,6 +12104,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: sensitivity
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 330585543}
