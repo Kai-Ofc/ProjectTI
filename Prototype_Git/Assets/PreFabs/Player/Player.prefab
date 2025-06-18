@@ -760,6 +760,10 @@ MonoBehaviour:
   moveSpeed: 200
   maxSpeed: 10
   drag: 10
+  minX: -25
+  minZ: -20
+  maxX: 25
+  maxZ: 10
   superShotTime: 10
   sensitivity: 600
   camMovement: 0

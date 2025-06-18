@@ -6,6 +6,13 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     public float moveSpeed, maxSpeed, drag;
     private bool foward, backward, left, right;
+
+    public float minX = -10f;
+    public float minZ = -10f;
+
+    public float maxX = 10f;
+    public float maxZ = 10f;
+
     public int superShotTime;
     float superTimer;
 
@@ -79,6 +86,14 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(moveSpeed * Vector3.left);
             left = false;
         }
+    }
+
+    public void LateUpdate()
+    {
+        Vector3 clampedPosition = transform.position;
+        clampedPosition.x = Mathf.Clamp(clampedPosition.x, minX, maxX);
+        clampedPosition.z = Mathf.Clamp(clampedPosition.z, minZ, maxZ);
+        transform.position = clampedPosition;
     }
 
     void Movement()
