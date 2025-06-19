@@ -1274,8 +1274,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clips: []
   audioSource: {fileID: 0}
-  volumeSlider: {fileID: 0}
-  effectSlider: {fileID: 0}
+  volumeSlider: {fileID: 1227598140}
+  effectSlider: {fileID: 1198346730}
 --- !u!1 &1523906667
 GameObject:
   m_ObjectHideFlags: 0
