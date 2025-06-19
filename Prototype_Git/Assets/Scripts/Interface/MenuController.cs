@@ -35,7 +35,6 @@ public class MenuController : MonoBehaviour
         configurationPanel.SetActive(true);
     }
 
-
     public void Pause() 
     {  if (isPaused == true)
         {
