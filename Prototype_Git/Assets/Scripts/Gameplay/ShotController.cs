@@ -2,18 +2,10 @@ using UnityEngine;
 
 public class ShotController : MonoBehaviour
 {
-
     public float speed = 20f;
 
-    Vector3 vel;
+    private Vector3 vel;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         transform.position += vel * Time.deltaTime;
@@ -21,7 +13,8 @@ public class ShotController : MonoBehaviour
 
     public void SetDirection(Vector3 direction) 
     {
-        vel = direction * speed;
+        vel = direction.normalized * speed;
+        transform.rotation = Quaternion.LookRotation(direction);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -40,7 +33,5 @@ public class ShotController : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-
     }
 }

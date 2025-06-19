@@ -23,18 +23,15 @@ public class MenuController : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Tutorial ()
     {
         SceneManager.LoadScene(5);
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public void Configuration() 
     {
-        Cursor.lockState = CursorLockMode.None;
         configurationPanel.SetActive(true);
     }
 
@@ -42,7 +39,6 @@ public class MenuController : MonoBehaviour
     public void Pause() 
     {  if (isPaused == true)
         {
-            Cursor.lockState = CursorLockMode.Locked;
             configurationPanel.SetActive(false);
             Time.timeScale = 1.0f;
             isPaused = false;
@@ -51,7 +47,6 @@ public class MenuController : MonoBehaviour
 
         if(isPaused == false)
         {
-            Cursor.lockState = CursorLockMode.None;
             isPaused = true;
             configurationPanel.SetActive(true);
             Time.timeScale = 0f;

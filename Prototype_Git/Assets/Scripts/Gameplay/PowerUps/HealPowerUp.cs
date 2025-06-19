@@ -4,9 +4,12 @@ public class HealPowerUp : MonoBehaviour
 {
     public GameObject player;
     public LifeController life;
+    public AudioClip powerupSFX;
+    private AudioSource audioSource;
 
     public void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player");
         life = player.GetComponent<LifeController>();
     }
@@ -16,7 +19,8 @@ public class HealPowerUp : MonoBehaviour
         if (other.gameObject.tag == "Player" && life.currentLife < 4)
         {
             life.Heal(1);
-            Destroy(this.gameObject);
+            audioSource.PlayOneShot(powerupSFX);
+            Destroy(gameObject, 0.5f);
         }
     }
 }

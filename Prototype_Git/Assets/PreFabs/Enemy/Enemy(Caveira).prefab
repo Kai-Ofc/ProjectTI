@@ -274,10 +274,11 @@ MonoBehaviour:
   moveSpeed: 5
   land: 0
   playerController: {fileID: 0}
+  spawner: {fileID: 0}
   gun: {fileID: 8528328670041380701}
   time: 1
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
-  life: 3
+  life: 5
   damage: 1
 --- !u!114 &8528328670041380701
 MonoBehaviour:
