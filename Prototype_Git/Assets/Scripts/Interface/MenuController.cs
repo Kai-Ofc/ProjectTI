@@ -26,18 +26,11 @@ public class MenuController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    public void Tutorial ()
-    {
-        SceneManager.LoadScene(5);
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
     public void Configuration() 
     {
         Cursor.lockState = CursorLockMode.None;
         configurationPanel.SetActive(true);
     }
-
 
     public void Pause() 
     {  if (isPaused == true)
