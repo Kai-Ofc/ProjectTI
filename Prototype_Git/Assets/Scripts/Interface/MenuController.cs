@@ -9,6 +9,7 @@ public class MenuController : MonoBehaviour
     public void Start()
     {
         configurationPanel.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 
     public void Update()

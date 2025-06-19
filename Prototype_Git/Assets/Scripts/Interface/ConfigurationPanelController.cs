@@ -4,9 +4,9 @@ using UnityEngine.UI;
 public class ConfigurationPanelController : MonoBehaviour
 {
     public GameObject configurationPanel;
-    public Toggle musicToggle, effectToggle, tutorialToggle;
+    public Toggle musicToggle, effectToggle;
     public Button exitButton;
-    public Slider volumeSlider, effectSlider, fontSlider;
+    public Slider volumeSlider, effectSlider;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void MusicSettings() 
@@ -37,6 +37,7 @@ public class ConfigurationPanelController : MonoBehaviour
     public void ExitButton() 
     {
         configurationPanel.SetActive(false);
+        Time.timeScale = 1.0f;
     }
 
 
