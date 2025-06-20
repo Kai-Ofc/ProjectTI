@@ -8213,7 +8213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   configurationPanel: {fileID: 8735886186062075006}
-  lifes: {fileID: 8776912041554339158, guid: 614d9144c8f952e4e81b448124c890ad, type: 3}
+  lifes: {fileID: 309003571445713054}
 --- !u!1001 &3668136985551917739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8905,6 +8905,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4052286763704709054, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6698453240203930739}
+    - target: {fileID: 4052286763704709054, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MusicSettings
+      objectReference: {fileID: 0}
     - target: {fileID: 5156471069505793639, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.5
@@ -8912,6 +8920,22 @@ PrefabInstance:
     - target: {fileID: 5156471069505793639, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6698453240203930739}
+    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ConfigurationPanelController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6579259249613064136, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8932,6 +8956,14 @@ PrefabInstance:
     - target: {fileID: 6692047122306472314, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049339437481159769, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6698453240203930739}
+    - target: {fileID: 7049339437481159769, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MusicSettings
       objectReference: {fileID: 0}
     - target: {fileID: 9218181920620590961, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x

@@ -10,7 +10,6 @@ public class MenuController : MonoBehaviour
     public void Start()
     {
         configurationPanel.SetActive(false);
-        lifes.SetActive(true);
         Time.timeScale = 1.0f;
     }
 
@@ -22,7 +21,6 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void Play()
     {
         SceneManager.LoadScene(1);
@@ -42,7 +40,6 @@ public class MenuController : MonoBehaviour
     {  if (isPaused == true)
         {
             configurationPanel.SetActive(false);
-            lifes.SetActive(true);
             Time.timeScale = 1.0f;
             isPaused = false;
             return;
@@ -52,7 +49,6 @@ public class MenuController : MonoBehaviour
         {
             isPaused = true;
             configurationPanel.SetActive(true);
-            lifes.SetActive(false);
             Time.timeScale = 0f;
             return;
         }

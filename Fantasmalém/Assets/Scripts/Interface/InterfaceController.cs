@@ -1,16 +1,10 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class InterfaceController : MonoBehaviour
 {
-    //public Image lifeBar;
-
-    //public void LifeBar( int currentLife, int maxLife) 
-    //{
-    //    lifeBar.fillAmount = (float)currentLife / maxLife;
-    //}
-
     public Sprite blankLamp;
     public Sprite fullLamp;
     public GameObject lifePrefab;
@@ -36,11 +30,7 @@ public class InterfaceController : MonoBehaviour
 
             RectTransform rt = newLife.GetComponent<RectTransform>();
             rt.anchoredPosition = startPosition + new Vector2(i * spacing, 0);
-
-            //var calcX = transform.position.x + (i * -60);
-            //Instantiate(life, new Vector3(calcX, life.transform.position.y, 0), Quaternion.identity, this.transform);
-
-            //newLife.transform.localPosition = new Vector3(i * -60f, 0, 0);
+            newLife.transform.SetParent(lifePosition);
         }
     }
 }

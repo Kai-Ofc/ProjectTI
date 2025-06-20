@@ -11,7 +11,6 @@ public class LifeController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //interfaceController = GetComponent<InterfaceController>();
         currentLife = maxLife;
         interfaceController.LifeBarr(currentLife, maxLife);
     }
@@ -19,7 +18,7 @@ public class LifeController : MonoBehaviour
     public void Hit(int damage, GameObject death) 
     {
        
-        if (currentLife < 2)
+        if (currentLife <= 1)
         {
             Destroy(death, 1f);
             SceneManager.LoadScene(4);
@@ -34,7 +33,6 @@ public class LifeController : MonoBehaviour
 
     public void Heal(int healAmount)
     {
-        //currentLife = Mathf.Min(currentLife + healAmount, maxLife);
         currentLife += healAmount;
         interfaceController.LifeBarr(currentLife, maxLife);
     }
