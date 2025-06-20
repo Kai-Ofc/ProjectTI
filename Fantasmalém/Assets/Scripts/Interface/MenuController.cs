@@ -4,11 +4,13 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     public GameObject configurationPanel;
+    public GameObject lifes;
     bool isPaused;
 
     public void Start()
     {
         configurationPanel.SetActive(false);
+        lifes.SetActive(true);
         Time.timeScale = 1.0f;
     }
 
@@ -40,6 +42,7 @@ public class MenuController : MonoBehaviour
     {  if (isPaused == true)
         {
             configurationPanel.SetActive(false);
+            lifes.SetActive(true);
             Time.timeScale = 1.0f;
             isPaused = false;
             return;
@@ -49,6 +52,7 @@ public class MenuController : MonoBehaviour
         {
             isPaused = true;
             configurationPanel.SetActive(true);
+            lifes.SetActive(false);
             Time.timeScale = 0f;
             return;
         }

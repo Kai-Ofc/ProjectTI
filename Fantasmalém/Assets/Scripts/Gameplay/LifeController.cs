@@ -13,7 +13,7 @@ public class LifeController : MonoBehaviour
     {
         //interfaceController = GetComponent<InterfaceController>();
         currentLife = maxLife;
-        interfaceController.LifeBar(currentLife, maxLife);
+        interfaceController.LifeBarr(currentLife, maxLife);
     }
 
     public void Hit(int damage, GameObject death) 
@@ -28,13 +28,14 @@ public class LifeController : MonoBehaviour
         else
         {
             currentLife -= damage;
-            interfaceController.LifeBar(currentLife, maxLife);
+            interfaceController.LifeBarr(currentLife, maxLife);
         }
     }
 
     public void Heal(int healAmount)
     {
-        currentLife = Mathf.Min(currentLife + healAmount, maxLife);
-        interfaceController.LifeBar(currentLife, maxLife);
+        //currentLife = Mathf.Min(currentLife + healAmount, maxLife);
+        currentLife += healAmount;
+        interfaceController.LifeBarr(currentLife, maxLife);
     }
 }

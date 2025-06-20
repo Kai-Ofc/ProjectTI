@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 4131690393404857829}
   - component: {fileID: 3787892219300751901}
   - component: {fileID: 1048571644640368411}
+  - component: {fileID: 2513081624666144458}
   m_Layer: 0
   m_Name: Enemy2(Abroba)
   m_TagString: Enemy
@@ -293,6 +294,7 @@ MonoBehaviour:
   moveSpeed: 5
   land: 0
   playerController: {fileID: 0}
+  spawner: {fileID: 0}
   gun: {fileID: 1048571644640368411}
   time: 3
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
@@ -317,6 +319,21 @@ MonoBehaviour:
   - {fileID: 1945206615364372189}
   - {fileID: 802796469095470010}
   - {fileID: 3371656545230519244}
+--- !u!114 &2513081624666144458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022987918764525978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0357bc62fd599c047bdf028a7862d7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: -8328923581568760697, guid: 4b1109482ce647a4b908d4d17c16db5e, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 8, y: 7}
 --- !u!1 &5624594228350042117
 GameObject:
   m_ObjectHideFlags: 0

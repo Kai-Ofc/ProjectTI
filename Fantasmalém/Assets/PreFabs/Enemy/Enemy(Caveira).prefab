@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 3568099215628506253}
   - component: {fileID: 3310267007456917647}
   - component: {fileID: 8528328670041380701}
+  - component: {fileID: 1646640397770013928}
   m_Layer: 0
   m_Name: Enemy(Caveira)
   m_TagString: Enemy
@@ -296,3 +297,18 @@ MonoBehaviour:
   superShot: {fileID: 0}
   shotPositions:
   - {fileID: 2940899980766424242}
+--- !u!114 &1646640397770013928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6657364573433012139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0357bc62fd599c047bdf028a7862d7fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorTexture: {fileID: -8328923581568760697, guid: 4b1109482ce647a4b908d4d17c16db5e, type: 3}
+  cursorMode: 0
+  hotSpot: {x: 8, y: 7}
