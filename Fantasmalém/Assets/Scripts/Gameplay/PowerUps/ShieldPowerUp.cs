@@ -21,7 +21,7 @@ public class ShieldPowerUp : MonoBehaviour
         {
             powerUpController.StartShield();
             audioSource.PlayOneShot(powerupSFX);
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject, 0.4f);
         }
     }
 }

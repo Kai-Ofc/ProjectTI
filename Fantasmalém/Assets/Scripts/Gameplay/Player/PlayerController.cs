@@ -49,6 +49,8 @@ public class PlayerController : MonoBehaviour
         LimitVelocity();
         HandleDrag();
 
+        RotateTowardsMouse();
+
         superTimer += Time.deltaTime;
 
         if (Input.GetMouseButtonDown(0))
@@ -113,12 +115,12 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
-             left = true;            
+            left = true;
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            right = true; 
+            right = true;
         }
 
         mouseX += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
@@ -127,9 +129,9 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void LimitVelocity()    
+    void LimitVelocity()
     {
-        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z); 
+        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
 
         if (horizontalVelocity.magnitude > maxSpeed)
         {
@@ -153,6 +155,25 @@ public class PlayerController : MonoBehaviour
         if (this.gameObject.tag == "Player" && other.gameObject.tag == "Finish")
         {
             SceneManager.LoadScene(2);
+        }
+    }
+    
+    void RotateTowardsMouse()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            Vector3 target = hit.point;
+            target.y = transform.position.y;
+
+            Vector3 direction = (target - transform.position).normalized;
+
+            if (direction != Vector3.zero)
+            {
+                Quaternion lookRotation = Quaternion.LookRotation(direction);
+                transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10f * Time.deltaTime);
+            }
         }
     }
 }

@@ -20,7 +20,7 @@ public class HealPowerUp : MonoBehaviour
         {
             life.Heal(1);
             audioSource.PlayOneShot(powerupSFX);
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject, 0.4f);
         }
     }
 }

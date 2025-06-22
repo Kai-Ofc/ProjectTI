@@ -20,7 +20,7 @@ public class ShotPowerUp : MonoBehaviour
         {
             powerUpController.SetSizeShot();
             audioSource.PlayOneShot(powerupSFX);
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject, 0.4f);
         }
     }
 }

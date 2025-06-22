@@ -10,7 +10,7 @@ public class GunController : MonoBehaviour
     {
         foreach (Transform shotPos in shotPositions)
         {
-            Transform shotObj = Instantiate(shot, shotPos.position, shotPos.rotation);
+            Transform shotObj = Instantiate(shot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
             Destroy(shotObj.gameObject, 2f);
 
             shotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
@@ -21,7 +21,7 @@ public class GunController : MonoBehaviour
     {
         foreach (Transform shotPos in shotPositions)
         {
-            Transform superShotObj = Instantiate(superShot, shotPos.position, shotPos.rotation);
+            Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
             Destroy(superShotObj.gameObject, 5f);
 
             superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
