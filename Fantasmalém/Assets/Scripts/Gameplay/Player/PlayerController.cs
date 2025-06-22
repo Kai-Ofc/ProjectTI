@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     public int superShotTime;
     float superTimer;
 
-    public float sensitivity = 1000f; // Sensibilidade do mouse
+    public float sensitivity;
     float mouseX;
 
     public bool camMovement;
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         camMovement = false;
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
 
         superTimer = 10f;
