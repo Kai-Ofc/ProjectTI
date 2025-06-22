@@ -1,15 +1,18 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
     public GameObject configurationPanel;
-    public GameObject lifes;
+    public GameObject grimorioPanel;
     bool isPaused;
+    bool grimorioOpen;
 
     public void Start()
     {
         configurationPanel.SetActive(false);
+        grimorioPanel.SetActive(false);
         Time.timeScale = 1.0f;
     }
 
@@ -24,11 +27,6 @@ public class MenuController : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene(1);
-    }
-
-    public void Tutorial ()
-    {
-        SceneManager.LoadScene(5);
     }
 
     public void Configuration() 
@@ -54,10 +52,35 @@ public class MenuController : MonoBehaviour
         }
 
         Debug.Log(isPaused);
-      
     }
 
-    public void Leave() 
+    public void GrimorioPanel()
+    {
+        grimorioPanel.SetActive(true);
+    }
+
+    public void Grimorio()
+    {
+        if (grimorioOpen == true)
+        {
+            grimorioPanel.SetActive(false);
+            Time.timeScale = 1.0f;
+            grimorioOpen = false;
+            return;
+        }
+
+        if(grimorioOpen == false)
+        {
+            grimorioOpen = true;
+            grimorioPanel.SetActive(true);
+            Time.timeScale = 0f;
+            return;
+        }
+
+        Debug.Log(grimorioOpen);
+    }
+
+    public void Leave()
     {
         SceneManager.LoadScene(0);
     }
