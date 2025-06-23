@@ -1342,7 +1342,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 90501769}
-  - {fileID: 1587903626}
   - {fileID: 1219737136}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10521,81 +10520,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587353147}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1587903625
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 116859647}
-    m_Modifications:
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.1166773
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -26.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3497422544231148511, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: portal
-      value: 
-      objectReference: {fileID: 1813462239}
-    - target: {fileID: 3591057701091395613, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: m_Name
-      value: Spawner (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: time
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-      propertyPath: wave
-      value: 10
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3497422544231148511, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 17f60fe3307ea394e867723eba332750, type: 3}
---- !u!4 &1587903626 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
-  m_PrefabInstance: {fileID: 1587903625}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1592258795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13577,7 +13501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   configurationPanel: {fileID: 375862085}
-  lifes: {fileID: 58060751}
+  grimorioPanel: {fileID: 0}
 --- !u!114 &1985403357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14984,7 +14908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
       propertyPath: wave
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
