@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 82fec756868f7a649865410e9022a526, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -133,7 +133,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6560691
 Transform:
@@ -219,6 +219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -246,7 +250,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8547210
 Transform:
@@ -354,7 +358,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &21448379
 Transform:
@@ -462,7 +466,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &22351749
 Transform:
@@ -625,6 +629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -707,6 +715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -731,7 +743,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &55359044
 Transform:
@@ -768,7 +780,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &55557733
 Transform:
@@ -871,6 +883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.080001
@@ -936,7 +952,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &73293723
 Transform:
@@ -969,7 +985,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &81433185
 Transform:
@@ -1040,6 +1056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1067,7 +1087,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &108912565
 Transform:
@@ -1172,7 +1192,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &114866013
 Transform:
@@ -1205,7 +1225,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &117412218
 Transform:
@@ -1276,6 +1296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1286,6 +1310,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7375192481084769236, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
   m_PrefabInstance: {fileID: 119182660}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &124793454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124793455}
+  m_Layer: 0
+  m_Name: BossPosition (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124793455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124793454}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.49, y: 5.5, z: 38.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 698069135}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &131426024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1358,6 +1413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1419,6 +1478,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1502,6 +1565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1526,7 +1593,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &170613509
 Transform:
@@ -1596,6 +1663,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1679,6 +1750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1761,6 +1836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1788,7 +1867,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &189197353
 Transform:
@@ -1896,7 +1975,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &193097869
 Transform:
@@ -1998,6 +2077,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2122,6 +2205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2183,6 +2270,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2266,6 +2357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2348,6 +2443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2358,6 +2457,83 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
   m_PrefabInstance: {fileID: 213690410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &217840887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 757387775053631449, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497422544231148511, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 360488694}
+    - target: {fileID: 3591057701091395613, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: m_Name
+      value: EnemySpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: wave
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: spawX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: enemyPrefab.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999134226848668342, guid: 17f60fe3307ea394e867723eba332750, type: 3}
+      propertyPath: 'enemyPrefab.Array.data[0]'
+      value: 
+      objectReference: {fileID: 5565159664017299827, guid: 14389d43b20febd46866271704445a3f, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 17f60fe3307ea394e867723eba332750, type: 3}
 --- !u!1 &225627336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2372,7 +2548,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &225627337
 Transform:
@@ -2402,6 +2578,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2649,6 +2829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.5
@@ -2772,6 +2956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2854,6 +3042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2878,7 +3070,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &263046228
 Transform:
@@ -2949,6 +3141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2970,6 +3166,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3074,6 +3274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3136,6 +3340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3160,7 +3368,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &295483247
 Transform:
@@ -3231,6 +3439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3252,6 +3464,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3293,6 +3509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4596959244060849614, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3317,7 +3537,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &308967149
 Transform:
@@ -3349,6 +3569,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3415,7 +3639,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &315474998
 Transform:
@@ -3433,6 +3657,37 @@ Transform:
   - {fileID: 2080333678}
   - {fileID: 1659867517}
   m_Father: {fileID: 478275145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &320421305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320421306}
+  m_Layer: 0
+  m_Name: BossPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320421306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320421305}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.04, y: 5.5, z: 37.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 698069135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &325396500
 PrefabInstance:
@@ -3505,6 +3760,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
       propertyPath: m_Name
       value: pilhaOssinhos (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3587,6 +3846,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3698,6 +3961,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
       propertyPath: m_Name
       value: Urn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3814,12 +4081,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: maxX
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: maxZ
-      value: 15
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: minX
+      value: -35
       objectReference: {fileID: 0}
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: minZ
-      value: -16
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: enemy
@@ -3836,6 +4111,10 @@ PrefabInstance:
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: shotTime
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: sensitivity
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 5758250642333572066, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: cameraTransform
@@ -3882,6 +4161,11 @@ MonoBehaviour:
 Transform:
   m_CorrespondingSourceObject: {fileID: 459881762882155768, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
   m_PrefabInstance: {fileID: 352630847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &360488694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3932945865691302674, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
+  m_PrefabInstance: {fileID: 2073039686}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &362660334
 PrefabInstance:
@@ -3955,6 +4239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urn
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3982,7 +4270,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &364593652
 Transform:
@@ -4145,6 +4433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4172,7 +4464,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &374347160
 Transform:
@@ -4335,6 +4627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4417,6 +4713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4479,7 +4779,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &395551420
 Transform:
@@ -4584,7 +4884,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &397219190
 Transform:
@@ -4654,6 +4954,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4737,6 +5041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4818,6 +5126,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4967,7 +5279,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &420003342
 Transform:
@@ -5130,6 +5442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampPost (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc664292e6501ec41b27425838e1043e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5211,6 +5527,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5294,6 +5614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urn (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5356,6 +5680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5380,7 +5708,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &466729859
 Transform:
@@ -5410,6 +5738,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5476,7 +5808,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &473014267
 Transform:
@@ -5570,6 +5902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5594,7 +5930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &475851486
 Transform:
@@ -5627,7 +5963,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &478275145
 Transform:
@@ -5769,6 +6105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5790,6 +6130,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5856,7 +6200,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &494960841
 Transform:
@@ -5947,6 +6291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5971,7 +6319,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &520213872
 Transform:
@@ -6061,6 +6409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6122,6 +6474,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6205,6 +6561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6232,7 +6592,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &540142406
 Transform:
@@ -6375,6 +6735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6399,7 +6763,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &553648165
 Transform:
@@ -6435,7 +6799,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &555331992
 Transform:
@@ -6540,7 +6904,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &564384981
 Transform:
@@ -6576,7 +6940,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &572114071
 Transform:
@@ -6684,7 +7048,7 @@ GameObject:
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &572805190
 Transform:
@@ -6786,6 +7150,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6890,6 +7258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6972,6 +7344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6999,7 +7375,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &591180808
 Transform:
@@ -7104,7 +7480,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &592077584
 Transform:
@@ -7137,7 +7513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &595125524
 Transform:
@@ -7173,7 +7549,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &620652388
 Transform:
@@ -7276,6 +7652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.15
@@ -7344,7 +7724,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &624205200
 Transform:
@@ -7507,6 +7887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7517,6 +7901,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
   m_PrefabInstance: {fileID: 625299767}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &636983122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636983123}
+  - component: {fileID: 636983126}
+  - component: {fileID: 636983125}
+  - component: {fileID: 636983124}
+  m_Layer: 0
+  m_Name: Mirror (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &636983123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636983122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 58.56, y: 22.35, z: -22.8}
+  m_LocalScale: {x: 3.9762, y: 6.336733, z: 0.66215}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051521027}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!65 &636983124
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636983122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &636983125
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636983122}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &636983126
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636983122}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &642624114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7569,6 +8061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7596,7 +8092,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &659266788
 Transform:
@@ -7759,6 +8255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7919,7 +8419,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &669397855
 Transform:
@@ -8022,6 +8522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.04
@@ -8073,6 +8577,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
   m_PrefabInstance: {fileID: 671303378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &681319841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 681319842}
+  - component: {fileID: 681319845}
+  - component: {fileID: 681319844}
+  - component: {fileID: 681319843}
+  m_Layer: 0
+  m_Name: Mirror
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &681319842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681319841}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.3034325, y: 22.35, z: -22.8}
+  m_LocalScale: {x: 3.9762, y: 6.336733, z: 0.66215}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051521027}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &681319843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681319841}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &681319844
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681319841}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &681319845
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681319841}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &684363939
 GameObject:
   m_ObjectHideFlags: 0
@@ -8087,7 +8699,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &684363940
 Transform:
@@ -8274,7 +8886,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &688027651
 Transform:
@@ -8365,6 +8977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8375,6 +8991,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
   m_PrefabInstance: {fileID: 688230577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &698069134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698069135}
+  m_Layer: 0
+  m_Name: BossPositions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &698069135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698069134}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 320421306}
+  - {fileID: 1007363923}
+  - {fileID: 1214312721}
+  - {fileID: 124793455}
+  - {fileID: 1421832267}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &701957933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8446,6 +9098,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8529,6 +9185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8590,6 +9250,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8673,6 +9337,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8700,7 +9368,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &723743274
 Transform:
@@ -8805,7 +9473,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &732401332
 Transform:
@@ -8896,6 +9564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8957,6 +9629,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9040,6 +9716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9061,6 +9741,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9165,6 +9849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9192,7 +9880,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &759651147
 Transform:
@@ -9335,6 +10023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9356,6 +10048,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9419,6 +10115,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9543,6 +10243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9624,6 +10328,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9707,6 +10415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9789,6 +10501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9816,7 +10532,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &791262294
 Transform:
@@ -9919,6 +10635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.99
@@ -9958,6 +10678,10 @@ PrefabInstance:
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4596959244060849614, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10041,6 +10765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10102,6 +10830,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10185,6 +10917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10212,7 +10948,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &839413146
 Transform:
@@ -10320,7 +11056,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &840013663
 Transform:
@@ -10463,6 +11199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10487,7 +11227,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &854674829
 Transform:
@@ -10520,7 +11260,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &854808217
 Transform:
@@ -10614,6 +11354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10695,6 +11439,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10778,6 +11526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10840,6 +11592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10867,7 +11623,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &895327947
 Transform:
@@ -10975,7 +11731,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &899733756
 Transform:
@@ -11118,6 +11874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11142,7 +11902,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &911937743
 Transform:
@@ -11213,6 +11973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11237,7 +12001,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &921690608
 Transform:
@@ -11279,7 +12043,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &939137275
 Transform:
@@ -11387,7 +12151,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &944765411
 Transform:
@@ -11530,6 +12294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11612,6 +12380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11639,7 +12411,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &964140130
 Transform:
@@ -11747,7 +12519,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &982490930
 Transform:
@@ -11889,6 +12661,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12130,7 +12906,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &996205741
 Transform:
@@ -12221,6 +12997,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996205740}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1007363922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007363923}
+  m_Layer: 0
+  m_Name: BossPosition (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1007363923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007363922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.5, z: 36.97}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 698069135}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1009985192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12273,6 +13080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12297,7 +13108,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1021807337
 Transform:
@@ -12330,7 +13141,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1023200320
 Transform:
@@ -12421,6 +13232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12503,6 +13318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampPost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc664292e6501ec41b27425838e1043e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12527,7 +13346,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1033344758
 Transform:
@@ -12592,7 +13411,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1042422588
 Transform:
@@ -12628,7 +13447,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1042735669
 Transform:
@@ -12791,6 +13610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12873,6 +13696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12954,6 +13781,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13136,6 +13967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13218,6 +14053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13279,6 +14118,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13410,6 +14253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13434,7 +14281,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1076643392
 Transform:
@@ -13464,6 +14311,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13588,6 +14439,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13612,7 +14467,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1096335230
 Transform:
@@ -13642,6 +14497,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13746,6 +14605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13773,7 +14636,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1116592608
 Transform:
@@ -13936,6 +14799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14017,6 +14884,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14100,6 +14971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14124,7 +14999,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1169507743
 Transform:
@@ -14160,7 +15035,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1170388428
 Transform:
@@ -14459,6 +15334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampPost
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc664292e6501ec41b27425838e1043e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14486,7 +15365,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1190737363
 Transform:
@@ -14649,6 +15528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14710,6 +15593,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14793,6 +15680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14814,6 +15705,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14866,6 +15761,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
   m_PrefabInstance: {fileID: 1206523770}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1207629606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1207629607}
+  - component: {fileID: 1207629610}
+  - component: {fileID: 1207629609}
+  - component: {fileID: 1207629608}
+  m_Layer: 0
+  m_Name: Mirror (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1207629607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207629606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 58.56, y: 22.35, z: -66.5}
+  m_LocalScale: {x: 3.9762, y: 6.336733, z: 0.66215}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051521027}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1207629608
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207629606}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1207629609
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207629606}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1207629610
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207629606}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1212829936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14917,6 +15920,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15000,6 +16007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urn (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15010,6 +16021,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: db2431631664ed84883218c4a341c8bd, type: 3}
   m_PrefabInstance: {fileID: 1214308306}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1214312720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1214312721}
+  m_Layer: 0
+  m_Name: BossPosition (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1214312721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214312720}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 51.2, y: 5.5, z: -3.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 698069135}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1222060800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15082,6 +16124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15106,7 +16152,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1229785145
 Transform:
@@ -15142,7 +16188,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1231404099
 Transform:
@@ -15305,6 +16351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15329,7 +16379,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1244587847
 Transform:
@@ -15420,6 +16470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15447,7 +16501,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1271429386
 Transform:
@@ -15555,7 +16609,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1274528618
 Transform:
@@ -15663,7 +16717,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1287407284
 Transform:
@@ -15768,7 +16822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1288228745
 Transform:
@@ -15801,7 +16855,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1294232551
 Transform:
@@ -15837,7 +16891,7 @@ GameObject:
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1294794743
 Transform:
@@ -15980,6 +17034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16062,6 +17120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16089,7 +17151,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1303732070
 Transform:
@@ -16197,7 +17259,7 @@ GameObject:
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1322412506
 Transform:
@@ -16340,6 +17402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16422,6 +17488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16446,7 +17516,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1324662335
 Transform:
@@ -16519,6 +17589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16543,7 +17617,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1347422841
 Transform:
@@ -16634,6 +17708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16696,6 +17774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16720,7 +17802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1366257542
 Transform:
@@ -16750,6 +17832,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16874,6 +17960,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16898,7 +17988,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1420427484
 Transform:
@@ -16916,6 +18006,37 @@ Transform:
   - {fileID: 771747498}
   - {fileID: 1303732070}
   m_Father: {fileID: 478275145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1421832266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1421832267}
+  m_Layer: 0
+  m_Name: BossPosition (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1421832267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421832266}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.64, y: 5.5, z: -3.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 698069135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1438669742
 PrefabInstance:
@@ -16969,6 +18090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16993,7 +18118,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1457407749
 Transform:
@@ -17029,7 +18154,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1470940284
 Transform:
@@ -17132,6 +18257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30.04
@@ -17194,6 +18323,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17302,6 +18435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BigGate
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9f8139a4952c96247910bca69019a567, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17383,6 +18520,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17466,6 +18607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17490,7 +18635,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1514132068
 Transform:
@@ -17523,7 +18668,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1514521235
 Transform:
@@ -17614,6 +18759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17638,7 +18787,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1531348012
 Transform:
@@ -17729,6 +18878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17791,6 +18944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17815,7 +18972,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1555278437
 Transform:
@@ -17851,7 +19008,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1562721647
 Transform:
@@ -17937,6 +19094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18018,6 +19179,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18101,6 +19266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18163,6 +19332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18190,7 +19363,7 @@ GameObject:
   m_TagString: Trigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1586295742
 Transform:
@@ -18353,6 +19526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18377,7 +19554,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1597277670
 Transform:
@@ -18468,6 +19645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18492,7 +19673,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1600572189
 Transform:
@@ -18583,6 +19764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18645,6 +19830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18669,7 +19858,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1620940140
 Transform:
@@ -18702,7 +19891,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1624451160
 Transform:
@@ -18793,6 +19982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18814,6 +20007,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18938,6 +20135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19020,6 +20221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19030,6 +20235,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
   m_PrefabInstance: {fileID: 1653907875}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1655156292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1655156293}
+  - component: {fileID: 1655156296}
+  - component: {fileID: 1655156295}
+  - component: {fileID: 1655156294}
+  m_Layer: 0
+  m_Name: Mirror(1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1655156293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655156292}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -46.81, y: 22.35, z: -22.8}
+  m_LocalScale: {x: 3.9762, y: 6.336733, z: 0.66215}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051521027}
+  m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
+--- !u!65 &1655156294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655156292}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1655156295
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655156292}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1655156296
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655156292}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1659867516
 GameObject:
   m_ObjectHideFlags: 0
@@ -19047,7 +20360,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1659867517
 Transform:
@@ -19210,6 +20523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19234,7 +20551,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1672913802
 Transform:
@@ -19325,6 +20642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19407,6 +20728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19431,7 +20756,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1686977370
 Transform:
@@ -19500,6 +20825,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19583,6 +20912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19610,7 +20943,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1704604334
 Transform:
@@ -19773,6 +21106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19855,6 +21192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19879,7 +21220,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1716582662
 Transform:
@@ -19932,7 +21273,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1745002187
 Transform:
@@ -20040,7 +21381,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1751825610
 Transform:
@@ -20183,6 +21524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20210,7 +21555,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1778965130
 Transform:
@@ -20318,7 +21663,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1779039846
 Transform:
@@ -20481,6 +21826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20563,6 +21912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20590,7 +21943,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1782559893
 Transform:
@@ -20698,7 +22051,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1786722527
 Transform:
@@ -20800,6 +22153,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20924,6 +22281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21006,6 +22367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21033,7 +22398,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1795374807
 Transform:
@@ -21138,7 +22503,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1795838159
 Transform:
@@ -21193,7 +22558,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1796858975
 Transform:
@@ -21298,7 +22663,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1806741655
 Transform:
@@ -21415,6 +22780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urn (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21477,6 +22846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21504,7 +22877,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1817968674
 Transform:
@@ -21647,6 +23020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21674,7 +23051,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1833190128
 Transform:
@@ -21779,7 +23156,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1845211524
 Transform:
@@ -21809,6 +23186,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21913,6 +23294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21994,6 +23379,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22077,6 +23466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22159,6 +23552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22180,6 +23577,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22243,6 +23644,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22347,6 +23752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22368,6 +23777,10 @@ PrefabInstance:
     - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_Name
       value: Candle (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306518003233907641, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1831416520326560003, guid: c4c079ac313ce79408ae40a3e6b5baa8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22434,7 +23847,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1934781111
 Transform:
@@ -22504,6 +23917,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22587,6 +24004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampPost (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dc664292e6501ec41b27425838e1043e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22611,7 +24032,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1950546126
 Transform:
@@ -22702,6 +24123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22783,6 +24208,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22866,6 +24295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urn (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22947,6 +24380,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
       propertyPath: m_Name
       value: MiddleFence (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23030,6 +24467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23112,6 +24553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23136,7 +24581,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1980563339
 Transform:
@@ -23169,7 +24614,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2008131288
 Transform:
@@ -23199,6 +24644,10 @@ PrefabInstance:
     - target: {fileID: 3732195486121100961, guid: 445e90443a31955429416cbf63696b09, type: 3}
       propertyPath: m_Name
       value: Pillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732195486121100961, guid: 445e90443a31955429416cbf63696b09, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4071461500871564315, guid: 445e90443a31955429416cbf63696b09, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23264,7 +24713,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2010486232
 Transform:
@@ -23299,7 +24748,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2019982884
 Transform:
@@ -23390,6 +24839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23417,7 +24870,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2029522037
 Transform:
@@ -23571,7 +25024,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2033817136
 Transform:
@@ -23604,7 +25057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2041718725
 Transform:
@@ -23694,6 +25147,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
       propertyPath: m_Name
       value: Pillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1cec1b4acc999940a45fa835135cd26, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23806,6 +25263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23816,6 +25277,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
   m_PrefabInstance: {fileID: 2051240799}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2051521026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051521027}
+  m_Layer: 0
+  m_Name: Mirrors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051521027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051521026}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.3034325, y: -18.563814, z: 62.512436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 681319842}
+  - {fileID: 1655156293}
+  - {fileID: 636983123}
+  - {fileID: 1207629607}
+  - {fileID: 2076583664}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2061726561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23912,6 +25409,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5904134986707029310, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6335231963374041971, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6657364573433012139, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -23919,6 +25424,10 @@ PrefabInstance:
     - target: {fileID: 6657364573433012139, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657364573433012139, guid: 824c516d1bc996a4c9ca345e5e4f8fd7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23992,6 +25501,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24069,7 +25582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7920726657005022531, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
       propertyPath: index
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24148,6 +25661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pilhaOssinhos (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24158,6 +25675,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 35aefedd6f8038540948c6b66c5e337f, type: 3}
   m_PrefabInstance: {fileID: 2075683885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2076583663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076583664}
+  - component: {fileID: 2076583667}
+  - component: {fileID: 2076583666}
+  - component: {fileID: 2076583665}
+  m_Layer: 0
+  m_Name: Mirror (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2076583664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076583663}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -48.69, y: 22.35, z: -66.5}
+  m_LocalScale: {x: 3.9762, y: 6.336733, z: 0.66215}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051521027}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &2076583665
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076583663}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2076583666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076583663}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2076583667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076583663}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &2076941928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24210,6 +25835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24237,7 +25866,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2079236809
 Transform:
@@ -24380,6 +26009,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tombstone
       objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24407,7 +26040,7 @@ GameObject:
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2082136358
 Transform:
@@ -24570,6 +26203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Urn (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24631,6 +26268,10 @@ PrefabInstance:
     - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
       propertyPath: m_Name
       value: Tombstone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859382580414568814, guid: 85c2c5df86feced49a7b3ce0ce584205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24713,6 +26354,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
       propertyPath: m_Name
       value: Urn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: db2431631664ed84883218c4a341c8bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24875,6 +26520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiddleFence (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3cb62c5cd8535cd4eba10ee3df57c8f3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24898,4 +26547,7 @@ SceneRoots:
   - {fileID: 1555278437}
   - {fileID: 352630847}
   - {fileID: 1040446013}
+  - {fileID: 2051521027}
+  - {fileID: 698069135}
+  - {fileID: 217840887}
   - {fileID: 2073039686}
