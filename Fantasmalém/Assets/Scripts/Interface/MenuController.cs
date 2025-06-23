@@ -35,7 +35,10 @@ public class MenuController : MonoBehaviour
     }
 
     public void Pause() 
-    {  if (isPaused == true)
+    {
+        if (grimorioOpen) return;
+
+        if (isPaused == true)
         {
             configurationPanel.SetActive(false);
             Time.timeScale = 1.0f;
@@ -54,30 +57,25 @@ public class MenuController : MonoBehaviour
         Debug.Log(isPaused);
     }
 
-    public void GrimorioPanel()
-    {
-        grimorioPanel.SetActive(true);
-    }
-
     public void Grimorio()
     {
-        if (grimorioOpen == true)
+        bool open = !grimorioOpen;
+
+        grimorioPanel.SetActive(open);
+        grimorioOpen = open;
+
+        if (open)
         {
-            grimorioPanel.SetActive(false);
-            Time.timeScale = 1.0f;
-            grimorioOpen = false;
-            return;
+            if (!isPaused)
+                Time.timeScale = 0f;
+        }
+        else
+        {
+            if (!isPaused)
+                Time.timeScale = 1.0f;
         }
 
-        if(grimorioOpen == false)
-        {
-            grimorioOpen = true;
-            grimorioPanel.SetActive(true);
-            Time.timeScale = 0f;
-            return;
-        }
-
-        Debug.Log(grimorioOpen);
+        Debug.Log("Grimorio aberto? " + grimorioOpen);
     }
 
     public void Leave()
