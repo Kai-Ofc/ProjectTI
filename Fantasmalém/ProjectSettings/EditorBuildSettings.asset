@@ -15,14 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/UmbraEterna.unity
     guid: e149d849288965e45b463a04aa81ee5b
   - enabled: 1
+    path: Assets/Scenes/Boss.unity
+    guid: 5a8275e660c6dac43ad96df988ada0c9
+  - enabled: 1
     path: Assets/Scenes/Victory.unity
     guid: f8a31e3f594f37a409ecd19075cf5369
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: b7fd36fdce0e0004885fef21ed680ce4
-  - enabled: 0
-    path: Assets/Scenes/FaseTutorial.unity
-    guid: 4d5278b49ebae484bb58865106b278ff
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

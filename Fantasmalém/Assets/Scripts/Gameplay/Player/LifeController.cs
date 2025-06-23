@@ -21,7 +21,7 @@ public class LifeController : MonoBehaviour
         if (currentLife <= 1)
         {
             Destroy(death, 1f);
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
             Cursor.lockState = CursorLockMode.None;
         }
         else
