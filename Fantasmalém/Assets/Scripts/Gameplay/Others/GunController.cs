@@ -27,15 +27,4 @@ public class GunController : MonoBehaviour
             superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
         }
     }
-
-    public void BossSuperShot(Transform[] superPosition)
-    {
-        foreach (Transform shotPos in superPosition)
-        {
-            Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
-            Destroy(superShotObj.gameObject, 5f);
-
-            superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
-        }
-    }
 }
