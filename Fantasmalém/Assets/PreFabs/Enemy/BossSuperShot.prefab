@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 2692857109057440869}
   m_Layer: 0
   m_Name: BossSuperShot
-  m_TagString: SuperShot
+  m_TagString: EnemyShot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

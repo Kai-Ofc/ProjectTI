@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 1651399339275299558}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Player
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,12 +441,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3f001cfacdf3746b1aba3958ca921a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
+  mirrorPositions: []
+  tpTime: 0
+  startTime: 0
+  endTime: 0
+  tpTimer: 0
   enemyController: {fileID: 4352923334641491053}
   superShotPosition:
   - {fileID: 1954794963795777206}
   - {fileID: 2685322169637793009}
   gunController: {fileID: 8340974651343555765}
+  timer: 0
   superTimer: 10
 --- !u!95 &1651399339275299558
 Animator:

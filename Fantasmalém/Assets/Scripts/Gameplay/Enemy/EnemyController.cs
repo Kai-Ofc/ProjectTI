@@ -69,6 +69,11 @@ public class EnemyController : MonoBehaviour
         Destroy(this.gameObject);
     }
 
+    public void BossDeath()
+    {
+        Destroy(this.gameObject);
+    }
+
     public void HitInstance()
     {
         GameObject hit = Instantiate(hitParticle, this.transform.position, Quaternion.identity);
@@ -106,6 +111,11 @@ public class EnemyController : MonoBehaviour
                 Death();
             }
 
+        }
+
+        if (this.gameObject.tag == "Boss") 
+        {
+            BossDeath();
         }
     }
 }
