@@ -8271,7 +8271,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 226323668}
         m_TargetAssemblyTypeName: PauseController, Assembly-CSharp
         m_MethodName: MenuInicial
         m_Mode: 1
@@ -13087,13 +13087,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 189032828332003816, guid: 14389d43b20febd46866271704445a3f, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.21
+      value: 30.3
       objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13127,6 +13131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1561378475}
     - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: tpTime
       value: 10
@@ -19014,6 +19022,11 @@ Transform:
   - {fileID: 473014267}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1561378475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3932945865691302674, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
+  m_PrefabInstance: {fileID: 2073039686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562721646
 GameObject:
   m_ObjectHideFlags: 0

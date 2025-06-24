@@ -71,7 +71,11 @@ public class EnemyController : MonoBehaviour
 
     public void BossDeath()
     {
-        Destroy(this.gameObject);
+        if (this.gameObject.tag == "Boss")
+        {
+            Destroy(this.gameObject);
+            SceneManager.LoadScene(4);
+        }
     }
 
     public void HitInstance()
@@ -97,6 +101,7 @@ public class EnemyController : MonoBehaviour
 
             if (life <= 0)
             {
+                BossDeath();
                 Death();
             }
 
@@ -104,18 +109,14 @@ public class EnemyController : MonoBehaviour
 
         if (other.gameObject.tag == "SuperShot")
         {
-            life -= playerController.damage * 2;
+            life -= playerController.damage * 3;
 
             if (life <= 0)
             {
+                BossDeath();
                 Death();
             }
 
-        }
-
-        if (this.gameObject.tag == "Boss") 
-        {
-            BossDeath();
         }
     }
 }

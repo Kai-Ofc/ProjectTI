@@ -19,7 +19,7 @@ public class ShotController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (this.gameObject.tag == "Shot" && other.gameObject.tag == "Enemy")
+        if (this.gameObject.tag == "Shot" && other.gameObject.tag == "Enemy" || other.gameObject.tag == "Boss")
         {
             Destroy(this.gameObject);
         }
