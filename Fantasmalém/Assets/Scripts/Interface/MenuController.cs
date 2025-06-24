@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +5,7 @@ public class MenuController : MonoBehaviour
 {
     public GameObject configurationPanel;
     public GameObject grimorioPanel;
+    public GrimorioPanel grimorio;
     bool isPaused;
     bool grimorioOpen;
 
@@ -59,13 +59,14 @@ public class MenuController : MonoBehaviour
 
     public void Grimorio()
     {
-        bool open = !grimorioOpen;
-
+        bool open = !grimorioPanel.activeSelf;
         grimorioPanel.SetActive(open);
-        grimorioOpen = open;
+        grimorioOpen = open; 
 
         if (open)
         {
+            grimorio.ShowHistory();
+
             if (!isPaused)
                 Time.timeScale = 0f;
         }
@@ -75,7 +76,7 @@ public class MenuController : MonoBehaviour
                 Time.timeScale = 1.0f;
         }
 
-        Debug.Log("Grimorio aberto? " + grimorioOpen);
+        Debug.Log("Grimório aberto? " + grimorioOpen);
     }
 
     public void Leave()
