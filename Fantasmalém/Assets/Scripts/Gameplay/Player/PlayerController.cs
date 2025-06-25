@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     public GameObject shields;
     public PowerUpController powerUp;
 
+    public MenuController menuController;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -40,6 +42,8 @@ public class PlayerController : MonoBehaviour
 
         superTimer = 10f;
         shields.SetActive(false);
+
+        menuController = FindAnyObjectByType<MenuController>();
     }
 
     // Update is called once per frame
@@ -55,7 +59,10 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            gun.Shoot();
+            if (Time.timeScale == 1)
+            {
+                gun.Shoot();
+            }
         }
 
         if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)

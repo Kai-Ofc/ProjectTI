@@ -109,7 +109,7 @@ public class EnemyController : MonoBehaviour
 
         if (other.gameObject.tag == "SuperShot")
         {
-            life -= playerController.damage * 3;
+            life -= playerController.damage * 5;
 
             if (life <= 0)
             {

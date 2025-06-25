@@ -9,7 +9,7 @@ public class PlayerShootingSound : MonoBehaviour
     public GameObject tiroLaserPrefab;
     public Transform tiroLaserfirePoint;
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
 
     void Start()
     {
