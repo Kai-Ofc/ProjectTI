@@ -13,12 +13,12 @@ public class MenuController : MonoBehaviour
     {
         configurationPanel.SetActive(false);
         grimorioPanel.SetActive(false);
+        Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 1.0f;
     }
 
     public void Update()
     {
-        Debug.Log(isPaused);
 
         if (Input.GetKeyDown(KeyCode.Space)) 
         { 

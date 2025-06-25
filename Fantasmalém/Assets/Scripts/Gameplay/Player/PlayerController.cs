@@ -61,7 +61,6 @@ public class PlayerController : MonoBehaviour
         {
             if (Time.timeScale == 1)
             {
-                transform.LookAt(Input.mousePosition);
                 gun.Shoot();
             }
         }

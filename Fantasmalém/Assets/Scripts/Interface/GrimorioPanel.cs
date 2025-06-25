@@ -15,8 +15,6 @@ public class GrimorioPanel : MonoBehaviour
     public GameObject PowerUpsPanel;
     public GameObject CreditosPanel;
 
-    public Animator[] powerUpsAnimators;
-    public string powerUpsAnimationName = "PowerUpsAnim";
 
     public void ExitButton()
     {
@@ -36,45 +34,6 @@ public class GrimorioPanel : MonoBehaviour
     public void PowerUpsButton()
     {
         ShowOnly(PowerUpsPanel);
-        StartCoroutine(ActivateAndPlayAnimations());
-    }
-
-    private IEnumerator ActivateAndPlayAnimations()
-    {
-        if (!PowerUpsPanel.activeSelf)
-            PowerUpsPanel.SetActive(true);
-
-        ActivateChildren(PowerUpsPanel);
-
-        yield return null;
-
-        PlayPowerUpsAnimations();
-    }
-
-    private void ActivateChildren(GameObject parent)
-    {
-        foreach (Transform child in parent.transform)
-        {
-            if (!child.gameObject.activeSelf)
-                child.gameObject.SetActive(true);
-        }
-    }
-
-    private void PlayPowerUpsAnimations()
-    {
-        foreach (Animator anim in powerUpsAnimators)
-        {
-            if (anim != null && anim.gameObject.activeInHierarchy)
-            {
-                Debug.Log("Reproduzindo animação: " + anim.gameObject.name);
-                anim.Play(0, 0, 0f);
-                anim.Update(0f);
-            }
-            else
-            {
-                Debug.LogWarning("Animator nulo ou GameObject inativo.");
-            }
-        }
     }
 
     public void CreditosButton()
