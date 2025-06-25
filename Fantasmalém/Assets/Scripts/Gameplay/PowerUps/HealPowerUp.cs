@@ -16,7 +16,7 @@ public class HealPowerUp : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" && life.currentLife < 4)
+        if (other.gameObject.tag == "Player" && life.currentLife < 5)
         {
             life.Heal(1);
             audioSource.PlayOneShot(powerupSFX);

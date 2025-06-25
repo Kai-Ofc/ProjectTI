@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour
     public GameObject configurationPanel;
     public GameObject grimorioPanel;
     public GrimorioPanel grimorio;
-    bool isPaused;
+    public bool isPaused;
     bool grimorioOpen;
 
     public void Start()
@@ -18,6 +18,8 @@ public class MenuController : MonoBehaviour
 
     public void Update()
     {
+        Debug.Log(isPaused);
+
         if (Input.GetKeyDown(KeyCode.Space)) 
         { 
             Pause();
@@ -48,13 +50,11 @@ public class MenuController : MonoBehaviour
 
         if(isPaused == false)
         {
-            isPaused = true;
             configurationPanel.SetActive(true);
             Time.timeScale = 0f;
+            isPaused = true;
             return;
         }
-
-        Debug.Log(isPaused);
     }
 
     public void Grimorio()

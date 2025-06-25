@@ -21,7 +21,6 @@ public class GrimorioPanel : MonoBehaviour
     public void ExitButton()
     {
         grimorioPanel.SetActive(false);
-        Time.timeScale = 1.0f;
     }
 
     public void HistoryButton()

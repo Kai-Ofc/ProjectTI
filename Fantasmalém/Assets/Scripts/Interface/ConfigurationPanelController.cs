@@ -7,7 +7,11 @@ public class ConfigurationPanelController : MonoBehaviour
     public Toggle musicToggle, effectToggle;
     public Button exitButton;
     public Slider volumeSlider, effectSlider;
-    
+    public GameObject grimorioPanel;
+    public GrimorioPanel grimorio;
+    bool isPaused;
+    bool grimorioOpen;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void MusicSettings() 
     {
@@ -34,10 +38,31 @@ public class ConfigurationPanelController : MonoBehaviour
         }
     }
 
+    public void Grimorio()
+    {
+        bool open = !grimorioPanel.activeSelf;
+        grimorioPanel.SetActive(open);
+        grimorioOpen = open;
+
+        if (open)
+        {
+            grimorio.ShowHistory();
+        }
+        else
+        {
+            if (!isPaused)
+                Time.timeScale = 1.0f;
+        }
+
+        Debug.Log("Grimório aberto? " + grimorioOpen);
+    }
+
     public void ExitButton() 
     {
-        configurationPanel.SetActive(false);
         Time.timeScale = 1.0f;
+        isPaused = false;
+        Debug.Log("Despausou");
+        configurationPanel.SetActive(false);
     }
 
 
