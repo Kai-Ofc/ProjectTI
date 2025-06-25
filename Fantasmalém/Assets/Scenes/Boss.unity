@@ -12685,21 +12685,9 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 226323669}
-    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Leave
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296558942463180711, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MenuController, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 6579259249613064136, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0.5
@@ -13029,10 +13017,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 189032828332003816, guid: 14389d43b20febd46866271704445a3f, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
     - target: {fileID: 459881762882155768, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13077,22 +13061,6 @@ PrefabInstance:
       propertyPath: portal
       value: 
       objectReference: {fileID: 1561378475}
-    - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
-      propertyPath: tpTime
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
-      propertyPath: endTime
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
-      propertyPath: startTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
-      propertyPath: mirrorPositions.Array.size
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 884367866077210737, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: 'mirrorPositions.Array.data[0]'
       value: 
