@@ -1411,7 +1411,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.741
+      m_SerializableObject: 0.942
     m_Space: -1
   m_Property:
     name: DirectionBlend
@@ -1577,7 +1577,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":-0.018128633499145509,"value":-2.45556640625,"inTangent":7.313804626464844,"outTangent":7.313804626464844,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.9884414672851563,"value":-2.0033493041992189,"inTangent":2.9680614471435549,"outTangent":2.9680614471435549,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"frames":[{"time":0.1698761135339737,"value":2.0388598442077638,"inTangent":-4.3675217628479,"outTangent":-4.3675217628479,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":2.953542947769165,"value":-0.9937834739685059,"inTangent":-2.053175449371338,"outTangent":-2.053175449371338,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     m_Space: -1
   m_Property:
     name: Size
