@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour
     public int life;
     public int damage;
 
+    public bool bossDeath;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -73,8 +75,8 @@ public class EnemyController : MonoBehaviour
     {
         if (this.gameObject.tag == "Boss")
         {
+            bossDeath = true;
             Destroy(this.gameObject);
-            SceneManager.LoadScene(4);
         }
     }
 
