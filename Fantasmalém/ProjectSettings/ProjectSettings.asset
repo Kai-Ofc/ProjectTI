@@ -14,8 +14,8 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: "Fantasmal\xE9m"
-  defaultCursor: {fileID: 2800000, guid: fe960bb94880c7144b331a4b745fd196, type: 3}
-  cursorHotspot: {x: 8, y: 7}
+  defaultCursor: {fileID: 2800000, guid: aee38ad2f9e72334aa54dac7217388ca, type: 3}
+  cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.10936609, g: 0.05521537, b: 0.12452829, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 0
