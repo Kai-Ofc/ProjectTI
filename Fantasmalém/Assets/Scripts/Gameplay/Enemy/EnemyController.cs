@@ -41,8 +41,17 @@ public class EnemyController : MonoBehaviour
 
         if (timer >= time) 
         {
-            gun.Shoot();
-            timer = 0;
+            if (this.gameObject.tag == "Boss")
+            {
+                gun.BossSuperShot();
+                timer = 0;
+            }
+            else 
+            {
+                gun.Shoot();
+                timer = 0;
+            }
+
         }
     }
 

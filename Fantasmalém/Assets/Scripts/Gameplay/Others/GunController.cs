@@ -11,7 +11,14 @@ public class GunController : MonoBehaviour
         foreach (Transform shotPos in shotPositions)
         {
             Transform shotObj = Instantiate(shot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
-            Destroy(shotObj.gameObject, 2f);
+            if (this.gameObject.tag == "Trigger")
+            {
+                Destroy(shotObj.gameObject, 10f);
+            }
+            else 
+            {
+                Destroy(shotObj.gameObject, 2f);
+            }
 
             shotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
         }
@@ -28,14 +35,35 @@ public class GunController : MonoBehaviour
         }
     }
 
-    public void BossSuperShot(Transform[] superPosition)
+    public void BossSuperShot()
     {
-        foreach (Transform shotPos in superPosition)
+        bool[] usedPositions = new bool[shotPositions.Length];
+
+        for (int i = 0; i < Mathf.Min(4, shotPositions.Length); i++)
         {
+            int randomIndex;
+
+            do
+            {
+                randomIndex = Random.Range(0, shotPositions.Length);
+            }
+            while (usedPositions[randomIndex]);
+
+            usedPositions[randomIndex] = true;
+
+            Transform shotPos = shotPositions[randomIndex];
             Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
-            Destroy(superShotObj.gameObject, 5f);
+            Destroy(superShotObj.gameObject, 2f);
 
             superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
         }
+
+        //foreach (Transform shotPos in shotPositions)
+        //{
+        //    Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
+        //    Destroy(superShotObj.gameObject, 5f);
+
+        //    superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
+        //}
     }
 }

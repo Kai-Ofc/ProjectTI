@@ -4,10 +4,9 @@ public class BossController : MonoBehaviour
 {
 
     public Transform[] mirrorPositions;
-    public float tpTime;
+
+    public float tpTime, tpTimer;
     public float startTime, endTime;
-    public float tpTimer;
-    public float protectionTimer;
 
     public EnemyController enemyController;
 

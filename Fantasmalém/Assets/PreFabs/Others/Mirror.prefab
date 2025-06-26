@@ -173,8 +173,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 6.955318}
-  m_Center: {x: -1.4322226e-16, y: 0, z: 2.9776595}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7023363005187365587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,7 +205,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 7023363005187365587}
-  trigger: 0
+  shotTimer: 0
+  shotTime: 5
+  start: 10
+  end: 1
 --- !u!54 &6688084199942082833
 Rigidbody:
   m_ObjectHideFlags: 0

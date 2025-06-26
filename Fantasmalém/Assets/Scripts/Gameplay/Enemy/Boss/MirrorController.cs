@@ -3,19 +3,22 @@ using UnityEngine;
 public class MirrorController : MonoBehaviour
 {
     public GunController gun;
-    public bool trigger;
+    public float shotTimer, shotTime, start, end;
 
     public void Start()
     {
-        Debug.Log("Triger " + trigger);
+        shotTime = Random.Range(start, end);
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void Update()
     {
-        if (this.gameObject.tag == "Trigger" && other.gameObject.tag == "Boss") 
+        shotTimer += Time.deltaTime;
+
+        if (shotTimer >= shotTime) 
         {
-            Debug.Log("Trigger " + trigger);
             gun.Shoot();
-        }    
+            shotTimer = 0;
+            shotTime = Random.Range(start, end);
+        }
     }
 }
