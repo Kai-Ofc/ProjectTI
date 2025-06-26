@@ -302,7 +302,7 @@ GameObject:
   m_Layer: 0
   m_Name: ShootPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -777,6 +777,7 @@ MonoBehaviour:
   enemy: {fileID: 0}
   shields: {fileID: 3087199885197469390}
   powerUp: {fileID: 7920280558207314281}
+  menuController: {fileID: 0}
 --- !u!114 &8340974651343555765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -842,6 +843,7 @@ MonoBehaviour:
   tiroLaser: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
   tiroLaserPrefab: {fileID: 2127535332157868996, guid: 54b096fd9c3c63046a54de5d0a4722ca, type: 3}
   tiroLaserfirePoint: {fileID: 4047342198142373257}
+  audioSource: {fileID: 0}
 --- !u!114 &1452559885705554286
 MonoBehaviour:
   m_ObjectHideFlags: 0

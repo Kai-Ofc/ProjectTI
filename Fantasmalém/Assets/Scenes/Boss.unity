@@ -3808,6 +3808,22 @@ PrefabInstance:
       propertyPath: interfaceController
       value: 
       objectReference: {fileID: 226323664}
+    - target: {fileID: 4047342198142373257, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.167
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047342198142373257, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9728077
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047342198142373257, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.23161435
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047342198142373257, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -26.784
+      objectReference: {fileID: 0}
     - target: {fileID: 4882884948554200088, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_Center.y
       value: 0
