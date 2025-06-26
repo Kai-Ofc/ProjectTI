@@ -7,13 +7,9 @@ public class BossController : MonoBehaviour
     public float tpTime;
     public float startTime, endTime;
     public float tpTimer;
+    public float protectionTimer;
 
     public EnemyController enemyController;
-
-    public Transform[] superShotPosition;
-    public GunController gunController;
-    public float timer;
-    public float superTimer;
 
     void Start()
     {
@@ -23,15 +19,7 @@ public class BossController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
         tpTimer += Time.deltaTime;
-
-        if (timer >= superTimer) 
-        {
-           gunController.BossSuperShot(superShotPosition);
-            timer = 0;
-        }
-
         if (tpTimer >= tpTime) 
         {
             Teleport();
