@@ -130,9 +130,9 @@ public class PlayerController : MonoBehaviour
             right = true;
         }
 
-        mouseX += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+        //mouseX += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
 
-        transform.localEulerAngles = new Vector3(0, mouseX, 0);
+        //transform.localEulerAngles = new Vector3(0, mouseX, 0);
 
     }
 
