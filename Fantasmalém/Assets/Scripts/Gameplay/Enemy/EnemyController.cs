@@ -76,8 +76,11 @@ public class EnemyController : MonoBehaviour
 
     public void Death() 
     {
-        spawner.Kills();
-        Destroy(this.gameObject);
+        if (this.gameObject.tag == "Enemy")
+        {
+            spawner.Kills();
+            Destroy(this.gameObject);
+        }
     }
 
     public void BossDeath()
