@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: "Fantasmal\xE9m"
-  defaultCursor: {fileID: 2800000, guid: aee38ad2f9e72334aa54dac7217388ca, type: 3}
+  defaultCursor: {fileID: 2800000, guid: 4b4717a2cf233d04c9296bc7d41a311f, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.10936609, g: 0.05521537, b: 0.12452829, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -335,6 +335,13 @@ PlayerSettings:
       m_Icon: {fileID: 0}
       m_Width: 16
       m_Height: 16
+      m_Kind: 0
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 128
+      m_Height: 128
       m_Kind: 0
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
