@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
         RotateTowardsMouse();
 
-        superTimer += Time.deltaTime;
+        //superTimer += Time.deltaTime;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -65,11 +65,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
-        {
-            gun.SuperShot();
-            superTimer = 0;
-        }
+        //if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
+        //{
+        //    gun.SuperShot();
+        //    superTimer = 0;
+        //}
     }
 
     private void FixedUpdate()

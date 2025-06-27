@@ -2818,7 +2818,15 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ConfigurationPanelController, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 5450823000031070356, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6306015699477488566, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422989733285161677, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}

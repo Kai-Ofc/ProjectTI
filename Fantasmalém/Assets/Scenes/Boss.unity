@@ -11764,6 +11764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 7452659411850063115, guid: 14389d43b20febd46866271704445a3f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1651399339275299558, guid: 14389d43b20febd46866271704445a3f, type: 3}
     m_RemovedGameObjects: []
