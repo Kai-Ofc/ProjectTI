@@ -18,13 +18,11 @@ public class PowerUpSpawnerController : MonoBehaviour
     public float spawX;
     public float spawZ;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spawn = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Spawner();

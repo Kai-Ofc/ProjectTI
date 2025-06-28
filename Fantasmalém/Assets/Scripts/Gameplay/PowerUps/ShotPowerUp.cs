@@ -5,11 +5,11 @@ public class ShotPowerUp : MonoBehaviour
     public GameObject player;
     public PowerUpController powerUpController;
     public AudioClip powerupSFX;
-    private AudioSource audioSource;
+    private AudioSource sfxSource;
 
     public void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        sfxSource = GetComponent<AudioSource>();
         player = GameObject.FindGameObjectWithTag("Player");
         powerUpController = player.GetComponent<PowerUpController>();
     }
@@ -19,7 +19,10 @@ public class ShotPowerUp : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             powerUpController.SetSizeShot();
-            audioSource.PlayOneShot(powerupSFX);
+            
+            if (sfxSource != null && powerupSFX != null)
+                sfxSource.PlayOneShot(powerupSFX);
+                
             Destroy(gameObject);
         }
     }

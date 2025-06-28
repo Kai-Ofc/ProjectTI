@@ -268,6 +268,7 @@ MonoBehaviour:
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
   life: 6
   damage: 2
+  bossDeath: 0
 --- !u!114 &1048571644640368411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0357bc62fd599c047bdf028a7862d7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorTexture: {fileID: 2800000, guid: 9257ca5ac9c723941856408b375d3010, type: 3}
+  cursorTexture: {fileID: 2800000, guid: 03ec9700c99efce43ae7d2a811437afb, type: 3}
   cursorMode: 0
   hotSpot: {x: 8, y: 7}
 --- !u!1 &5624594228350042117

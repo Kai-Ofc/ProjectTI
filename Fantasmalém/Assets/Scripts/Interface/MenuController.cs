@@ -6,6 +6,7 @@ public class MenuController : MonoBehaviour
     public GameObject configurationPanel;
     public GameObject grimorioPanel;
     public GrimorioPanel grimorio;
+    public AudioConfiguration audioConfiguration;
     public bool isPaused;
     bool grimorioOpen;
 
@@ -19,7 +20,6 @@ public class MenuController : MonoBehaviour
 
     public void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Escape)) 
         { 
             Pause();
@@ -31,30 +31,46 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void Configuration() 
+    public void Configuration()
     {
         configurationPanel.SetActive(true);
+        audioConfiguration.InitializeAudioSettings();
     }
 
     public void Pause() 
     {
         if (grimorioOpen) return;
 
-        if (isPaused == true)
+        if (isPaused)
         {
+            Debug.Log("Abriu");
             configurationPanel.SetActive(false);
             Time.timeScale = 1.0f;
             isPaused = false;
+            RestoreAudioSettings();
             return;
         }
 
-        if(isPaused == false)
+        if(!isPaused)
         {
             configurationPanel.SetActive(true);
             Time.timeScale = 0f;
             isPaused = true;
             return;
         }
+    }
+
+    private void RestoreAudioSettings()
+    {
+        float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        bool musicEnabled = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
+        float musicVolumeDB = musicEnabled ? audioConfiguration.LinearToDecibel(savedMusicVolume) : -80f;
+        audioConfiguration.audioMixer.SetFloat("MusicVolume", musicVolumeDB);
+
+        float savedSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
+        bool sfxEnabled = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
+        float sfxVolumeDB = sfxEnabled ? audioConfiguration.LinearToDecibel(savedSFXVolume) : -80f;
+        audioConfiguration.audioMixer.SetFloat("SFXVolume", sfxVolumeDB);
     }
 
     public void Grimorio()
@@ -68,12 +84,16 @@ public class MenuController : MonoBehaviour
             grimorio.ShowHistory();
 
             if (!isPaused)
+            {
                 Time.timeScale = 0f;
+            }
         }
         else
         {
             if (!isPaused)
+            {
                 Time.timeScale = 1.0f;
+            }
         }
 
         Debug.Log("Grimório aberto? " + grimorioOpen);

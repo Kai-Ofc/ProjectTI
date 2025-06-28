@@ -9,11 +9,11 @@ public class PlayerShootingSound : MonoBehaviour
     public GameObject tiroLaserPrefab;
     public Transform tiroLaserfirePoint;
 
-    public AudioSource audioSource;
+    public AudioSource sfxSource;
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        sfxSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -31,10 +31,11 @@ public class PlayerShootingSound : MonoBehaviour
 
     void Shoot()
     {
-        audioSource.PlayOneShot(tiroSimples);
+        sfxSource.PlayOneShot(tiroSimples);
     }
     
     void ShootLaser() {
-        audioSource.PlayOneShot(tiroLaser);
+        sfxSource.PlayOneShot(tiroLaser);
     }
 }
+
