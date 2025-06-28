@@ -2470,6 +2470,7 @@ RectTransform:
   m_Children:
   - {fileID: 391930667}
   - {fileID: 192153156}
+  - {fileID: 1343972344}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3990,6 +3991,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6540962219738283866, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: tiroLaser
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
+    - target: {fileID: 6540962219738283866, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
+      propertyPath: tiroSimples
+      value: 
+      objectReference: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
     - target: {fileID: 8657009132325567474, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -842,7 +842,7 @@ MonoBehaviour:
   tiroLaser: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
   tiroLaserPrefab: {fileID: 2127535332157868996, guid: 54b096fd9c3c63046a54de5d0a4722ca, type: 3}
   tiroLaserfirePoint: {fileID: 4047342198142373257}
-  audioSource: {fileID: 0}
+  sfxSource: {fileID: 0}
 --- !u!114 &1452559885705554286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,11 +864,11 @@ AudioSource:
   m_GameObject: {fileID: 5565159664017299827}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 7139439326087308044, guid: d36af9050b493494db436d338c73878a, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
-  m_Resource: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
+  OutputAudioMixerGroup: {fileID: -6168228845187003946, guid: d36af9050b493494db436d338c73878a, type: 2}
+  m_audioClip: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
+  m_Resource: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.05
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -961,11 +961,11 @@ AudioSource:
   m_GameObject: {fileID: 5565159664017299827}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 7139439326087308044, guid: d36af9050b493494db436d338c73878a, type: 2}
-  m_audioClip: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
-  m_Resource: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
+  OutputAudioMixerGroup: {fileID: -6168228845187003946, guid: d36af9050b493494db436d338c73878a, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.05
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
