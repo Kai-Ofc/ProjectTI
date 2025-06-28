@@ -46,7 +46,12 @@ public class EnemyController : MonoBehaviour
                 gun.BossSuperShot();
                 timer = 0;
             }
-            else 
+            else if (this.gameObject.tag == "Mimic") 
+            {
+                gun.MimicShoot();
+                timer = 0;
+            }
+            else
             {
                 gun.Shoot();
                 timer = 0;
