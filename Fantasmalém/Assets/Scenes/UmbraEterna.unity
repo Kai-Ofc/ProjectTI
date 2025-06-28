@@ -14449,10 +14449,6 @@ PrefabInstance:
       propertyPath: interfaceController
       value: 
       objectReference: {fileID: 1985403357}
-    - target: {fileID: 4882884948554200088, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
-      propertyPath: m_Center.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5565159664017299827, guid: 1d1d2c1d891fd0448a0e04e3f01b50d0, type: 3}
       propertyPath: m_Name
       value: Player

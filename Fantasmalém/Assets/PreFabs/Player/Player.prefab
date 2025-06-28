@@ -769,7 +769,6 @@ MonoBehaviour:
   maxX: 25
   maxZ: 10
   superShotTime: 10
-  sensitivity: 600
   camMovement: 0
   gun: {fileID: 8340974651343555765}
   lifeController: {fileID: 2768609192545611051}
@@ -777,7 +776,6 @@ MonoBehaviour:
   enemy: {fileID: 0}
   shields: {fileID: 3087199885197469390}
   powerUp: {fileID: 7920280558207314281}
-  menuController: {fileID: 0}
 --- !u!114 &8340974651343555765
 MonoBehaviour:
   m_ObjectHideFlags: 0
