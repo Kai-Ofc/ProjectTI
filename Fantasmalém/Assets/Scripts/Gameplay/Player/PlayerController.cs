@@ -16,9 +16,6 @@ public class PlayerController : MonoBehaviour
     public int superShotTime;
     float superTimer;
 
-    public float sensitivity;
-    float mouseX;
-
     public bool camMovement;
 
     public GunController gun; // Arma
@@ -31,8 +28,6 @@ public class PlayerController : MonoBehaviour
     public GameObject shields;
     public PowerUpController powerUp;
 
-    public MenuController menuController;
-
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -43,7 +38,6 @@ public class PlayerController : MonoBehaviour
         superTimer = 10f;
         shields.SetActive(false);
 
-        menuController = FindAnyObjectByType<MenuController>();
     }
 
     // Update is called once per frame
@@ -55,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
         RotateTowardsMouse();
 
-        //superTimer += Time.deltaTime;
+        superTimer += Time.deltaTime;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -65,11 +59,14 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        //if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
-        //{
-        //    gun.SuperShot();
-        //    superTimer = 0;
-        //}
+        if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
+        {
+            if (Time.timeScale == 1)
+            {
+                gun.SuperShot();
+                superTimer = 0;
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -130,10 +127,6 @@ public class PlayerController : MonoBehaviour
             right = true;
         }
 
-        //mouseX += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-
-        //transform.localEulerAngles = new Vector3(0, mouseX, 0);
-
     }
 
     void LimitVelocity()
@@ -159,10 +152,10 @@ public class PlayerController : MonoBehaviour
             lifeController.Hit(enemy.damage, this.gameObject);
         }
 
-        if (this.gameObject.tag == "Player" && other.gameObject.tag == "Finish")
-        {
-            SceneManager.LoadScene(2);
-        }
+        //if (this.gameObject.tag == "Player" && other.gameObject.tag == "Finish")
+        //{
+        //    SceneManager.LoadScene(2);
+        //}
     }
     
     void RotateTowardsMouse()

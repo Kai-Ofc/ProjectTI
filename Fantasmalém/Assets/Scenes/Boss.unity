@@ -8283,7 +8283,7 @@ Transform:
   m_GameObject: {fileID: 698069134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11756,10 +11756,6 @@ PrefabInstance:
       propertyPath: 'mirrorPositions.Array.data[4]'
       value: 
       objectReference: {fileID: 124793455}
-    - target: {fileID: 4352923334641491053, guid: 14389d43b20febd46866271704445a3f, type: 3}
-      propertyPath: life
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4352923334641491053, guid: 14389d43b20febd46866271704445a3f, type: 3}
       propertyPath: follow
       value: 
@@ -24484,11 +24480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932945865691302674, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6057082946325096161, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7920726657005022531, guid: bb3551d51ef0ab4469e0745f15dbef8a, type: 3}
       propertyPath: index

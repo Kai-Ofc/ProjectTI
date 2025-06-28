@@ -3,7 +3,7 @@ using UnityEngine;
 public class GunController : MonoBehaviour
 {
     public Transform shot;
-    //public Transform superShot;
+    public Transform superShot;
     public Transform[] shotPositions;
 
     public void Shoot()
@@ -24,16 +24,16 @@ public class GunController : MonoBehaviour
         }
     }
 
-    //public void SuperShot()
-    //{
-    //    foreach (Transform shotPos in shotPositions)
-    //    {
-    //        Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
-    //        Destroy(superShotObj.gameObject, 5f);
+    public void SuperShot()
+    {
+        foreach (Transform shotPos in shotPositions)
+        {
+            Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
+            Destroy(superShotObj.gameObject, 5f);
 
-    //        superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
-    //    }
-    //}
+            superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
+        }
+    }
 
     public void BossSuperShot()
     {

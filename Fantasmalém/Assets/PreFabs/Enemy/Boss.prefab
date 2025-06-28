@@ -264,6 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 4086837891666709350, guid: c925f929f6133a349819cfb16defe3aa, type: 3}
+  superShot: {fileID: 0}
   shotPositions:
   - {fileID: 4047342198142373257}
   - {fileID: 3372337703545796281}
@@ -294,7 +295,7 @@ MonoBehaviour:
   gun: {fileID: 8340974651343555765}
   time: 5
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
-  life: 80
+  life: 70
   damage: 2
   bossDeath: 0
 --- !u!114 &9146779170356072451
