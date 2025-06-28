@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
     public GameObject shields;
     public PowerUpController powerUp;
 
+    public InterfaceController interfaceController;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -37,6 +39,9 @@ public class PlayerController : MonoBehaviour
 
         superTimer = 10f;
         shields.SetActive(false);
+        interfaceController = FindAnyObjectByType<InterfaceController>();
+
+        interfaceController.LaserIndicator(superTimer, superShotTime);
 
     }
 
@@ -59,13 +64,18 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
+        if ( superTimer >= superShotTime)
         {
-            if (Time.timeScale == 1)
+            if (Input.GetMouseButtonDown(1)) 
             {
-                gun.SuperShot();
-                superTimer = 0;
+                if (Time.timeScale == 1)
+                {
+                    gun.SuperShot();
+                    superTimer = 0;
+                }
             }
+
+            interfaceController.LaserIndicator(superTimer, superShotTime);
         }
     }
 
@@ -151,11 +161,6 @@ public class PlayerController : MonoBehaviour
         {
             lifeController.Hit(enemy.damage, this.gameObject);
         }
-
-        //if (this.gameObject.tag == "Player" && other.gameObject.tag == "Finish")
-        //{
-        //    SceneManager.LoadScene(2);
-        //}
     }
     
     void RotateTowardsMouse()

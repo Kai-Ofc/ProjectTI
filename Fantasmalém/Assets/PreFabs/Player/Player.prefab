@@ -776,6 +776,7 @@ MonoBehaviour:
   enemy: {fileID: 0}
   shields: {fileID: 3087199885197469390}
   powerUp: {fileID: 7920280558207314281}
+  interfaceController: {fileID: 0}
 --- !u!114 &8340974651343555765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,7 +864,7 @@ AudioSource:
   m_GameObject: {fileID: 5565159664017299827}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7139439326087308044, guid: d36af9050b493494db436d338c73878a, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
   m_Resource: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
   m_PlayOnAwake: 0
@@ -960,7 +961,7 @@ AudioSource:
   m_GameObject: {fileID: 5565159664017299827}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 7139439326087308044, guid: d36af9050b493494db436d338c73878a, type: 2}
   m_audioClip: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
   m_Resource: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
   m_PlayOnAwake: 0
