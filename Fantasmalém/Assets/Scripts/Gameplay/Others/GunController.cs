@@ -13,7 +13,7 @@ public class GunController : MonoBehaviour
             Transform shotObj = Instantiate(shot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
             if (this.gameObject.tag == "Trigger")
             {
-                Destroy(shotObj.gameObject, 10f);
+                Destroy(shotObj.gameObject, 5f);
             }
             else 
             {
