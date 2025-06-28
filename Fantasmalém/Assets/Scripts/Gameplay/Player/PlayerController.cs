@@ -16,9 +16,6 @@ public class PlayerController : MonoBehaviour
     public int superShotTime;
     float superTimer;
 
-    public float sensitivity;
-    float mouseX;
-
     public bool camMovement;
 
     public GunController gun; // Arma
@@ -31,7 +28,7 @@ public class PlayerController : MonoBehaviour
     public GameObject shields;
     public PowerUpController powerUp;
 
-    public MenuController menuController;
+    public InterfaceController interfaceController;
 
     void Start()
     {
@@ -42,8 +39,10 @@ public class PlayerController : MonoBehaviour
 
         superTimer = 10f;
         shields.SetActive(false);
+        interfaceController = FindAnyObjectByType<InterfaceController>();
 
-        menuController = FindAnyObjectByType<MenuController>();
+        interfaceController.LaserIndicator(superTimer, superShotTime);
+
     }
 
     // Update is called once per frame
@@ -65,10 +64,18 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(1) && superTimer >= superShotTime)
+        if ( superTimer >= superShotTime)
         {
-            gun.SuperShot();
-            superTimer = 0;
+            if (Input.GetMouseButtonDown(1)) 
+            {
+                if (Time.timeScale == 1)
+                {
+                    gun.SuperShot();
+                    superTimer = 0;
+                }
+            }
+
+            interfaceController.LaserIndicator(superTimer, superShotTime);
         }
     }
 
@@ -130,10 +137,6 @@ public class PlayerController : MonoBehaviour
             right = true;
         }
 
-        //mouseX += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-
-        //transform.localEulerAngles = new Vector3(0, mouseX, 0);
-
     }
 
     void LimitVelocity()
@@ -157,11 +160,6 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "EnemyShot" && powerUp.protecion != true)
         {
             lifeController.Hit(enemy.damage, this.gameObject);
-        }
-
-        if (this.gameObject.tag == "Player" && other.gameObject.tag == "Finish")
-        {
-            SceneManager.LoadScene(2);
         }
     }
     

@@ -13,7 +13,7 @@ public class GunController : MonoBehaviour
             Transform shotObj = Instantiate(shot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
             if (this.gameObject.tag == "Trigger")
             {
-                Destroy(shotObj.gameObject, 10f);
+                Destroy(shotObj.gameObject, 5f);
             }
             else 
             {
@@ -52,18 +52,10 @@ public class GunController : MonoBehaviour
             usedPositions[randomIndex] = true;
 
             Transform shotPos = shotPositions[randomIndex];
-            Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
+            Transform superShotObj = Instantiate(shot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
             Destroy(superShotObj.gameObject, 2f);
 
             superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
         }
-
-        //foreach (Transform shotPos in shotPositions)
-        //{
-        //    Transform superShotObj = Instantiate(superShot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
-        //    Destroy(superShotObj.gameObject, 5f);
-
-        //    superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
-        //}
     }
 }

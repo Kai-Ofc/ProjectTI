@@ -88,6 +88,7 @@ public class EnemyController : MonoBehaviour
         if (this.gameObject.tag == "Boss")
         {
             bossDeath = true;
+            SceneManager.LoadScene(4);
             Destroy(this.gameObject);
         }
     }
@@ -124,6 +125,7 @@ public class EnemyController : MonoBehaviour
         if (other.gameObject.tag == "SuperShot")
         {
             life -= playerController.damage * 5;
+            HitInstance();
 
             if (life <= 0)
             {

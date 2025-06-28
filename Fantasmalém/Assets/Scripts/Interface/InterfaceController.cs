@@ -1,12 +1,14 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using static UnityEngine.EventSystems.EventTrigger;
 
 public class InterfaceController : MonoBehaviour
 {
     public Sprite blankLamp;
     public Sprite fullLamp;
+    public Sprite fullLaser;
+    public Sprite blankLaser;
+
+    public Image laser;
     public GameObject lifePrefab;
     public RectTransform lifePosition;
     public float spacing;
@@ -31,6 +33,18 @@ public class InterfaceController : MonoBehaviour
             RectTransform rt = newLife.GetComponent<RectTransform>();
             rt.anchoredPosition = startPosition + new Vector2(i * spacing, 0);
             newLife.transform.SetParent(lifePosition);
+        }
+    }
+
+    public void LaserIndicator(float timer, float time) 
+    {
+        if ( timer >= time)
+        {
+            laser.GetComponent<Image>().sprite = fullLaser;
+        }
+        else 
+        {
+            laser.GetComponent<Image>().sprite = blankLaser;
         }
     }
 }
