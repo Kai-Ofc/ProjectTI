@@ -60,6 +60,30 @@ public class GunController : MonoBehaviour
         }
     }
 
+    public void GhostShot()
+    {
+        bool[] usedPositions = new bool[shotPositions.Length];
+
+        for (int i = 0; i < Mathf.Min(2, shotPositions.Length); i++)
+        {
+            int randomIndex;
+
+            do
+            {
+                randomIndex = Random.Range(0, shotPositions.Length);
+            }
+            while (usedPositions[randomIndex]);
+
+            usedPositions[randomIndex] = true;
+
+            Transform shotPos = shotPositions[randomIndex];
+            Transform superShotObj = Instantiate(shot, shotPos.position, Quaternion.LookRotation(shotPos.forward));
+            Destroy(superShotObj.gameObject, 2f);
+
+            superShotObj.GetComponent<ShotController>().SetDirection(shotPos.forward);
+        }
+    }
+
     public void MimicShoot()
     {
         foreach (Transform shotPos in shotPositions)
