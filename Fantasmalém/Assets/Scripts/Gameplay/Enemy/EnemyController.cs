@@ -119,14 +119,11 @@ public class EnemyController : MonoBehaviour
             if (powerUpController.bigShot == true)
             {
                 life -= playerController.playerDamage * 2;
-                Debug.Log("BigShot: " + powerUpController.bigShot);
-                Debug.Log("Vida Inimigo: " + life + " Dano Player " + playerController.playerDamage);
                 HitInstance();
             }
             else 
             {
                 life -= playerController.playerDamage;
-                Debug.Log("Vida Inimigo: " + life + " Dano Player " + playerController.playerDamage);
                 HitInstance();
             }
 
