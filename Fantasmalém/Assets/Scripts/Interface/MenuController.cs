@@ -75,26 +75,10 @@ public class MenuController : MonoBehaviour
 
     public void Grimorio()
     {
-        bool open = !grimorioPanel.activeSelf;
-        grimorioPanel.SetActive(open);
-        grimorioOpen = open; 
+        grimorioPanel.SetActive(true);
 
-        if (open)
-        {
-            grimorio.ShowHistory();
-
-            if (!isPaused)
-            {
-                Time.timeScale = 0f;
-            }
         }
-        else
-        {
-            if (!isPaused)
-            {
-                Time.timeScale = 1.0f;
-            }
-        }
+        grimorio.ShowHistory();
 
         Debug.Log("Grimório aberto? " + grimorioOpen);
     }
