@@ -8,12 +8,7 @@ public class PowerUpSpawnerController : MonoBehaviour
     private float timer;
     public GameObject[] powerUpPrefab;
 
-    //public GameObject player;
-    //public LifeController life;
-
     public bool spawn;
-    //public int wave;
-    //public int instances;
 
     public float spawX;
     public float spawZ;

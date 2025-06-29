@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AreaShot
+  m_Name: Dash
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -116,9 +116,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.7837356, b: 0.0047169924, a: 1}
-    - _Color: {r: 1, g: 0.7837356, b: 0.0047169924, a: 1}
-    - _EmissionColor: {r: 1, g: 0.68049407, b: 0.08018869, a: 1}
+    - _BaseColor: {r: 1, g: 0.3096041, b: 0.07075471, a: 1}
+    - _Color: {r: 1, g: 0.3096041, b: 0.07075471, a: 1}
+    - _EmissionColor: {r: 1, g: 0.4703693, b: 0.15566039, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     public bool land = false;
 
     public PlayerController playerController;
+    public PowerUpController powerUpController;
     public SpawnerController spawner;
 
     public GunController gun;
@@ -22,18 +23,18 @@ public class EnemyController : MonoBehaviour
     public int life;
     public int damage;
 
+    //Boss
     public bool bossDeath;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         land = false;
         follow = GameObject.FindGameObjectWithTag("Player");
         spawner = FindAnyObjectByType<SpawnerController>();
+        powerUpController = FindAnyObjectByType<PowerUpController>();
         gun = GetComponent<GunController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime; 
@@ -45,8 +46,14 @@ public class EnemyController : MonoBehaviour
             {
                 gun.BossSuperShot();
                 timer = 0;
+           
             }
-            else 
+            else if (this.gameObject.tag == "Mimic") 
+            {
+                gun.MimicShoot();
+                timer = 0;
+            }
+            else
             {
                 gun.Shoot();
                 timer = 0;
@@ -62,6 +69,7 @@ public class EnemyController : MonoBehaviour
         if (land == true && playerController.camMovement != true)
         {
             Vector3 enemyMove = follow.transform.position + follow.transform.right * distance;
+
             enemyMove.y = transform.position.y;
 
             transform.position = Vector3.MoveTowards(transform.position, enemyMove , moveSpeed * Time.deltaTime);           
@@ -76,7 +84,7 @@ public class EnemyController : MonoBehaviour
 
     public void Death() 
     {
-        if (this.gameObject.tag == "Enemy")
+        if (this.gameObject.tag == "Enemy" || this.gameObject.tag == "Mimic")
         {
             spawner.Kills();
             Destroy(this.gameObject);
@@ -111,8 +119,16 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.tag == "Shot")
         {
-            life -= playerController.damage;
-            HitInstance();
+            if (powerUpController.bigShot == true)
+            {
+                life -= playerController.playerDamage * 2;
+                HitInstance();
+            }
+            else 
+            {
+                life -= playerController.playerDamage;
+                HitInstance();
+            }
 
             if (life <= 0)
             {
@@ -124,7 +140,7 @@ public class EnemyController : MonoBehaviour
 
         if (other.gameObject.tag == "SuperShot")
         {
-            life -= playerController.damage * 5;
+            life -= playerController.playerDamage * 5;
             HitInstance();
 
             if (life <= 0)

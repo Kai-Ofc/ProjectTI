@@ -298,7 +298,7 @@ MonoBehaviour:
   gun: {fileID: 1048571644640368411}
   time: 3
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
-  life: 8
+  life: 2
   damage: 1
   bossDeath: 0
 --- !u!114 &1048571644640368411
@@ -320,6 +320,7 @@ MonoBehaviour:
   - {fileID: 1945206615364372189}
   - {fileID: 802796469095470010}
   - {fileID: 3371656545230519244}
+  mimicAssets: []
 --- !u!114 &2513081624666144458
 MonoBehaviour:
   m_ObjectHideFlags: 0

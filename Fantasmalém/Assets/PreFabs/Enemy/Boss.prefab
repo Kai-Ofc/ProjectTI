@@ -220,10 +220,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.2906504
-  m_Height: 14.3841
+  m_Radius: 2.8089728
+  m_Height: 6.576681
   m_Direction: 1
-  m_Center: {x: 0.24, y: -1.1512823, z: 0}
+  m_Center: {x: 0, y: -5.0549917, z: 0}
 --- !u!54 &189032828332003816
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -274,6 +274,7 @@ MonoBehaviour:
   - {fileID: 4175747160873620467}
   - {fileID: 4750753617332581028}
   - {fileID: 8803695062567264950}
+  mimicAssets: []
 --- !u!114 &4352923334641491053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,12 +292,14 @@ MonoBehaviour:
   moveSpeed: 10
   land: 0
   playerController: {fileID: 0}
+  powerUpController: {fileID: 0}
   spawner: {fileID: 0}
   gun: {fileID: 8340974651343555765}
   time: 5
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
   life: 70
   damage: 2
+  anim: {fileID: 2965650007187656239}
   bossDeath: 0
 --- !u!114 &9146779170356072451
 MonoBehaviour:
@@ -336,6 +339,7 @@ MonoBehaviour:
   startTime: 5
   endTime: 10
   enemyController: {fileID: 4352923334641491053}
+  anim: {fileID: 2965650007187656239}
 --- !u!1 &5884459241800945098
 GameObject:
   m_ObjectHideFlags: 0
