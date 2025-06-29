@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     public GunController gun; // Arma
 
     public LifeController lifeController; // Vida
-    public int damage;// Dano Tomado
+    public int playerDamage;
 
     public EnemyController enemy; // Inimigo
 

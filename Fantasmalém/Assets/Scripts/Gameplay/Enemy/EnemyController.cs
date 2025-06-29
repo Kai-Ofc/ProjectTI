@@ -12,6 +12,7 @@ public class EnemyController : MonoBehaviour
     public bool land = false;
 
     public PlayerController playerController;
+    public PowerUpController powerUpController;
     public SpawnerController spawner;
 
     public GunController gun;
@@ -24,16 +25,15 @@ public class EnemyController : MonoBehaviour
 
     public bool bossDeath;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         land = false;
         follow = GameObject.FindGameObjectWithTag("Player");
         spawner = FindAnyObjectByType<SpawnerController>();
+        powerUpController = FindAnyObjectByType<PowerUpController>();
         gun = GetComponent<GunController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime; 
@@ -81,7 +81,7 @@ public class EnemyController : MonoBehaviour
 
     public void Death() 
     {
-        if (this.gameObject.tag == "Enemy")
+        if (this.gameObject.tag == "Enemy" || this.gameObject.tag == "Mimic")
         {
             spawner.Kills();
             Destroy(this.gameObject);
@@ -116,8 +116,19 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.tag == "Shot")
         {
-            life -= playerController.damage;
-            HitInstance();
+            if (powerUpController.bigShot == true)
+            {
+                life -= playerController.playerDamage * 2;
+                Debug.Log("BigShot: " + powerUpController.bigShot);
+                Debug.Log("Vida Inimigo: " + life + " Dano Player " + playerController.playerDamage);
+                HitInstance();
+            }
+            else 
+            {
+                life -= playerController.playerDamage;
+                Debug.Log("Vida Inimigo: " + life + " Dano Player " + playerController.playerDamage);
+                HitInstance();
+            }
 
             if (life <= 0)
             {
@@ -129,7 +140,7 @@ public class EnemyController : MonoBehaviour
 
         if (other.gameObject.tag == "SuperShot")
         {
-            life -= playerController.damage * 5;
+            life -= playerController.playerDamage * 5;
             HitInstance();
 
             if (life <= 0)

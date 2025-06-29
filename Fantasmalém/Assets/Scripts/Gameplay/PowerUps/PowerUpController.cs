@@ -3,44 +3,52 @@ using UnityEngine;
 public class PowerUpController : MonoBehaviour
 {
     PlayerController playerController;
-    float shieldTimer, projectilTimer, speedTimer;
+    GunController gunController;
+
+    float shieldTimer, projectilTimer, speedTimer, rechardeTimer;
     public int duration;
 
     //Escudo
     public bool protecion;
 
     //Tiro
-    public GameObject shotPrefab;
-    Vector3 originalScale;
+    public Transform shotPrefab;
+    public Transform bigShotPrefab;
     public float sizeIncrease = 0.2f;
-    bool bigShot;
-    int originalDamage;
+    public bool bigShot;
+
+    //Recarga
+    int originalRecharge;
+    public bool recharge;
 
     //SpeedBoost
     bool speedBoost;
     float originalMoveSpeed;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerController = GetComponent<PlayerController>();
-        originalScale = shotPrefab.transform.localScale;
+        gunController = GetComponent<GunController>();
+
         originalMoveSpeed = playerController.moveSpeed;
-        originalDamage = playerController.damage;
+        originalRecharge = playerController.superShotTime;
+
         shieldTimer = 0;
         projectilTimer = 0;
         speedTimer = 0;
+        rechardeTimer = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
         shieldTimer += Time.deltaTime;
         projectilTimer +=Time.deltaTime;
         speedTimer += Time.deltaTime;
+        rechardeTimer += Time.deltaTime;
         StopShield();
         ResetShotSize();
         StopspeedBoost();
+        StopRechard();
     }
 
     public void StartShield() 
@@ -61,10 +69,26 @@ public class PowerUpController : MonoBehaviour
         }
     }
 
+    public void StartRechard()
+    {
+        rechardeTimer = 0;
+        recharge = true;
+        playerController.superShotTime = 2;
+    }
+
+    void StopRechard()
+    {
+        if (recharge == true && rechardeTimer >= duration)
+        {
+            playerController.shields.SetActive(false);
+            recharge = false;
+            playerController.superShotTime = originalRecharge;
+        }
+    }
+
     public void SetSizeShot() 
     {
-        shotPrefab.transform.localScale = originalScale + new Vector3(sizeIncrease, sizeIncrease, sizeIncrease);
-        playerController.damage += 1;
+        gunController.shot = bigShotPrefab;
         bigShot = true;
         projectilTimer = 0;
     }
@@ -74,9 +98,7 @@ public class PowerUpController : MonoBehaviour
         if(bigShot == true && projectilTimer >= duration) 
         { 
             bigShot = false;
-            shotPrefab.transform.localScale = originalScale;
-            playerController.damage = originalDamage;
-            
+            gunController.shot = shotPrefab;
         }
     }
 

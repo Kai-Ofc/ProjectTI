@@ -772,7 +772,7 @@ MonoBehaviour:
   camMovement: 0
   gun: {fileID: 8340974651343555765}
   lifeController: {fileID: 2768609192545611051}
-  damage: 1
+  playerDamage: 1
   enemy: {fileID: 0}
   shields: {fileID: 3087199885197469390}
   powerUp: {fileID: 7920280558207314281}
@@ -793,6 +793,7 @@ MonoBehaviour:
   superShot: {fileID: 4086837891666709350, guid: 54b096fd9c3c63046a54de5d0a4722ca, type: 3}
   shotPositions:
   - {fileID: 4047342198142373257}
+  mimicAssets: []
 --- !u!114 &2768609192545611051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,8 +823,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 5
   protecion: 0
-  shotPrefab: {fileID: 2127535332157868996, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
+  shotPrefab: {fileID: 4086837891666709350, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
+  bigShotPrefab: {fileID: 4086837891666709350, guid: 190c8fe806bbb224cab6760f79429276, type: 3}
   sizeIncrease: 0.2
+  recharge: 0
 --- !u!114 &6540962219738283866
 MonoBehaviour:
   m_ObjectHideFlags: 0
