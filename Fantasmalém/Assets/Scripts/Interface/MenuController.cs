@@ -42,7 +42,8 @@ public class MenuController : MonoBehaviour
             configurationPanel.SetActive(false);
             Time.timeScale = 1.0f;
             isPaused = false;
-            RestoreAudioSettings();
+            //RestoreAudioSettings();
+            audioConfiguration.InitializeAudioSettings();
             return;
         }
 
@@ -58,13 +59,15 @@ public class MenuController : MonoBehaviour
     public void RestoreAudioSettings()
     {
         float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
-        bool musicEnabled = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
-        float musicVolumeDB = musicEnabled ? audioConfiguration.LinearToDecibel(savedMusicVolume) : -80f;
+        //bool musicEnabled = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
+        //float musicVolumeDB = musicEnabled ? audioConfiguration.LinearToDecibel(savedMusicVolume) : -80f;
+        float musicVolumeDB = audioConfiguration.LinearToDecibel(savedMusicVolume);
         audioConfiguration.audioMixer.SetFloat("MusicVolume", musicVolumeDB);
 
         float savedSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
-        bool sfxEnabled = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
-        float sfxVolumeDB = sfxEnabled ? audioConfiguration.LinearToDecibel(savedSFXVolume) : -80f;
+        //bool sfxEnabled = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
+        //float sfxVolumeDB = sfxEnabled ? audioConfiguration.LinearToDecibel(savedSFXVolume) : -80f;
+        float sfxVolumeDB = audioConfiguration.LinearToDecibel(savedSFXVolume);
         audioConfiguration.audioMixer.SetFloat("SFXVolume", sfxVolumeDB);
     }
 
