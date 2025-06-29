@@ -77,7 +77,6 @@ public class MenuController : MonoBehaviour
     {
         grimorioPanel.SetActive(true);
 
-        }
         grimorio.ShowHistory();
 
         Debug.Log("Grimório aberto? " + grimorioOpen);
