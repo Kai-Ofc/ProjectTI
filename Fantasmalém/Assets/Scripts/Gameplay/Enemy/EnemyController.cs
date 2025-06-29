@@ -23,6 +23,7 @@ public class EnemyController : MonoBehaviour
     public int life;
     public int damage;
 
+    //Boss
     public bool bossDeath;
 
     void Start()
@@ -45,6 +46,7 @@ public class EnemyController : MonoBehaviour
             {
                 gun.BossSuperShot();
                 timer = 0;
+           
             }
             else if (this.gameObject.tag == "Mimic") 
             {
@@ -67,6 +69,7 @@ public class EnemyController : MonoBehaviour
         if (land == true && playerController.camMovement != true)
         {
             Vector3 enemyMove = follow.transform.position + follow.transform.right * distance;
+
             enemyMove.y = transform.position.y;
 
             transform.position = Vector3.MoveTowards(transform.position, enemyMove , moveSpeed * Time.deltaTime);           
