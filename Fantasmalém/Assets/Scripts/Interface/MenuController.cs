@@ -4,16 +4,12 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     public GameObject configurationPanel;
-    public GameObject grimorioPanel;
-    public GrimorioPanel grimorio;
     public AudioConfiguration audioConfiguration;
     public bool isPaused;
-    bool grimorioOpen;
 
     public void Start()
     {
         configurationPanel.SetActive(false);
-        grimorioPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Confined;
         Time.timeScale = 1.0f;
     }
@@ -39,7 +35,6 @@ public class MenuController : MonoBehaviour
 
     public void Pause() 
     {
-        if (grimorioOpen) return;
 
         if (isPaused)
         {
@@ -60,7 +55,7 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    private void RestoreAudioSettings()
+    public void RestoreAudioSettings()
     {
         float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
         bool musicEnabled = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
@@ -71,15 +66,6 @@ public class MenuController : MonoBehaviour
         bool sfxEnabled = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
         float sfxVolumeDB = sfxEnabled ? audioConfiguration.LinearToDecibel(savedSFXVolume) : -80f;
         audioConfiguration.audioMixer.SetFloat("SFXVolume", sfxVolumeDB);
-    }
-
-    public void Grimorio()
-    {
-        grimorioPanel.SetActive(true);
-
-        grimorio.ShowHistory();
-
-        Debug.Log("Grimório aberto? " + grimorioOpen);
     }
 
     public void Leave()
