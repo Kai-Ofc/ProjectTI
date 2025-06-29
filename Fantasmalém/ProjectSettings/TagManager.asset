@@ -15,6 +15,7 @@ TagManager:
   - Shield
   - Boss
   - Mimic
+  - Mirror
   layers:
   - Default
   - TransparentFX
