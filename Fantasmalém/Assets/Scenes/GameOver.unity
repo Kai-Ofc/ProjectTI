@@ -240,8 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   configurationPanel: {fileID: 0}
-  grimorioPanel: {fileID: 0}
-  grimorio: {fileID: 0}
+  audioConfiguration: {fileID: 0}
   isPaused: 0
 --- !u!114 &124368335
 MonoBehaviour:
@@ -1116,6 +1115,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 124368333}
     m_Modifications:
+    - target: {fileID: 1997760957479365023, guid: 5d22cb233237ba9419b6af83a9b5c3fb, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997760957479365023, guid: 5d22cb233237ba9419b6af83a9b5c3fb, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1997760957479365023, guid: 5d22cb233237ba9419b6af83a9b5c3fb, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 8019bdae8bc34184f9ac180cfcffcec1, type: 3}
+    - target: {fileID: 1997760957479365023, guid: 5d22cb233237ba9419b6af83a9b5c3fb, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8019bdae8bc34184f9ac180cfcffcec1, type: 3}
+    - target: {fileID: 1997760957479365023, guid: 5d22cb233237ba9419b6af83a9b5c3fb, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3246034932708668401, guid: 5d22cb233237ba9419b6af83a9b5c3fb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
