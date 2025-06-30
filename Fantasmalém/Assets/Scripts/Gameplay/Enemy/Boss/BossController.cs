@@ -10,9 +10,13 @@ public class BossController : MonoBehaviour
 
     public EnemyController enemyController;
 
+    public AudioSource sfxSource;
+    public AudioClip tpSound;
+
     void Start()
     {
         tpTime = startTime;
+        sfxSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,6 +25,7 @@ public class BossController : MonoBehaviour
         tpTimer += Time.deltaTime;
         if (tpTimer >= tpTime) 
         {
+            sfxSource.PlayOneShot(tpSound);
             Teleport();
             tpTimer = 0;
             tpTime = Random.Range(startTime, endTime);
