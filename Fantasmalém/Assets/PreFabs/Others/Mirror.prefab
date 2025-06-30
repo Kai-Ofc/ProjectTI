@@ -192,6 +192,7 @@ MonoBehaviour:
   shotPositions:
   - {fileID: 3841944379521136310}
   - {fileID: 3980841148173910079}
+  mimicAssets: []
 --- !u!114 &1644182526694438933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,8 +208,8 @@ MonoBehaviour:
   gun: {fileID: 7023363005187365587}
   shotTimer: 0
   shotTime: 5
-  start: 5
-  end: 10
+  start: 7
+  end: 15
 --- !u!54 &6688084199942082833
 Rigidbody:
   m_ObjectHideFlags: 0
