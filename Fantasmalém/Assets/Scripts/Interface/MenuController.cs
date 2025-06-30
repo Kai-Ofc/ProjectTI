@@ -16,8 +16,8 @@ public class MenuController : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) 
-        { 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
             Pause();
         }
     }
@@ -33,28 +33,36 @@ public class MenuController : MonoBehaviour
         audioConfiguration.InitializeAudioSettings();
     }
 
-    public void Pause() 
+public void Pause()
+{
+    PlayerShootingSound shootingSound = Object.FindFirstObjectByType<PlayerShootingSound>();
+
+    if (isPaused)
     {
+        Debug.Log("Despausou");
+        configurationPanel.SetActive(false);
+        Time.timeScale = 1.0f;
+        isPaused = false;
 
-        if (isPaused)
-        {
-            Debug.Log("Abriu");
-            configurationPanel.SetActive(false);
-            Time.timeScale = 1.0f;
-            isPaused = false;
-            //RestoreAudioSettings();
-            audioConfiguration.InitializeAudioSettings();
-            return;
-        }
-
-        if(!isPaused)
-        {
-            configurationPanel.SetActive(true);
-            Time.timeScale = 0f;
-            isPaused = true;
-            return;
-        }
+        audioConfiguration.InitializeAudioSettings();
+        
+        if (shootingSound != null)
+            shootingSound.SetSFXMuted(false);
+        return;
     }
+
+    if (!isPaused)
+    {
+        configurationPanel.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+
+        if (shootingSound != null)
+            shootingSound.SetSFXMuted(true);
+        return;
+    }
+}
+
 
     public void RestoreAudioSettings()
     {
