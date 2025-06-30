@@ -70,7 +70,7 @@ public class PowerUpController : MonoBehaviour
 
     public void StartRechard()
     {
-        rechardeTimer = 0;
+        rechardeTimer = 5;
         recharge = true;
         playerController.superShotTime = 1;
     }

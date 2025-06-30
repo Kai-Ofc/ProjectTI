@@ -557,10 +557,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c84b5a399a9fa40a9af1a1933aa4cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiroSimples: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
+  tiroSimples: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
   tiroSimplesPrefab: {fileID: 2127535332157868996, guid: 9baed2c23960e6040a6430c94a22346c, type: 3}
   tiroSimplesfirePoint: {fileID: 4047342198142373257}
-  tiroLaser: {fileID: 8300000, guid: c714a76e3b47de24c8c59ff861a9601c, type: 3}
+  tiroLaser: {fileID: 8300000, guid: 6ae8a805bd307a84998308a09a796593, type: 3}
   tiroLaserPrefab: {fileID: 2127535332157868996, guid: 54b096fd9c3c63046a54de5d0a4722ca, type: 3}
   tiroLaserfirePoint: {fileID: 4047342198142373257}
   sfxSource: {fileID: 0}

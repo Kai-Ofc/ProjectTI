@@ -340,7 +340,8 @@ MonoBehaviour:
   endTime: 10
   enemyController: {fileID: 4352923334641491053}
   sfxSource: {fileID: 0}
-  tpSound: {fileID: 0}
+  tpSound: {fileID: 8300000, guid: 95c9b7e44e038f640872f6c4df69f74e, type: 3}
+  anim: {fileID: 0}
 --- !u!82 &8332940386646827987
 AudioSource:
   m_ObjectHideFlags: 0

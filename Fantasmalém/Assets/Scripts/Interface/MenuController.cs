@@ -43,11 +43,8 @@ public void Pause()
         configurationPanel.SetActive(false);
         Time.timeScale = 1.0f;
         isPaused = false;
-
+        shootingSound.UnSetSFXMuted();
         audioConfiguration.InitializeAudioSettings();
-        
-        if (shootingSound != null)
-            shootingSound.SetSFXMuted(false);
         return;
     }
 
@@ -57,8 +54,7 @@ public void Pause()
         Time.timeScale = 0f;
         isPaused = true;
 
-        if (shootingSound != null)
-            shootingSound.SetSFXMuted(true);
+        shootingSound.SetSFXMuted();
         return;
     }
 }
@@ -67,14 +63,10 @@ public void Pause()
     public void RestoreAudioSettings()
     {
         float savedMusicVolume = PlayerPrefs.GetFloat("MusicVolume", 1f);
-        //bool musicEnabled = PlayerPrefs.GetInt("MusicEnabled", 1) == 1;
-        //float musicVolumeDB = musicEnabled ? audioConfiguration.LinearToDecibel(savedMusicVolume) : -80f;
         float musicVolumeDB = audioConfiguration.LinearToDecibel(savedMusicVolume);
         audioConfiguration.audioMixer.SetFloat("MusicVolume", musicVolumeDB);
 
         float savedSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 1f);
-        //bool sfxEnabled = PlayerPrefs.GetInt("SFXEnabled", 1) == 1;
-        //float sfxVolumeDB = sfxEnabled ? audioConfiguration.LinearToDecibel(savedSFXVolume) : -80f;
         float sfxVolumeDB = audioConfiguration.LinearToDecibel(savedSFXVolume);
         audioConfiguration.audioMixer.SetFloat("SFXVolume", sfxVolumeDB);
     }

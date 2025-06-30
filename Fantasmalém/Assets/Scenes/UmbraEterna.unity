@@ -15036,6 +15036,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6477834842275910807, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
   m_PrefabInstance: {fileID: 1838167500}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1838167502 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1915566943856366960, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+  m_PrefabInstance: {fileID: 1838167500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748048727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be9b966ef5dbd5b4aa8feef7e9bcce88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1839882624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fb51edc224810e34b98afc543ff23844, type: 3}
@@ -16442,7 +16453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   configurationPanel: {fileID: 748048727}
-  audioConfiguration: {fileID: 0}
+  audioConfiguration: {fileID: 1838167502}
   isPaused: 0
 --- !u!114 &1985403357
 MonoBehaviour:

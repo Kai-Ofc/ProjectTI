@@ -21,8 +21,8 @@ public class AudioConfiguration : MonoBehaviour
         sfxVolumeSlider.minValue = 0.01f;
         sfxVolumeSlider.maxValue = 1f;
 
-        musicVolumeSlider.value = 0.2f;
-        sfxVolumeSlider.value = 0.2f;
+        musicVolumeSlider.value = 1f;
+        sfxVolumeSlider.value = 1f;
 
         musicVolumeSlider.onValueChanged.AddListener(OnMusicVolumeChanged);
 
