@@ -107,7 +107,7 @@ public class PowerUpController : MonoBehaviour
         {
             speedTimer = 0;
             speedBoost = true;
-            playerController.moveSpeed *= 2.2f;
+            playerController.moveSpeed *= 2f;
         }
 
     }

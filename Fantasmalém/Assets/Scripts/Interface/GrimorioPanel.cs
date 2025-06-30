@@ -7,11 +7,11 @@ public class GrimorioPanel : MonoBehaviour
     public GameObject grimorioPanel;
     public Button exitButton;
     public Button historyButton;
-    public Button enemysButton;
+    public Button howToPlayButton;
     public Button powerupsButton;
     public Button creditosButton;
     public GameObject HistoryPanel;
-    public GameObject EnemysPanel;
+    public GameObject HowToPlayPanel;
     public GameObject PowerUpsPanel;
     public GameObject CreditosPanel;
 
@@ -26,9 +26,9 @@ public class GrimorioPanel : MonoBehaviour
         ShowOnly(HistoryPanel);
     }
 
-    public void EnemysButton()
+    public void HowToPlayButton()
     {
-        ShowOnly(EnemysPanel);
+        ShowOnly(HowToPlayPanel);
     }
 
     public void PowerUpsButton()
@@ -44,10 +44,13 @@ public class GrimorioPanel : MonoBehaviour
     private void ShowOnly(GameObject selected)
     {
         HistoryPanel.SetActive(selected == HistoryPanel);
-        EnemysPanel.SetActive(selected == EnemysPanel);
+        HowToPlayPanel.SetActive(selected == HowToPlayPanel);
         PowerUpsPanel.SetActive(selected == PowerUpsPanel);
         CreditosPanel.SetActive(selected == CreditosPanel);
     }
 
-    public void ShowHistory() => ShowOnly(HistoryPanel);
+    private void OnEnable()
+    {
+        ShowOnly(HistoryPanel); 
+    }
 }

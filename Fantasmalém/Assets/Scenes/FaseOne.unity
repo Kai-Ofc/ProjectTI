@@ -14303,13 +14303,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 6698453240203930739}
+    - target: {fileID: 1620068148085541619, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620068148085541619, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ConfigurationPanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3705735567019058299, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3705735567019058299, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5039797750382215926, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -14329,15 +14337,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5831003073371876491, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5831003073371876491, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5831003073371876491, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5837094809168565211, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
@@ -14477,15 +14485,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7599394016108887892, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7599394016108887892, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7599394016108887892, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8320067529779721296, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -14509,11 +14517,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8788479337087265013, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8788479337087265013, guid: c5064bb29b80674449ac7c79c0368435, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -14754,11 +14762,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8047183088748971089, guid: 03c768747c148914cb5ddd5cf24a345c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 170
+      value: 190
       objectReference: {fileID: 0}
     - target: {fileID: 8047183088748971089, guid: 03c768747c148914cb5ddd5cf24a345c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 196.43411
+      value: 158
       objectReference: {fileID: 0}
     - target: {fileID: 8047183088748971089, guid: 03c768747c148914cb5ddd5cf24a345c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
