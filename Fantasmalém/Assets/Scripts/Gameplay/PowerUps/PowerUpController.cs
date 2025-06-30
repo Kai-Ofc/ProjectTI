@@ -55,8 +55,7 @@ public class PowerUpController : MonoBehaviour
     {
         shieldTimer = 0;
         protecion = true;      
-        playerController.shields.SetActive(true);
-         
+        playerController.shields.SetActive(true); 
     }
 
     void StopShield() 

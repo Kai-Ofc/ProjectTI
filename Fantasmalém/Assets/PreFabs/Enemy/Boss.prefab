@@ -295,11 +295,10 @@ MonoBehaviour:
   powerUpController: {fileID: 0}
   spawner: {fileID: 0}
   gun: {fileID: 8340974651343555765}
-  time: 5
+  time: 7
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
   life: 70
   damage: 2
-  anim: {fileID: 2965650007187656239}
   bossDeath: 0
 --- !u!114 &9146779170356072451
 MonoBehaviour:
@@ -339,7 +338,6 @@ MonoBehaviour:
   startTime: 5
   endTime: 10
   enemyController: {fileID: 4352923334641491053}
-  anim: {fileID: 2965650007187656239}
 --- !u!1 &5884459241800945098
 GameObject:
   m_ObjectHideFlags: 0
