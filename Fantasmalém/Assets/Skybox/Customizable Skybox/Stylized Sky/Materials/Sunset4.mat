@@ -29,21 +29,21 @@ Material:
     m_Ints: []
     m_Floats:
     - _HorizonLineBlendMode: 1
-    - _HorizonLineContribution: 0.519
+    - _HorizonLineContribution: 0.705
     - _HorizonLineExponent: 10
-    - _SkyGradientExponent: 4
+    - _SkyGradientExponent: 10
     - _SunDiscContribution: 1
     - _SunDiscExponent: 150
     - _SunDiscExponentSize: 12000
     - _SunDiscMultiplier: 1.7
     - _SunDiscMultiplierSharpness: 1200
     - _SunHaloBlendMode: 0
-    - _SunHaloContribution: 0.17
+    - _SunHaloContribution: 0.329
     - _SunHaloExponent: 150
     - _View: 0
     - __dirty: 0
     m_Colors:
-    - _HorizonLineColor: {r: 0.541, g: 0.20961823, b: 0.04392733, a: 1}
+    - _HorizonLineColor: {r: 0.65300006, g: 0.25078985, b: 0.052050717, a: 1}
     - _SkyGradientBottom: {r: 0.99215686, g: 0.52674514, b: 0.3522157, a: 1}
     - _SkyGradientTop: {r: 0.73300004, g: 0.0740404, b: 0.38155493, a: 1}
     - _SunDiscColor: {r: 1, g: 0.9516228, b: 0.9338235, a: 1}
