@@ -211,6 +211,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2695452890379737564, guid: 354fe89a114c53f42b04e758dd79aab2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1454942906}
+    - target: {fileID: 2695452890379737564, guid: 354fe89a114c53f42b04e758dd79aab2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
     - target: {fileID: 3497015011441040828, guid: 354fe89a114c53f42b04e758dd79aab2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -541.327
