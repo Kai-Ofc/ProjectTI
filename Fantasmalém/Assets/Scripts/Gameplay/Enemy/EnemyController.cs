@@ -19,6 +19,8 @@ public class EnemyController : MonoBehaviour
     float timer;
     public float time;
 
+    public BossLifeBar bossLifeBar;
+
     public GameObject hitParticle;
     public int life;
     public int damage;
@@ -33,6 +35,12 @@ public class EnemyController : MonoBehaviour
         spawner = FindAnyObjectByType<SpawnerController>();
         powerUpController = FindAnyObjectByType<PowerUpController>();
         gun = GetComponent<GunController>();
+
+        if (this.gameObject.CompareTag("Boss") && bossLifeBar != null)
+        {
+            bossLifeBar.VidaMaxima = life;
+            bossLifeBar.Vida = life;
+        }
     }
 
     void Update()
@@ -122,12 +130,17 @@ public class EnemyController : MonoBehaviour
             if (powerUpController.bigShot == true)
             {
                 life -= playerController.playerDamage * 2;
-                HitInstance();
             }
-            else 
+            else
             {
                 life -= playerController.playerDamage;
-                HitInstance();
+            }
+
+            HitInstance();
+
+            if (this.gameObject.CompareTag("Boss") && bossLifeBar != null)
+            {
+                bossLifeBar.Vida = life;
             }
 
             if (life <= 0)
@@ -135,7 +148,6 @@ public class EnemyController : MonoBehaviour
                 BossDeath();
                 Death();
             }
-
         }
 
         if (other.gameObject.tag == "SuperShot")
@@ -143,12 +155,16 @@ public class EnemyController : MonoBehaviour
             life -= playerController.playerDamage * 5;
             HitInstance();
 
+            if (this.gameObject.CompareTag("Boss") && bossLifeBar != null)
+            {
+                bossLifeBar.Vida = life;
+            }
+
             if (life <= 0)
             {
                 BossDeath();
                 Death();
             }
-
         }
     }
 }

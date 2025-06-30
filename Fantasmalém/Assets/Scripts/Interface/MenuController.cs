@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     public GameObject configurationPanel;
+    public GameObject bossLifeBar;
     public AudioConfiguration audioConfiguration;
     public bool isPaused;
 
@@ -45,6 +46,10 @@ public void Pause()
         isPaused = false;
         shootingSound.UnSetSFXMuted();
         audioConfiguration.InitializeAudioSettings();
+
+        if (bossLifeBar != null)
+        bossLifeBar.SetActive(true);
+
         return;
     }
 
@@ -53,6 +58,9 @@ public void Pause()
         configurationPanel.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+        
+        if (bossLifeBar != null)
+        bossLifeBar.SetActive(false);
 
         shootingSound.SetSFXMuted();
         return;
