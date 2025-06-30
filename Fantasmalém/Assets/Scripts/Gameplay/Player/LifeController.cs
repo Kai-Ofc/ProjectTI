@@ -8,16 +8,19 @@ public class LifeController : MonoBehaviour
 
     public InterfaceController interfaceController;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private bool vidaInfinita = false;
+
     void Start()
     {
         currentLife = maxLife;
         interfaceController.LifeBarr(currentLife, maxLife);
     }
 
-    public void Hit(int damage, GameObject death) 
+    public void Hit(int damage, GameObject death)
     {
-       
+        if (vidaInfinita)
+            return;
+
         if (currentLife <= 1)
         {
             Destroy(death, 1f);
@@ -35,5 +38,10 @@ public class LifeController : MonoBehaviour
     {
         currentLife += healAmount;
         interfaceController.LifeBarr(currentLife, maxLife);
+    }
+    
+        public void SetVidaInfinita(bool estado)
+    {
+        vidaInfinita = estado;
     }
 }
