@@ -15,7 +15,7 @@ public class TutorialController : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (timer >= 12f) 
+        if (timer >= 8f) 
         {
             tutorial.SetActive(false);
         }
