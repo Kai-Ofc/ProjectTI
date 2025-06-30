@@ -39,9 +39,14 @@ public class PlayerShootingSound : MonoBehaviour
         sfxSource.PlayOneShot(tiroLaser);
     }
 
-    public void SetSFXMuted(bool muted)
+    public void SetSFXMuted()
     {
-        sfxSource.volume = muted ? 0f : 1f;
+        sfxSource.volume = 0f;
+    }
+
+    public void UnSetSFXMuted()
+    {
+        sfxSource.volume = 1f;
     }
 }
 
