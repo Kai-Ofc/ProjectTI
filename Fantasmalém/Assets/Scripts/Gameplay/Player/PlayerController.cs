@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public float maxZ = 10f;
 
     public int superShotTime;
-    float superTimer;
+    public float superTimer;
 
     public bool camMovement;
 
