@@ -16,13 +16,13 @@ public class AudioConfiguration : MonoBehaviour
         GetComponent<AudioSource>().ignoreListenerPause = false;
 
         musicVolumeSlider.minValue = 0.01f;
-        musicVolumeSlider.maxValue = 10f;
+        musicVolumeSlider.maxValue = 1f;
 
         sfxVolumeSlider.minValue = 0.01f;
-        sfxVolumeSlider.maxValue = 10f;
+        sfxVolumeSlider.maxValue = 1f;
 
-        musicVolumeSlider.value = 10f;
-        sfxVolumeSlider.value = 10f;
+        musicVolumeSlider.value = 1f;
+        sfxVolumeSlider.value = 1f;
 
         musicVolumeSlider.onValueChanged.AddListener(OnMusicVolumeChanged);
 
