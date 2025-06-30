@@ -63,8 +63,8 @@ Transform:
   m_GameObject: {fileID: 6657364573433012139}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 2.97, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: -0.00024075, y: 2.7289, z: -0.041986}
+  m_LocalScale: {x: 1.90305, y: 1.90305, z: 1.90305}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 626858368587234153}
@@ -193,6 +193,7 @@ MonoBehaviour:
   spawner: {fileID: 0}
   gun: {fileID: 8528328670041380701}
   time: 1
+  bossLifeBar: {fileID: 0}
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
   life: 6
   damage: 1
