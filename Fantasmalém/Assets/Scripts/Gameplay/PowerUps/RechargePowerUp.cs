@@ -23,7 +23,7 @@ public class RechargePowerUp : MonoBehaviour
             if (sfxSource != null && powerupSFX != null)
                 sfxSource.PlayOneShot(powerupSFX);
 
-            Destroy(gameObject);
+            Destroy(gameObject, 0.35f);
         }
     }
 }

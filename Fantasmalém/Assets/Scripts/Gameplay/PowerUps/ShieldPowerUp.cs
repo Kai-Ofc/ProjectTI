@@ -23,7 +23,7 @@ public class ShieldPowerUp : MonoBehaviour
             if (sfxSource != null && powerupSFX != null)
                 sfxSource.PlayOneShot(powerupSFX);
                 
-            Destroy(gameObject);
+            Destroy(gameObject, 0.35f);
         }
     }
 }
