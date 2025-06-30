@@ -148,7 +148,7 @@ MonoBehaviour:
   gun: {fileID: 1048571644640368411}
   time: 3
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
-  life: 8
+  life: 10
   damage: 1
   bossDeath: 0
 --- !u!114 &1048571644640368411
@@ -196,27 +196,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 2.2546
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 2.2546
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 2.2546
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.0011896
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.090227
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.0043929
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29494ad58bd56774592ec34baa517343, type: 3}
       propertyPath: m_LocalRotation.w
