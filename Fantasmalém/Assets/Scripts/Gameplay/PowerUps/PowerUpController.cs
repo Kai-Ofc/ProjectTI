@@ -72,16 +72,15 @@ public class PowerUpController : MonoBehaviour
     {
         rechardeTimer = 5;
         recharge = true;
-        playerController.superShotTime = 1;
+        playerController.superTimer = 10f;
     }
 
     void StopRechard()
     {
-        if (recharge == true && rechardeTimer >= duration)
+        if (recharge == true && rechardeTimer >= 1)
         {
             playerController.shields.SetActive(false);
             recharge = false;
-            playerController.superShotTime = originalRecharge;
         }
     }
 

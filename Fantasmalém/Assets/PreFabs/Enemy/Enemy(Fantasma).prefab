@@ -224,7 +224,7 @@ MonoBehaviour:
   powerUpController: {fileID: 0}
   spawner: {fileID: 0}
   gun: {fileID: 8528328670041380701}
-  time: 1
+  time: 5
   hitParticle: {fileID: 3882610016815853629, guid: c9bb3121f795a0c469be77b56db7bea2, type: 3}
   life: 8
   damage: 1
@@ -244,10 +244,8 @@ MonoBehaviour:
   shot: {fileID: 4086837891666709350, guid: 7d286890b1e16754db33b4c769291296, type: 3}
   superShot: {fileID: 0}
   shotPositions:
-  - {fileID: 0}
   - {fileID: 2664605079139274487}
   - {fileID: 2121196565305925846}
-  - {fileID: 0}
   mimicAssets: []
 --- !u!114 &1646640397770013928
 MonoBehaviour:
