@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEditor.UI;
 using UnityEngine.UI;
 
 public class BossLifeBar : MonoBehaviour
